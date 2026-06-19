@@ -32,18 +32,19 @@ Curated reading and reference material that complements the book.
 
 ## Foundational textbooks
 
-- Rabiner & Schafer — *Introduction to Digital Speech Processing*
-- Rabiner & Juang — *Fundamentals of Speech Recognition*
-- Paul Taylor — *Text-to-Speech Synthesis*
-- Huang, Acero & Hon — *Spoken Language Processing*
-- Tanja Schultz et al. — *Multilingual Speech Processing*
+- Rabiner & Schafer — [*Introduction to Digital Speech Processing*](https://www.nowpublishers.com/article/Details/SIG-001) (now publishers, 2007)
+- Rabiner & Juang — [*Fundamentals of Speech Recognition*](https://www.semanticscholar.org/paper/Fundamentals-of-speech-recognition-Rabiner-Juang/df50c6e1903b1e2d657f78c28ab041756baca86a) (Prentice Hall, 1993)
+- Paul Taylor — [*Text-to-Speech Synthesis*](https://www.cambridge.org/9780521899277) (Cambridge University Press, 2009)
+- Huang, Acero & Hon — [*Spoken Language Processing*](https://books.google.com/books/about/Spoken_Language_Processing.html?id=reZQAAAAMAAJ) (Prentice Hall, 2001)
+- Tanja Schultz & Katrin Kirchhoff — [*Multilingual Speech Processing*](https://www.sciencedirect.com/book/9780120885015/multilingual-speech-processing) (Elsevier, 2006)
 
 ## Key surveys & overviews (Arabic-focused)
 
-- *Arabic Automatic Speech Recognition: Challenges and State of the Art*
-- *Arabic dialects speech corpora: A systematic review*
-- *Arab Voices: Mapping Standard and Dialectal Arabic Speech Technology*
-- *A Survey on Speech Large Language Models*
+- [*Arabic Automatic Speech Recognition: Challenges and Progress*](https://www.sciencedirect.com/science/article/abs/pii/S0167639324000815) — Speech Communication, 2024
+- [*Arabic dialects speech corpora: A systematic review*](https://www.sciencedirect.com/science/article/abs/pii/S0167639325001372) — Speech Communication, 2025
+- [*Arab Voices: Mapping Standard and Dialectal Arabic Speech Technology*](https://arxiv.org/abs/2601.13319) — arXiv, 2026
+- [*A Survey on Speech Large Language Models for Understanding*](https://arxiv.org/abs/2410.18908) — arXiv, 2024
+- [*Arabic speech recognition using neural networks: concepts, literature review and challenges*](https://link.springer.com/article/10.1007/s43994-025-00213-w) — J. Umm Al-Qura Univ. Appl. Sci., 2025
 
 ## Communities & venues
 
