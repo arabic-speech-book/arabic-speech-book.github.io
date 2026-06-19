@@ -1,12 +1,90 @@
-/* ---- Arabic / RTL polish ---- */
+/* =========================================================================
+   Foundations of Arabic Speech Processing — theme & legibility overrides
+   Fonts: Inter (Latin) + Cairo (Arabic) + JetBrains Mono (code)
+   ========================================================================= */
 
-/* Use a clean Arabic-friendly font stack on RTL pages */
-[dir="rtl"] {
-  font-family: "Segoe UI", "Noto Naskh Arabic", "Amiri", "Tahoma", sans-serif;
-  line-height: 1.9;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cairo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+/* ---- Font families (override Material's variables everywhere) ---- */
+:root,
+[data-md-color-scheme] {
+  --md-text-font-family: "Inter", "Cairo", system-ui, -apple-system,
+    "Segoe UI", sans-serif;
+  --md-code-font-family: "JetBrains Mono", "SFMono-Regular", Consolas,
+    "Liberation Mono", monospace;
 }
 
-/* Keep code, model names, and inline Latin snippets left-to-right inside RTL text */
+/* Arabic / RTL pages lead with Cairo for maximum legibility */
+[dir="rtl"] {
+  --md-text-font-family: "Cairo", "Inter", "Segoe UI Arabic", "Tahoma",
+    sans-serif;
+}
+
+/* ---- Global typography & legibility ---- */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Larger, looser body copy than the Material default (~16px → ~17px) */
+.md-typeset {
+  font-size: 0.85rem;
+  line-height: 1.75;
+  letter-spacing: 0;
+}
+
+.md-typeset p,
+.md-typeset li {
+  letter-spacing: 0.005em;
+}
+
+.md-typeset p {
+  margin: 0 0 1.05em;
+}
+
+/* Comfortable reading measure on wide screens */
+.md-grid {
+  max-width: 64rem;
+}
+
+/* ---- Headings: clearer hierarchy & weight ---- */
+.md-typeset h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--md-default-fg-color);
+  margin-bottom: 0.7em;
+}
+
+.md-typeset h2 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 2.2em;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+  margin-top: 1.6em;
+}
+
+/* RTL: relax line spacing and turn off the tight Latin letter-spacing */
+[dir="rtl"] .md-typeset {
+  font-size: 0.9rem;
+  line-height: 2;
+}
+[dir="rtl"] .md-typeset p,
+[dir="rtl"] .md-typeset li {
+  letter-spacing: 0;
+}
+[dir="rtl"] .md-typeset h1,
+[dir="rtl"] .md-typeset h2,
+[dir="rtl"] .md-typeset h3 {
+  letter-spacing: 0;
+}
+
+/* Keep code, model names, and inline Latin snippets LTR inside Arabic text */
 [dir="rtl"] code,
 [dir="rtl"] pre,
 [dir="rtl"] .md-typeset kbd {
@@ -15,22 +93,100 @@
   text-align: left;
 }
 
-/* Mirror the "cards" arrows nicely on RTL */
+/* ---- Refined colour palette ---- */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #0e7c74;
+  --md-primary-fg-color--light: #14b8a6;
+  --md-primary-fg-color--dark: #0b5e58;
+  --md-accent-fg-color: #ea580c;
+  --md-default-fg-color: #1c2024;
+  --md-typeset-a-color: #0b6f68;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #14b8a6;
+  --md-primary-fg-color--dark: #0e7c74;
+  --md-accent-fg-color: #fb923c;
+  --md-default-bg-color: #14181d;
+  --md-default-fg-color: #e6e9ec;
+  --md-typeset-a-color: #2dd4bf;
+}
+
+/* Links: slightly stronger and underlined on hover for clarity */
+.md-typeset a {
+  font-weight: 500;
+}
+.md-typeset a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ---- Cards: subtle border + hover lift ---- */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 14px;
+  padding: 1.1rem 1.2rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-primary-fg-color--light);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
+}
+.md-typeset .grid.cards h2 {
+  font-size: 1.05rem;
+  margin-top: 0;
+  border-bottom: none;
+}
 [dir="rtl"] .grid.cards > :is(ul, ol) {
   text-align: right;
 }
 
-/* Tables: let dataset/literature tables scroll on small screens */
+/* ---- Tables: more readable, scrollable on small screens ---- */
 .md-typeset table:not([class]) {
   display: table;
   width: 100%;
+  font-size: 0.78rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.md-typeset table:not([class]) th {
+  font-weight: 600;
+  background-color: var(--md-primary-fg-color);
+  color: #fff;
+}
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+  color: #14181d;
+}
+.md-typeset table:not([class]) tr:nth-child(even) {
+  background-color: var(--md-default-fg-color--lightest);
 }
 .md-typeset__scrollwrap {
   overflow-x: auto;
 }
 
-/* Slightly larger card headings */
-.md-typeset .grid.cards h2,
-.md-typeset .grid.cards .md-typeset h2 {
-  font-size: 1.05rem;
+/* ---- Code & admonitions: a touch more breathing room ---- */
+.md-typeset code {
+  font-size: 0.84em;
+  border-radius: 5px;
+}
+.md-typeset pre > code {
+  line-height: 1.6;
+}
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 10px;
+  font-size: 0.82rem;
+}
+
+/* ---- Navigation tabs & header: clearer active state ---- */
+.md-tabs__link {
+  font-weight: 500;
+  opacity: 0.9;
+}
+.md-tabs__link--active {
+  font-weight: 700;
+  opacity: 1;
 }
