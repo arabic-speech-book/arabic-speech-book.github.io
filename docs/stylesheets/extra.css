@@ -1,0 +1,36 @@
+/* ---- Arabic / RTL polish ---- */
+
+/* Use a clean Arabic-friendly font stack on RTL pages */
+[dir="rtl"] {
+  font-family: "Segoe UI", "Noto Naskh Arabic", "Amiri", "Tahoma", sans-serif;
+  line-height: 1.9;
+}
+
+/* Keep code, model names, and inline Latin snippets left-to-right inside RTL text */
+[dir="rtl"] code,
+[dir="rtl"] pre,
+[dir="rtl"] .md-typeset kbd {
+  direction: ltr;
+  unicode-bidi: embed;
+  text-align: left;
+}
+
+/* Mirror the "cards" arrows nicely on RTL */
+[dir="rtl"] .grid.cards > :is(ul, ol) {
+  text-align: right;
+}
+
+/* Tables: let dataset/literature tables scroll on small screens */
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+}
+.md-typeset__scrollwrap {
+  overflow-x: auto;
+}
+
+/* Slightly larger card headings */
+.md-typeset .grid.cards h2,
+.md-typeset .grid.cards .md-typeset h2 {
+  font-size: 1.05rem;
+}

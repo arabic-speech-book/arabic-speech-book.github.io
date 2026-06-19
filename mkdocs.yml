@@ -1,0 +1,126 @@
+site_name: Foundations of Arabic Speech Processing
+site_url: https://arabic-speech-book.github.io/
+site_description: 'Companion website for the book "Foundations of Arabic Speech Processing: A Modern Introduction" — notebooks, datasets, tools, and resources.'
+site_author: Hend Al-Khalifa
+repo_url: https://github.com/arabic-speech-book/arabic-speech-book.github.io
+repo_name: arabic-speech-book
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2026 — Foundations of Arabic Speech Processing
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      include_source: true
+      execute: false
+      ignore_h1_titles: true
+  - i18n:
+      docs_structure: suffix
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ar
+          name: العربية
+          build: true
+          site_name: أُسس معالجة الكلام العربي
+          site_description: 'الموقع المرافق لكتاب «أسس معالجة الكلام العربي: مقدمة حديثة» — الدفاتر والبيانات والأدوات والمصادر.'
+          nav_translations:
+            Home: الرئيسية
+            About the Book: عن الكتاب
+            Notebooks: الدفاتر البرمجية
+            Datasets: قواعد البيانات
+            Tools: الأدوات
+            Resources: المصادر
+            Literature: المراجع
+
+nav:
+  - Home: index.md
+  - About the Book: about.md
+  - Notebooks:
+      - notebooks/index.md
+      - notebooks/ch01_first_contact_arabic_asr.ipynb
+      - notebooks/ch02_arabic_phonetics_g2p.ipynb
+      - notebooks/ch03_speech_features.ipynb
+      - notebooks/ch04_arabic_asr_foundations.ipynb
+      - notebooks/ch05_end_to_end_arabic_asr.ipynb
+      - notebooks/ch06_arabic_foundation_models.ipynb
+      - notebooks/ch07_corpus_loader.ipynb
+      - notebooks/ch08_enhancement_frontend.ipynb
+      - notebooks/ch09_dialect_id.ipynb
+      - notebooks/ch10_speaker_id.ipynb
+      - notebooks/ch11_arabic_tts.ipynb
+      - notebooks/ch12_speech_translation_slu.ipynb
+      - notebooks/ch13_pronunciation_mdd.ipynb
+      - notebooks/ch14_av_emotion.ipynb
+      - notebooks/ch15_audio_llm_prompting.ipynb
+      - notebooks/ch16_end_to_end_arabic_project.ipynb
+      - notebooks/ch17_fairness_security_audit.ipynb
+  - Datasets: datasets.md
+  - Tools: tools.md
+  - Resources:
+      - resources/index.md
+      - Literature: resources/literature.md
+
+extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: العربية
+      link: /ar/
+      lang: ar
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/arabic-speech-book
