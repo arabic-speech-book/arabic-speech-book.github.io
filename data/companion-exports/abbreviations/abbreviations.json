@@ -1,0 +1,1610 @@
+[
+ {
+  "abbreviation": "AAC",
+  "expansion": "Advanced Audio Coding",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "ADI",
+  "expansion": "Arabic Dialect Identification",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "ADI",
+  "expansion": "Arabic Dialect Identification",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "ADI-20",
+  "expansion": "the twenty-dialect successor to ADI17",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "ADI17",
+  "expansion": "the seventeen-dialect Arabic Dialect Identification set",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "ADI17",
+  "expansion": "the seventeen-country Arabic Dialect Identification dataset",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "AIR-Bench",
+  "expansion": "Audio Instruction Benchmark",
+  "chapter": 11,
+  "chapter_title": "Audio-Language Models (ALM) and Speech Agents"
+ },
+ {
+  "abbreviation": "ALA-LC",
+  "expansion": "American Library Association and Library of Congress",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "ALM",
+  "expansion": "audio-language model",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "ALM",
+  "expansion": "audio-language model",
+  "chapter": 11,
+  "chapter_title": "Audio-Language Models (ALM) and Speech Agents"
+ },
+ {
+  "abbreviation": "ArTST",
+  "expansion": "Arabic Text and Speech Transformer",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "ArTST",
+  "expansion": "Arabic Text and Speech Transformer",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "ASCII",
+  "expansion": "American Standard Code for Information Interchange",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "ASCII",
+  "expansion": "American Standard Code for Information Interchange",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "ASR",
+  "expansion": "Automatic Speech Recognition",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "ASR",
+  "expansion": "Automatic Speech Recognition",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "ASR",
+  "expansion": "Automatic Speech Recognition",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "ASR",
+  "expansion": "Automatic Speech Recognition",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "ASR",
+  "expansion": "Automatic Speech Recognition",
+  "chapter": 5,
+  "chapter_title": "Arabic ASR II: End-to-End Models"
+ },
+ {
+  "abbreviation": "ASR",
+  "expansion": "Automatic Speech Recognition",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "ASR",
+  "expansion": "Automatic Speech Recognition",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "ASR",
+  "expansion": "Automatic Speech Recognition",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "ASR",
+  "expansion": "Automatic Speech Recognition",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "ASR",
+  "expansion": "Automatic Speech Recognition",
+  "chapter": 11,
+  "chapter_title": "Audio-Language Models (ALM) and Speech Agents"
+ },
+ {
+  "abbreviation": "ASR",
+  "expansion": "automatic speech recognition",
+  "chapter": 13,
+  "chapter_title": "Responsible Arabic Speech Technology"
+ },
+ {
+  "abbreviation": "ASR",
+  "expansion": "Automatic Speech Recognition",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "ASVspoof",
+  "expansion": "the Automatic Speaker Verification Spoofing and Countermeasures challenge",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "ASVspoof",
+  "expansion": "the Automatic Speaker Verification Spoofing and Countermeasures challenge",
+  "chapter": 13,
+  "chapter_title": "Responsible Arabic Speech Technology"
+ },
+ {
+  "abbreviation": "BAVED",
+  "expansion": "Basic Arabic Vocal Emotions Dataset",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "BLEU",
+  "expansion": "Bilingual Evaluation Understudy",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "BLEU",
+  "expansion": "Bilingual Evaluation Understudy",
+  "chapter": 10,
+  "chapter_title": "Speech Translation and Spoken Language Understanding"
+ },
+ {
+  "abbreviation": "BPE",
+  "expansion": "Byte-Pair Encoding",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "BPE",
+  "expansion": "byte-pair encoding",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "BPE",
+  "expansion": "byte-pair encoding",
+  "chapter": 5,
+  "chapter_title": "Arabic ASR II: End-to-End Models"
+ },
+ {
+  "abbreviation": "CAPT",
+  "expansion": "computer-assisted pronunciation training",
+  "chapter": 12,
+  "chapter_title": "Examples of Arabic Speech Applications"
+ },
+ {
+  "abbreviation": "CC0",
+  "expansion": "Creative Commons Zero, a public-domain dedication",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "CC0",
+  "expansion": "Creative Commons Zero, a public-domain dedication",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "CER",
+  "expansion": "Character Error Rate",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "CER",
+  "expansion": "Character Error Rate",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "CER",
+  "expansion": "Character Error Rate",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "CER",
+  "expansion": "Character Error Rate",
+  "chapter": 5,
+  "chapter_title": "Arabic ASR II: End-to-End Models"
+ },
+ {
+  "abbreviation": "CER",
+  "expansion": "Character Error Rate",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "CER",
+  "expansion": "Character Error Rate",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "CER",
+  "expansion": "Character Error Rate",
+  "chapter": 11,
+  "chapter_title": "Audio-Language Models (ALM) and Speech Agents"
+ },
+ {
+  "abbreviation": "CER",
+  "expansion": "Character Error Rate",
+  "chapter": 13,
+  "chapter_title": "Responsible Arabic Speech Technology"
+ },
+ {
+  "abbreviation": "CER",
+  "expansion": "Character Error Rate",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "ClArTTS",
+  "expansion": "Classical Arabic Text-to-Speech",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "ClArTTS",
+  "expansion": "Classical Arabic Text-to-Speech",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "ClArTTS",
+  "expansion": "Classical Arabic Text-to-Speech",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "ClArTTS",
+  "expansion": "Classical Arabic Text-to-Speech",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "ClArTTS",
+  "expansion": "Classical Arabic Text-to-Speech",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "CMVN",
+  "expansion": "cepstral mean and variance normalization",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "CMVN",
+  "expansion": "Cepstral Mean and Variance Normalization",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "CNN",
+  "expansion": "Convolutional Neural Network",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "CODA",
+  "expansion": "Conventional Orthography for Dialectal Arabic",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "CODA",
+  "expansion": "Conventional Orthography for Dialectal Arabic",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "CODA",
+  "expansion": "Conventional Orthography for Dialectal Arabic",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "COMET",
+  "expansion": "Crosslingual Optimized Metric for Evaluation of Translation",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "COMET",
+  "expansion": "Crosslingual Optimized Metric for Evaluation of Translation",
+  "chapter": 10,
+  "chapter_title": "Speech Translation and Spoken Language Understanding"
+ },
+ {
+  "abbreviation": "CPC",
+  "expansion": "Contrastive Predictive Coding",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "CTC",
+  "expansion": "connectionist temporal classification",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "CTC",
+  "expansion": "Connectionist Temporal Classification",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "CTC",
+  "expansion": "Connectionist Temporal Classification",
+  "chapter": 5,
+  "chapter_title": "Arabic ASR II: End-to-End Models"
+ },
+ {
+  "abbreviation": "CTC",
+  "expansion": "Connectionist Temporal Classification",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "DARPA",
+  "expansion": "Defense Advanced Research Projects Agency",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "dBFS",
+  "expansion": "decibels relative to full scale",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "DER",
+  "expansion": "Diarization Error Rate",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "DER",
+  "expansion": "Diarization Error Rate, reserved in this book for the metric of Section 8.6",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "DER",
+  "expansion": "Diarization Error Rate",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "DiacER",
+  "expansion": "diacritic error rate",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "DNN",
+  "expansion": "deep neural network",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "DNN",
+  "expansion": "Deep Neural Network",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "DTW",
+  "expansion": "dynamic time warping",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "ECAPA-TDNN",
+  "expansion": "Emphasized Channel Attention, Propagation and Aggregation in a Time-Delay Neural Network",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "EER",
+  "expansion": "Equal Error Rate",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "EER",
+  "expansion": "Equal Error Rate",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "EER",
+  "expansion": "Equal Error Rate",
+  "chapter": 13,
+  "chapter_title": "Responsible Arabic Speech Technology"
+ },
+ {
+  "abbreviation": "ELAN",
+  "expansion": "EUDICO Linguistic Annotator, the annotation tool",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "ELAN",
+  "expansion": "EUDICO Linguistic Annotator, the annotation tool",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "ELRA",
+  "expansion": "European Language Resources Association",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "ELRA",
+  "expansion": "European Language Resources Association",
+  "chapter": 10,
+  "chapter_title": "Speech Translation and Spoken Language Understanding"
+ },
+ {
+  "abbreviation": "F0",
+  "expansion": "fundamental frequency",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "F1",
+  "expansion": "first formant",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "F1",
+  "expansion": "F-score, the harmonic mean of precision and recall1",
+  "chapter": 10,
+  "chapter_title": "Speech Translation and Spoken Language Understanding"
+ },
+ {
+  "abbreviation": "F2",
+  "expansion": "second formant",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "F2",
+  "expansion": "second formant",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "F3",
+  "expansion": "third formant",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "FLAC",
+  "expansion": "Free Lossless Audio Codec",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "FLEURS",
+  "expansion": "Few-shot Learning Evaluation of Universal Representations of Speech",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "FLEURS",
+  "expansion": "Few-shot Learning Evaluation of Universal Representations of Speech",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "FN",
+  "expansion": "false negatives",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "FP",
+  "expansion": "false positives",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "G2P",
+  "expansion": "Grapheme-to-Phoneme conversion",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "G2P",
+  "expansion": "grapheme-to-phoneme conversion",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "G2P",
+  "expansion": "grapheme-to-phoneme conversion",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "G2P",
+  "expansion": "Grapheme-to-Phoneme conversion",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "GALE",
+  "expansion": "Global Autonomous Language Exploitation",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "GAN",
+  "expansion": "Generative Adversarial Network",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "GMM",
+  "expansion": "Gaussian mixture model",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "GMM",
+  "expansion": "Gaussian Mixture Model",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "GoP",
+  "expansion": "Goodness of Pronunciation",
+  "chapter": 12,
+  "chapter_title": "Examples of Arabic Speech Applications"
+ },
+ {
+  "abbreviation": "GPU",
+  "expansion": "Graphics Processing Unit",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "GRU",
+  "expansion": "Gated Recurrent Unit",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "HCLG",
+  "expansion": "the composed HMM topology (H), context (C), lexicon (L), and grammar or language model (G) transducers",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "HMM",
+  "expansion": "hidden Markov model",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "HMM",
+  "expansion": "Hidden Markov Model",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "HMM",
+  "expansion": "Hidden Markov Model",
+  "chapter": 5,
+  "chapter_title": "Arabic ASR II: End-to-End Models"
+ },
+ {
+  "abbreviation": "HMM",
+  "expansion": "hidden Markov model",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "HTK",
+  "expansion": "Hidden Markov Model Toolkit",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "HuBERT",
+  "expansion": "Hidden-Unit BERT",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "HuBERT",
+  "expansion": "Hidden-Unit BERT",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "Hz",
+  "expansion": "hertz, cycles per second",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "ID",
+  "expansion": "identification, as in dialect ID",
+  "chapter": 11,
+  "chapter_title": "Audio-Language Models (ALM) and Speech Agents"
+ },
+ {
+  "abbreviation": "IEEE",
+  "expansion": "Institute of Electrical and Electronics Engineers",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "IEEE",
+  "expansion": "Institute of Electrical and Electronics Engineers",
+  "chapter": 12,
+  "chapter_title": "Examples of Arabic Speech Applications"
+ },
+ {
+  "abbreviation": "IPA",
+  "expansion": "International Phonetic Alphabet",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "IPA",
+  "expansion": "International Phonetic Alphabet",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "ITU-R",
+  "expansion": "International Telecommunication Union, Radiocommunication Sector",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "ITU-T",
+  "expansion": "International Telecommunication Union, Telecommunication Standardization Sector",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "ITU-T",
+  "expansion": "International Telecommunication Union, Telecommunication Standardization Sector",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "IWSLT",
+  "expansion": "International Conference on Spoken Language Translation1",
+  "chapter": 10,
+  "chapter_title": "Speech Translation and Spoken Language Understanding"
+ },
+ {
+  "abbreviation": "JSON",
+  "expansion": "JavaScript Object Notation1",
+  "chapter": 10,
+  "chapter_title": "Speech Translation and Spoken Language Understanding"
+ },
+ {
+  "abbreviation": "KACST",
+  "expansion": "King Abdulaziz City for Science and Technology",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "KACST",
+  "expansion": "King Abdulaziz City for Science and Technology",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "KACST",
+  "expansion": "King Abdulaziz City for Science and Technology",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "KAPD",
+  "expansion": "KACST Arabic Phonetics Database",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "KAPD",
+  "expansion": "KACST Arabic Phonetics Database",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "KFUPM",
+  "expansion": "King Fahd University of Petroleum and Minerals",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "kHz",
+  "expansion": "kilohertz",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "KSU",
+  "expansion": "King Saud University",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "LAS",
+  "expansion": "Listen-Attend-Spell",
+  "chapter": 5,
+  "chapter_title": "Arabic ASR II: End-to-End Models"
+ },
+ {
+  "abbreviation": "LDC",
+  "expansion": "Linguistic Data Consortium",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "LDC",
+  "expansion": "Linguistic Data Consortium",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "LLM",
+  "expansion": "large language model",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "LLM",
+  "expansion": "Large Language Model",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "LLM",
+  "expansion": "large language model",
+  "chapter": 10,
+  "chapter_title": "Speech Translation and Spoken Language Understanding"
+ },
+ {
+  "abbreviation": "LLM",
+  "expansion": "large language model",
+  "chapter": 11,
+  "chapter_title": "Audio-Language Models (ALM) and Speech Agents"
+ },
+ {
+  "abbreviation": "LLM",
+  "expansion": "large language model",
+  "chapter": 12,
+  "chapter_title": "Examples of Arabic Speech Applications"
+ },
+ {
+  "abbreviation": "LLM",
+  "expansion": "large language model",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "LM",
+  "expansion": "language model",
+  "chapter": 5,
+  "chapter_title": "Arabic ASR II: End-to-End Models"
+ },
+ {
+  "abbreviation": "LoRA",
+  "expansion": "low-rank adaptation",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "LPC",
+  "expansion": "Linear Predictive Coding",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "LSTM",
+  "expansion": "long short-term memory",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "LSTM",
+  "expansion": "Long Short-Term Memory network",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "LTR",
+  "expansion": "left-to-right",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "macro-F1",
+  "expansion": "macro-averaged F1 score",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "MASC",
+  "expansion": "Massive Arabic Speech Corpus",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "MASC",
+  "expansion": "Massive Arabic Speech Corpus",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "MASC",
+  "expansion": "Massive Arabic Speech Corpus",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "MASC",
+  "expansion": "Massive Arabic Speech Corpus",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "MASC",
+  "expansion": "Massive Arabic Speech Corpus",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "MDD",
+  "expansion": "mispronunciation detection and diagnosis",
+  "chapter": 12,
+  "chapter_title": "Examples of Arabic Speech Applications"
+ },
+ {
+  "abbreviation": "MFCC",
+  "expansion": "Mel-Frequency Cepstral Coefficients",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "MFCC",
+  "expansion": "mel-frequency cepstral coefficient",
+  "chapter": 13,
+  "chapter_title": "Responsible Arabic Speech Technology"
+ },
+ {
+  "abbreviation": "MGB",
+  "expansion": "Multi-Genre Broadcast",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "MGB",
+  "expansion": "Multi-Genre Broadcast",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "MGB",
+  "expansion": "Multi-Genre Broadcast",
+  "chapter": 5,
+  "chapter_title": "Arabic ASR II: End-to-End Models"
+ },
+ {
+  "abbreviation": "MGB",
+  "expansion": "Multi-Genre Broadcast",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "MGB",
+  "expansion": "Multi-Genre Broadcast",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "MGB",
+  "expansion": "Multi-Genre Broadcast",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "MGB",
+  "expansion": "Multi-Genre Broadcast",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "MMS",
+  "expansion": "Massively Multilingual Speech",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "MMS",
+  "expansion": "Massively Multilingual Speech",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "MOS",
+  "expansion": "Mean Opinion Score",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "MOS",
+  "expansion": "Mean Opinion Score",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "MOS",
+  "expansion": "Mean Opinion Score",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "MP3",
+  "expansion": "MPEG-1 Audio Layer III",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "MP3",
+  "expansion": "MPEG-1 Audio Layer III",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "MSA",
+  "expansion": "Modern Standard Arabic",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "MSA",
+  "expansion": "Modern Standard Arabic",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "MSA",
+  "expansion": "Modern Standard Arabic",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "MSA",
+  "expansion": "Modern Standard Arabic",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "MSA",
+  "expansion": "Modern Standard Arabic",
+  "chapter": 5,
+  "chapter_title": "Arabic ASR II: End-to-End Models"
+ },
+ {
+  "abbreviation": "MSA",
+  "expansion": "Modern Standard Arabic",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "MSA",
+  "expansion": "Modern Standard Arabic",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "MSA",
+  "expansion": "Modern Standard Arabic",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "MSA",
+  "expansion": "Modern Standard Arabic",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "MSA",
+  "expansion": "Modern Standard Arabic",
+  "chapter": 10,
+  "chapter_title": "Speech Translation and Spoken Language Understanding"
+ },
+ {
+  "abbreviation": "MSA",
+  "expansion": "Modern Standard Arabic",
+  "chapter": 11,
+  "chapter_title": "Audio-Language Models (ALM) and Speech Agents"
+ },
+ {
+  "abbreviation": "MSA",
+  "expansion": "Modern Standard Arabic",
+  "chapter": 12,
+  "chapter_title": "Examples of Arabic Speech Applications"
+ },
+ {
+  "abbreviation": "MSA",
+  "expansion": "Modern Standard Arabic",
+  "chapter": 13,
+  "chapter_title": "Responsible Arabic Speech Technology"
+ },
+ {
+  "abbreviation": "MSA",
+  "expansion": "Modern Standard Arabic",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "MUSHRA",
+  "expansion": "multi stimulus test with hidden reference and anchor",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "NADI",
+  "expansion": "Nuanced Arabic Dialect Identification",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "NADI",
+  "expansion": "Nuanced Arabic Dialect Identification",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "NADI",
+  "expansion": "Nuanced Arabic Dialect Identification",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "NADI",
+  "expansion": "Nuanced Arabic Dialect Identification",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "NEMLAR",
+  "expansion": "Network for Euro-Mediterranean Language Resources",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "NLP",
+  "expansion": "natural language processing",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "OOV",
+  "expansion": "out of vocabulary",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "OOV",
+  "expansion": "Out-Of-Vocabulary",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "OOV",
+  "expansion": "Out-Of-Vocabulary",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "OOV",
+  "expansion": "Out-Of-Vocabulary",
+  "chapter": 5,
+  "chapter_title": "Arabic ASR II: End-to-End Models"
+ },
+ {
+  "abbreviation": "PCEN",
+  "expansion": "per-channel energy normalization",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "PCM",
+  "expansion": "pulse-code modulation",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "PDPL",
+  "expansion": "Personal Data Protection Law",
+  "chapter": 13,
+  "chapter_title": "Responsible Arabic Speech Technology"
+ },
+ {
+  "abbreviation": "PESQ",
+  "expansion": "Perceptual Evaluation of Speech Quality",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "PESQ",
+  "expansion": "Perceptual Evaluation of Speech Quality",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "PLP",
+  "expansion": "Perceptual Linear Prediction",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "QA",
+  "expansion": "question answering",
+  "chapter": 11,
+  "chapter_title": "Audio-Language Models (ALM) and Speech Agents"
+ },
+ {
+  "abbreviation": "QASR",
+  "expansion": "QCRI Aljazeera Speech Resource",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "QASR",
+  "expansion": "QCRI Aljazeera Speech Resource",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "QASR",
+  "expansion": "QCRI Aljazeera Speech Resource",
+  "chapter": 5,
+  "chapter_title": "Arabic ASR II: End-to-End Models"
+ },
+ {
+  "abbreviation": "QASR",
+  "expansion": "QCRI Aljazeera Speech Resource",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "QASR",
+  "expansion": "QCRI Aljazeera Speech Resource",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "QCRI",
+  "expansion": "Qatar Computing Research Institute",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "RNN",
+  "expansion": "Recurrent Neural Network",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "RNN-T",
+  "expansion": "recurrent neural network transducer",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "RNN-T",
+  "expansion": "Recurrent Neural Network Transducer",
+  "chapter": 5,
+  "chapter_title": "Arabic ASR II: End-to-End Models"
+ },
+ {
+  "abbreviation": "ROUGE",
+  "expansion": "Recall-Oriented Understudy for Gisting Evaluation",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "RTL",
+  "expansion": "right-to-left",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "SAAVB",
+  "expansion": "Saudi Accented Arabic Voice Bank",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "SAAVB",
+  "expansion": "Saudi-Accented Arabic Voice Bank",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "SADA",
+  "expansion": "Saudi Audio Dataset for Arabic",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "SADA",
+  "expansion": "Saudi Audio Dataset for Arabic",
+  "chapter": 2,
+  "chapter_title": "Arabic Language and Speech Fundamentals"
+ },
+ {
+  "abbreviation": "SADA",
+  "expansion": "Saudi Audio Dataset for Arabic",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "SADA",
+  "expansion": "Saudi Audio Dataset for Arabic",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "SADA",
+  "expansion": "Saudi Audio Dataset for Arabic",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "SADA",
+  "expansion": "Saudi Audio Dataset for Arabic",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "SADA",
+  "expansion": "Saudi Audio Dataset for Arabic",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "SADA",
+  "expansion": "Saudi Audio Dataset for Arabic",
+  "chapter": 10,
+  "chapter_title": "Speech Translation and Spoken Language Understanding"
+ },
+ {
+  "abbreviation": "SADA",
+  "expansion": "Saudi Audio Dataset for Arabic",
+  "chapter": 12,
+  "chapter_title": "Examples of Arabic Speech Applications"
+ },
+ {
+  "abbreviation": "SASSC",
+  "expansion": "Standard Arabic Single Speaker Corpus",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "SDAIA",
+  "expansion": "Saudi Data and Artificial Intelligence Authority",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "SemER",
+  "expansion": "Semantic Error Rate",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "SI-SDR",
+  "expansion": "Scale-Invariant Signal-to-Distortion Ratio",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "SI-SDR",
+  "expansion": "Scale-Invariant Signal-to-Distortion Ratio",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "SIGSLT",
+  "expansion": "Special Interest Group on Spoken Language Translation",
+  "chapter": 10,
+  "chapter_title": "Speech Translation and Spoken Language Understanding"
+ },
+ {
+  "abbreviation": "SLU",
+  "expansion": "spoken language understanding",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "SLU",
+  "expansion": "spoken language understanding1",
+  "chapter": 10,
+  "chapter_title": "Speech Translation and Spoken Language Understanding"
+ },
+ {
+  "abbreviation": "SLURP",
+  "expansion": "Spoken Language Understanding Resource Package",
+  "chapter": 10,
+  "chapter_title": "Speech Translation and Spoken Language Understanding"
+ },
+ {
+  "abbreviation": "SNR",
+  "expansion": "Signal-to-Noise Ratio",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "SPARTA",
+  "expansion": "Speaker Profiling for Arabic Talk",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "SPARTA",
+  "expansion": "Speaker Profiling for Arabic Talk",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "speech-LLM",
+  "expansion": "speech large language model",
+  "chapter": 11,
+  "chapter_title": "Audio-Language Models (ALM) and Speech Agents"
+ },
+ {
+  "abbreviation": "SSML",
+  "expansion": "Speech Synthesis Markup Language",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "STOI",
+  "expansion": "Short-Time Objective Intelligibility",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "STOI",
+  "expansion": "Short-Time Objective Intelligibility",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "STT",
+  "expansion": "speech-to-text",
+  "chapter": 12,
+  "chapter_title": "Examples of Arabic Speech Applications"
+ },
+ {
+  "abbreviation": "SUPERB",
+  "expansion": "Speech processing Universal PERformance Benchmark",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "t-SNE",
+  "expansion": "t-distributed stochastic neighbor embedding",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "TARIC",
+  "expansion": "Tunisian Arabic Railway Interaction Corpus",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "TARIC",
+  "expansion": "Tunisian Arabic Railway Interaction Corpus",
+  "chapter": 10,
+  "chapter_title": "Speech Translation and Spoken Language Understanding"
+ },
+ {
+  "abbreviation": "TDT",
+  "expansion": "token-and-duration transducer",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "TP",
+  "expansion": "true positives",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "TTS",
+  "expansion": "text-to-speech",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "TTS",
+  "expansion": "Text-to-Speech",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "TTS",
+  "expansion": "text-to-speech",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "TTS",
+  "expansion": "text-to-speech",
+  "chapter": 11,
+  "chapter_title": "Audio-Language Models (ALM) and Speech Agents"
+ },
+ {
+  "abbreviation": "TTS",
+  "expansion": "text-to-speech",
+  "chapter": 13,
+  "chapter_title": "Responsible Arabic Speech Technology"
+ },
+ {
+  "abbreviation": "TTS",
+  "expansion": "Text-To-Speech",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "VITS",
+  "expansion": "Variational Inference with adversarial learning for end-to-end Text-to-Speech",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "W3C",
+  "expansion": "World Wide Web Consortium",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "WAV",
+  "expansion": "Waveform Audio File Format",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "WER",
+  "expansion": "Word Error Rate",
+  "chapter": 1,
+  "chapter_title": "Speech Technologies and the Arabic Challenge"
+ },
+ {
+  "abbreviation": "WER",
+  "expansion": "Word Error Rate",
+  "chapter": 3,
+  "chapter_title": "Digital Speech Processing"
+ },
+ {
+  "abbreviation": "WER",
+  "expansion": "Word Error Rate",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "WER",
+  "expansion": "Word Error Rate",
+  "chapter": 5,
+  "chapter_title": "Arabic ASR II: End-to-End Models"
+ },
+ {
+  "abbreviation": "WER",
+  "expansion": "Word Error Rate",
+  "chapter": 6,
+  "chapter_title": "Speech Foundation Models and Self-Supervised Learning"
+ },
+ {
+  "abbreviation": "WER",
+  "expansion": "Word Error Rate",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ },
+ {
+  "abbreviation": "WER",
+  "expansion": "Word Error Rate",
+  "chapter": 8,
+  "chapter_title": "Dialect Identification and Spoken Language Processing"
+ },
+ {
+  "abbreviation": "WER",
+  "expansion": "Word Error Rate",
+  "chapter": 9,
+  "chapter_title": "Speech Synthesis (Text-to-Speech)"
+ },
+ {
+  "abbreviation": "WER",
+  "expansion": "Word Error Rate",
+  "chapter": 11,
+  "chapter_title": "Audio-Language Models (ALM) and Speech Agents"
+ },
+ {
+  "abbreviation": "WER",
+  "expansion": "Word Error Rate",
+  "chapter": 12,
+  "chapter_title": "Examples of Arabic Speech Applications"
+ },
+ {
+  "abbreviation": "WER",
+  "expansion": "word error rate",
+  "chapter": 13,
+  "chapter_title": "Responsible Arabic Speech Technology"
+ },
+ {
+  "abbreviation": "WER",
+  "expansion": "Word Error Rate",
+  "chapter": 14,
+  "chapter_title": "End-to-End Arabic Speech Projects"
+ },
+ {
+  "abbreviation": "WFST",
+  "expansion": "Weighted Finite-State Transducer",
+  "chapter": 4,
+  "chapter_title": "Arabic ASR I: Statistical and Deep-Learning Foundations"
+ },
+ {
+  "abbreviation": "ZAEBUC",
+  "expansion": "Zayed Arabic-English Bilingual Undergraduate Corpus",
+  "chapter": 7,
+  "chapter_title": "Arabic Speech Corpora, Annotation, and Benchmarks"
+ }
+]

@@ -1,0 +1,550 @@
+{
+ "tables": [
+  {
+   "chapter": 1,
+   "table": "Table 1.1 The major speech technologies, with the metric most often used and a r",
+   "columns": "Task | Input | Output | Typical metric | Arabic resource / benchmark",
+   "values": "Speech recognition (ASR) | Waveform | Text | Word/Character Error Rate | MGB-2 [3]"
+  },
+  {
+   "chapter": 1,
+   "table": "Table 1.1 The major speech technologies, with the metric most often used and a r",
+   "columns": "Task | Input | Output | Typical metric | Arabic resource / benchmark",
+   "values": "Speech synthesis (TTS) | Text | Waveform | Mean Opinion Score (MOS) | ClArTTS [4]"
+  },
+  {
+   "chapter": 1,
+   "table": "Table 1.1 The major speech technologies, with the metric most often used and a r",
+   "columns": "Task | Input | Output | Typical metric | Arabic resource / benchmark",
+   "values": "Spoken language understanding (SLU) | Waveform | Intents and slots | Intent accuracy, slot F1, Semantic Error Rate (SemER) | TARIC-SLU (Tunisian, railway domain) [5]"
+  },
+  {
+   "chapter": 1,
+   "table": "Table 1.1 The major speech technologies, with the metric most often used and a r",
+   "columns": "Task | Input | Output | Typical metric | Arabic resource / benchmark",
+   "values": "Speech translation | Waveform | Text/audio in another language | Bilingual Evaluation Understudy (BLEU); Crosslingual Optimized Metric for Evaluation of Translation (COMET) | CoVoST 2 Arabic [6]; TEDxTN [7]"
+  },
+  {
+   "chapter": 1,
+   "table": "Table 1.1 The major speech technologies, with the metric most often used and a r",
+   "columns": "Task | Input | Output | Typical metric | Arabic resource / benchmark",
+   "values": "Dialect identification | Waveform | Dialect label | Accuracy; macro-averaged F1 | NADI 2025 spoken-ADI subtask [8]"
+  },
+  {
+   "chapter": 1,
+   "table": "Table 1.1 The major speech technologies, with the metric most often used and a r",
+   "columns": "Task | Input | Output | Typical metric | Arabic resource / benchmark",
+   "values": "Speaker verification (biometric) | Waveform | Identity match / no-match | Equal Error Rate (EER) | ArabCeleb (in-the-wild, celebrity) [9]"
+  },
+  {
+   "chapter": 1,
+   "table": "Table 1.1 The major speech technologies, with the metric most often used and a r",
+   "columns": "Task | Input | Output | Typical metric | Arabic resource / benchmark",
+   "values": "Speaker profiling / emotion | Waveform | Gender, affect, dialect | Accuracy, F1 | SPARTA [10]"
+  },
+  {
+   "chapter": 1,
+   "table": "Table 1.1 The major speech technologies, with the metric most often used and a r",
+   "columns": "Task | Input | Output | Typical metric | Arabic resource / benchmark",
+   "values": "Speech command recognition | Waveform | Closed-vocabulary command | Accuracy | ArabAlg [11]; AraSpot [12]"
+  },
+  {
+   "chapter": 1,
+   "table": "Table 1.1 The major speech technologies, with the metric most often used and a r",
+   "columns": "Task | Input | Output | Typical metric | Arabic resource / benchmark",
+   "values": "Speech enhancement | Noisy waveform | Cleaner waveform | Scale-Invariant Signal-to-Distortion Ratio (SI-SDR); Short-Time Objective Intelligibility (STOI); Perceptual Evaluation of Speech Quality (PESQ); downstream WER | Common Voice Arabic [13]. No standard Arabic enhancement benchmark exists; conditions are commonly simulated by mixing clean speech with a documented noise corpus (Section 8.7)."
+  },
+  {
+   "chapter": 1,
+   "table": "Table 1.1 The major speech technologies, with the metric most often used and a r",
+   "columns": "Task | Input | Output | Typical metric | Arabic resource / benchmark",
+   "values": "Speaker diarization | Waveform (multi-speaker) | Who spoke when | Diarization Error Rate (DER) | SADA [14], speaker-attributed Saudi broadcast speech, non-commercial licence. No Arabic diarization benchmark with an agreed protocol is yet established; see Section 8.6"
+  },
+  {
+   "chapter": 1,
+   "table": "Table 1.1 The major speech technologies, with the metric most often used and a r",
+   "columns": "Task | Input | Output | Typical metric | Arabic resource / benchmark",
+   "values": "Spoken instruction following / audio question answering | Waveform and prompt | Text response | Task accuracy, human or model-judged quality | AraMega-SSum [15] for speech summarization. Arabic audio-language model (ALM) evaluation otherwise still borrows recognition, dialect and emotion benchmarks; see Chapter 11"
+  },
+  {
+   "chapter": 3,
+   "table": "Table 3.4 The main types of speech corpora, how they are collected and annotated",
+   "columns": "Corpus type | Typical collection and annotation | Arabic example",
+   "values": "Read (prompted) speech | volunteers read prompts; the prompt is the transcript | Common Voice Arabic [17]"
+  },
+  {
+   "chapter": 3,
+   "table": "Table 3.4 The main types of speech corpora, how they are collected and annotated",
+   "columns": "Corpus type | Typical collection and annotation | Arabic example",
+   "values": "Broadcast news and talk | harvested from television and radio; lightly supervised transcripts | MGB-2 [19]; QASR [20]"
+  },
+  {
+   "chapter": 3,
+   "table": "Table 3.4 The main types of speech corpora, how they are collected and annotated",
+   "columns": "Corpus type | Typical collection and annotation | Arabic example",
+   "values": "Found web audio | collected from video platforms, filtered by license | MASC [21]"
+  },
+  {
+   "chapter": 3,
+   "table": "Table 3.4 The main types of speech corpora, how they are collected and annotated",
+   "columns": "Corpus type | Typical collection and annotation | Arabic example",
+   "values": "Conversational / telephone | calls or fieldwork recorded with consent; verbatim transcription | dialect corpora catalogued in Chapter 7"
+  },
+  {
+   "chapter": 3,
+   "table": "Table 3.4 The main types of speech corpora, how they are collected and annotated",
+   "columns": "Corpus type | Typical collection and annotation | Arabic example",
+   "values": "Special-purpose studio | one speaker, controlled; diacritized, aligned text | ClArTTS [23]"
+  },
+  {
+   "chapter": 4,
+   "table": "Table 4.1 The four components of a classical recognizer, the probability each mo",
+   "columns": "Component | What it models | Trained on | Where Arabic strains it",
+   "values": "Acoustic model | P(X | W): how words sound as features | transcribed speech | dialect variation; emphatic and pharyngeal contrasts; channel mismatch"
+  },
+  {
+   "chapter": 4,
+   "table": "Table 4.1 The four components of a classical recognizer, the probability each mo",
+   "columns": "Component | What it models | Trained on | Where Arabic strains it",
+   "values": "Pronunciation lexicon | word → phone sequences | a dictionary, built by grapheme-to-phoneme (G2P) conversion | pronunciations need diacritics the text lacks; dialect variants (qāf as /g/ or /ʔ/)"
+  },
+  {
+   "chapter": 4,
+   "table": "Table 4.1 The four components of a classical recognizer, the probability each mo",
+   "columns": "Component | What it models | Trained on | Where Arabic strains it",
+   "values": "Language model | P(W): which sentences are likely | large text corpora | templatic morphology explodes the vocabulary; dialects lack standard spelling"
+  },
+  {
+   "chapter": 4,
+   "table": "Table 4.1 The four components of a classical recognizer, the probability each mo",
+   "columns": "Component | What it models | Trained on | Where Arabic strains it",
+   "values": "Decoder | search over all candidate W | (an algorithm, not data) | large vocabularies inflate the graph; code-switching widens the search"
+  },
+  {
+   "chapter": 5,
+   "table": "Table 5.1 Connectionist Temporal Classification, the RNN-Transducer, and the att",
+   "columns": "Model | Alignment | Streaming | Internal LM | Main weakness",
+   "values": "CTC | monotonic, alignment-free | yes, with a streaming encoder | none (outputs independent) | needs an external language model"
+  },
+  {
+   "chapter": 5,
+   "table": "Table 5.1 Connectionist Temporal Classification, the RNN-Transducer, and the att",
+   "columns": "Model | Alignment | Streaming | Internal LM | Main weakness",
+   "values": "RNN-Transducer | monotonic, explicit | yes, designed for streaming | yes (prediction network) | heavier to train"
+  },
+  {
+   "chapter": 5,
+   "table": "Table 5.1 Connectionist Temporal Classification, the RNN-Transducer, and the att",
+   "columns": "Model | Alignment | Streaming | Internal LM | Main weakness",
+   "values": "Attention (LAS-style) | soft, can be non-monotonic | not naturally | yes (decoder) | looping, deletions, long-form errors"
+  },
+  {
+   "chapter": 6,
+   "table": "Table 6.1 Speech foundation models compared by their training signal, scale, and",
+   "columns": "Model | Training signal | Scale | Arabic coverage",
+   "values": "wav2vec 2.0 / XLS-R [2] | contrastive, self-supervised | XLS-R: ~436k h, 128 languages | Arabic included; fine-tune per dialect"
+  },
+  {
+   "chapter": 6,
+   "table": "Table 6.1 Speech foundation models compared by their training signal, scale, and",
+   "columns": "Model | Training signal | Scale | Arabic coverage",
+   "values": "HuBERT / WavLM [3] | masked prediction; WavLM adds denoising | tens of thousands of hours, English-centric | transfers, but gains from Arabic continual pretraining"
+  },
+  {
+   "chapter": 6,
+   "table": "Table 6.1 Speech foundation models compared by their training signal, scale, and",
+   "columns": "Model | Training signal | Scale | Arabic coverage",
+   "values": "Whisper [7] | weak supervision (labeled web audio) | ~680k h, multilingual | covered; strong MSA, weaker dialect"
+  },
+  {
+   "chapter": 6,
+   "table": "Table 6.1 Speech foundation models compared by their training signal, scale, and",
+   "columns": "Model | Training signal | Scale | Arabic coverage",
+   "values": "MMS [9] | self-supervised (wav2vec 2.0) + ASR | 1,400+ languages pretraining | Arabic and some varieties"
+  },
+  {
+   "chapter": 6,
+   "table": "Table 6.1 Speech foundation models compared by their training signal, scale, and",
+   "columns": "Model | Training signal | Scale | Arabic coverage",
+   "values": "SeamlessM4T [10] | self-supervised backbone + supervised | ~1M h backbone; ~100 languages | Arabic for ASR and translation"
+  },
+  {
+   "chapter": 6,
+   "table": "Table 6.1 Speech foundation models compared by their training signal, scale, and",
+   "columns": "Model | Training signal | Scale | Arabic coverage",
+   "values": "Omnilingual ASR [11] | self-supervised (7B) + encoder-decoder | 1,600+ languages | Arabic covered; extensible to new varieties"
+  },
+  {
+   "chapter": 6,
+   "table": "Table 6.1 Speech foundation models compared by their training signal, scale, and",
+   "columns": "Model | Training signal | Scale | Arabic coverage",
+   "values": "ArTST [15] | unified Arabic text and speech | MSA focus | Arabic-centric (MSA; dialects emerging)"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "KAPD [3] | instrumented phonetic database | MSA phonetics | studio / instrumented | KACST | phonetics"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "SAAVB [4] | ~1,033 speakers | MSA, Saudi accent | telephone | KACST | ASR; speaker"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "KSU [5] | ~590 h; 269 speakers | MSA, many nationalities | studio, office, cafeteria | LDC license | ASR; speaker"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "L2-KSU [6] | ~6 h; 80 speakers | MSA, native and learner | read prompts | LDC license | ASR; speaker; learner speech"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "L2AraSpeech [7] | ~44 h; 220 learners | MSA, learner | read, mobile app | IEEE DataPort, non-commercial | pronunciation training"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "MGB-2 [8] | > 1,200 h | MSA | broadcast | research use (MGB challenge) | ASR"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "MGB-3 [9] | ~16 h + dialect identification | Egyptian (+ 5-way) | web video | research use (MGB challenge) | ASR; dialect identification"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "MGB-5 [10] | ~13 h + 17-way identification | Moroccan (+ 17-way) | web video | research use (MGB challenge) | ASR; dialect identification"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "QASR [11] | ~2,000 h | MSA, some dialect | broadcast | CC BY-NC 2.0 | ASR; diarization"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "MASC [12] | ~1,000 h | multi-dialect | found web audio | IEEE DataPort; CC BY 4.0 | ASR"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "SADA [13] | ~668 h | Saudi dialects | broadcast | SDAIA; terms with the release | ASR; dialect identification"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "Common Voice Arabic [14] | release-dependent validated hours | mostly MSA | read prompts | CC0 | ASR"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "Casablanca [15] | 13.6k clips; eval splits only | 8 dialects | mixed | CC BY-NC-ND 4.0 | ASR; dialect identification"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "Aswat [16] | ~732 h, unlabeled | mostly MSA | mixed | terms with the release | pretraining"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "FLEURS (Arabic) [17] | ~12 h per language | MSA | read prompts | CC BY 4.0 | benchmarking"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "ArabCeleb [18] | 1,930 utterances; 100 speakers | mixed | found video | CC BY 4.0; pointers, not audio | speaker identification and verification"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "ZAEBUC-Spoken [19] | ~12 h | MSA, Gulf, Egyptian, English | recorded meetings | terms with the release | code-switching; dialectness"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "Habibi benchmark [20] | ~11,400 utterances | 7 dialects incl. Saudi | derived from the corpora above | Apache-2.0 | speech synthesis benchmarking"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "LDC dialect telephone [23, 24, 25, 26] | 45-50 h each | Egyptian, Gulf, Iraqi, Levantine | telephone | LDC license | ASR; dialect identification"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "NEMLAR [27, 28] | 40 h broadcast; >10 h studio | MSA; Egyptian | broadcast; studio, read | ELRA license, fee | ASR; speech synthesis; phonetics"
+  },
+  {
+   "chapter": 7,
+   "table": "Table 7.1 Master catalog of the main Arabic speech corpora, by approximate scale",
+   "columns": "Corpus | Scale (approx.) | Variety | Domain | Access / license | Main use",
+   "values": "Arabic Speech Corpus [29] | ~1,800 utterances | Levantine (Damascus) | studio, read | CC BY 4.0 | speech synthesis; phone alignment"
+  },
+  {
+   "chapter": 8,
+   "table": "Table 8.1 Families of dialect identification methods, what each models, and thei",
+   "columns": "Approach | What it models | Strengths | Limitations",
+   "values": "Phonotactic [2] | statistics of phone sequences per dialect | interpretable; works with little data | needs a phone recognizer; accuracy ceiling"
+  },
+  {
+   "chapter": 8,
+   "table": "Table 8.1 Families of dialect identification methods, what each models, and thei",
+   "columns": "Approach | What it models | Strengths | Limitations",
+   "values": "i-vector + back-end [3] | a fixed-length utterance embedding | strong pre-deep baseline; compact | channel-sensitive; hand-engineered"
+  },
+  {
+   "chapter": 8,
+   "table": "Table 8.1 Families of dialect identification methods, what each models, and thei",
+   "columns": "Approach | What it models | Strengths | Limitations",
+   "values": "Neural embedding [4] | a learned utterance embedding | high accuracy; end-to-end | needs labeled dialect data"
+  },
+  {
+   "chapter": 8,
+   "table": "Table 8.1 Families of dialect identification methods, what each models, and thei",
+   "columns": "Approach | What it models | Strengths | Limitations",
+   "values": "Self-supervised embedding [5] | a pretrained speech representation | strong with limited labels; transfers across varieties | large models; more compute"
+  },
+  {
+   "chapter": 8,
+   "table": "Table 8.5 Widely used open implementations for the techniques in this chapter, o",
+   "columns": "What you are building | Widely used open implementations | What they give you",
+   "values": "Dialect identification (8.2, 8.3) | Hugging Face Transformers, SpeechBrain, ESPnet | pretrained self-supervised encoders, pooling layers and classifier heads"
+  },
+  {
+   "chapter": 8,
+   "table": "Table 8.5 Widely used open implementations for the techniques in this chapter, o",
+   "columns": "What you are building | Widely used open implementations | What they give you",
+   "values": "Speaker embeddings, identification and verification (8.6) | SpeechBrain, Kaldi | pretrained ECAPA-TDNN and x-vector models, trial scoring and EER computation"
+  },
+  {
+   "chapter": 8,
+   "table": "Table 8.5 Widely used open implementations for the techniques in this chapter, o",
+   "columns": "What you are building | Widely used open implementations | What they give you",
+   "values": "Speaker diarization (8.6) | pyannote.audio, NVIDIA NeMo | segmentation, embedding and clustering pipelines, and DER scoring in its three parts"
+  },
+  {
+   "chapter": 8,
+   "table": "Table 8.5 Widely used open implementations for the techniques in this chapter, o",
+   "columns": "What you are building | Widely used open implementations | What they give you",
+   "values": "Noise augmentation and enhancement (8.7) | SpeechBrain, torchaudio, pyroomacoustics | masking-based denoisers, noise mixing at a chosen SNR, and simulated room impulse responses"
+  },
+  {
+   "chapter": 8,
+   "table": "Table 8.5 Widely used open implementations for the techniques in this chapter, o",
+   "columns": "What you are building | Widely used open implementations | What they give you",
+   "values": "Speech recognition, for the downstream measurement (8.7, 8.9, 8.10) | Hugging Face Transformers, ESPnet, NVIDIA NeMo, Kaldi | fine-tuning recipes for Arabic and WER scoring"
+  },
+  {
+   "chapter": 8,
+   "table": "Table 8.5 Widely used open implementations for the techniques in this chapter, o",
+   "columns": "What you are building | Widely used open implementations | What they give you",
+   "values": "Arabic text handling for labels and queries (8.8, 8.9) | CAMeL Tools, Farasa | normalization, morphological analysis and segmentation"
+  },
+  {
+   "chapter": 8,
+   "table": "Table 8.5 Widely used open implementations for the techniques in this chapter, o",
+   "columns": "What you are building | Widely used open implementations | What they give you",
+   "values": "Summarization evaluation (8.10) | the ROUGE package and its reimplementations | overlap scores against a reference summary"
+  },
+  {
+   "chapter": 9,
+   "table": "Table 9.4 Widely used open implementations for the stages of this chapter, one r",
+   "columns": "Stage | Widely used open implementations | What they give you",
+   "values": "Arabic front end (9.2) | CAMeL Tools [36], Farasa [37], and published Arabic diacritizer models [3] | normalization, morphological analysis and restored diacritics"
+  },
+  {
+   "chapter": 9,
+   "table": "Table 9.4 Widely used open implementations for the stages of this chapter, one r",
+   "columns": "Stage | Widely used open implementations | What they give you",
+   "values": "Grapheme-to-phoneme (9.2) | phonemizer [38] with the espeak-ng backend, and rule sets written for Arabic [4] | letters to phonemes, once the diacritics are there"
+  },
+  {
+   "chapter": 9,
+   "table": "Table 9.4 Widely used open implementations for the stages of this chapter, one r",
+   "columns": "Stage | Widely used open implementations | What they give you",
+   "values": "Acoustic models (9.4) | Coqui TTS, ESPnet [34], NVIDIA NeMo [39] | Tacotron 2 and FastSpeech 2 recipes, and pretrained checkpoints"
+  },
+  {
+   "chapter": 9,
+   "table": "Table 9.4 Widely used open implementations for the stages of this chapter, one r",
+   "columns": "Stage | Widely used open implementations | What they give you",
+   "values": "Vocoders and end-to-end (9.5) | Coqui TTS, ESPnet [34], NVIDIA NeMo [39] | HiFi-GAN and VITS, trainable on a single-speaker Arabic corpus"
+  },
+  {
+   "chapter": 9,
+   "table": "Table 9.4 Widely used open implementations for the stages of this chapter, one r",
+   "columns": "Stage | Widely used open implementations | What they give you",
+   "values": "Zero-shot cloning (9.7) | Coqui TTS, and the open speaker-prompted models [16] | synthesis from a few seconds of a target speaker"
+  },
+  {
+   "chapter": 9,
+   "table": "Table 9.4 Widely used open implementations for the stages of this chapter, one r",
+   "columns": "Stage | Widely used open implementations | What they give you",
+   "values": "Listening tests (9.8) | Label Studio, webMUSHRA [40] | MOS and MUSHRA-style interfaces, randomization and anchors"
+  },
+  {
+   "chapter": 9,
+   "table": "Table 9.4 Widely used open implementations for the stages of this chapter, one r",
+   "columns": "Stage | Widely used open implementations | What they give you",
+   "values": "The objective cross-check (9.8) | Hugging Face Transformers [41], ESPnet [35] | an Arabic recognizer to transcribe the output, and WER scoring"
+  },
+  {
+   "chapter": 10,
+   "table": "Table 10.6 Widely used open implementations for the stages of this chapter, one ",
+   "columns": "Stage | Widely used open implementations | What they give you",
+   "values": "The cascade (10.1) | the recognizers of Table 9.4 [1], and a translation model beside them | an Arabic transcript, then an English sentence, each inspectable"
+  },
+  {
+   "chapter": 10,
+   "table": "Table 10.6 Widely used open implementations for the stages of this chapter, one ",
+   "columns": "Stage | Widely used open implementations | What they give you",
+   "values": "Unified and end-to-end translation (10.2, 10.4) | the released Seamless models [6, 7] | speech to text and speech to speech in one model, Arabic in both directions"
+  },
+  {
+   "chapter": 10,
+   "table": "Table 10.6 Widely used open implementations for the stages of this chapter, one ",
+   "columns": "Stage | Widely used open implementations | What they give you",
+   "values": "Simultaneous translation (10.3) | SimulEval [24], and the streaming model of the same family [7] | latency measured the same way twice, and a streaming baseline"
+  },
+  {
+   "chapter": 10,
+   "table": "Table 10.6 Widely used open implementations for the stages of this chapter, one ",
+   "columns": "Stage | Widely used open implementations | What they give you",
+   "values": "Translation scoring (10.5) | sacreBLEU [10], COMET [9] | a BLEU and a chrF that two papers can compare, and a neural score"
+  },
+  {
+   "chapter": 10,
+   "table": "Table 10.6 Widely used open implementations for the stages of this chapter, one ",
+   "columns": "Stage | Widely used open implementations | What they give you",
+   "values": "Understanding over speech (10.7, 10.8) | ESPnet-SLU [25] | intent and slot recipes that run on audio rather than on transcripts"
+  },
+  {
+   "chapter": 10,
+   "table": "Table 10.6 Widely used open implementations for the stages of this chapter, one ",
+   "columns": "Stage | Widely used open implementations | What they give you",
+   "values": "Annotating intents and slots (10.7, 10.9) | Label Studio | an ontology and an interface for labelling spoken commands"
+  },
+  {
+   "chapter": 11,
+   "table": "Table 11.1 Representative audio-language model designs compared.",
+   "columns": "Model | How audio connects | Notes",
+   "values": "SALMONN [6] | encoders + window-level connector to a frozen LLM | broad skills, some emergent"
+  },
+  {
+   "chapter": 11,
+   "table": "Table 11.1 Representative audio-language model designs compared.",
+   "columns": "Model | How audio connects | Notes",
+   "values": "Qwen2-Audio [7] | audio encoder + LLM, prompt-driven | voice chat and audio analysis"
+  },
+  {
+   "chapter": 11,
+   "table": "Table 11.1 Representative audio-language model designs compared.",
+   "columns": "Model | How audio connects | Notes",
+   "values": "AudioPaLM [8] | shared text and audio tokens in one LLM | can speak and listen"
+  },
+  {
+   "chapter": 11,
+   "table": "Table 11.2 Arabic and Arabic-capable language models and their speech integratio",
+   "columns": "Model | Type | Speech integration",
+   "values": "Jais [15] | Arabic-centric text LLM | text only; a backbone for ALMs"
+  },
+  {
+   "chapter": 11,
+   "table": "Table 11.2 Arabic and Arabic-capable language models and their speech integratio",
+   "columns": "Model | Type | Speech integration",
+   "values": "AceGPT [16] | localized Arabic text LLM | text only; culture and values focus"
+  },
+  {
+   "chapter": 11,
+   "table": "Table 11.2 Arabic and Arabic-capable language models and their speech integratio",
+   "columns": "Model | Type | Speech integration",
+   "values": "Qwen2-Audio / Qwen2.5-Omni [7, 17] | multilingual audio / omni LLM | speech in and out; some Arabic"
+  },
+  {
+   "chapter": 11,
+   "table": "Table 11.2 Arabic and Arabic-capable language models and their speech integratio",
+   "columns": "Model | Type | Speech integration",
+   "values": "Fanar 2.0 [19] | Arabic-centric platform | speech in and out; bilingual Arabic and English ASR and TTS"
+  }
+ ],
+ "spotlights": [
+  {
+   "chapter": 1,
+   "text": "Dataset Spotlight: Common Voice ArabicCommon Voice is a crowd-sourced, openly licensed corpus in which volunteers read sentences aloud and others validate the recordings [13].Its Arabic portion is read rather than spontaneous speech, and its coverage of dialects is uneven, so it is not a complete picture of the language. But its permissive license and easy access make it the ideal starting point for the labs in this book: every reader can download it and run experiments without special agreements, provided each lab states the release version, the validated split, and the license alongside its results."
+  },
+  {
+   "chapter": 2,
+   "text": "Dataset Spotlight: the KACST Arabic Phonetics Database (KAPD) [6], [28]Descriptive resources for Arabic phonetics and phonology [6], together with the King Abdulaziz City for Science and Technology (KACST) Arabic Phonetics Database (KAPD), a corpus of more than 46,000 files of articulatory and acoustic measurements from nine experiments with native speakers [28], provide carefully documented sound inventories and example words.Such resources can be converted into a pronunciation lexicon, the table that maps each word to its sequence of phones, which both classical recognizers (Chapter 4) and synthesizers (Chapter 9) depend on. The companion notebook for this chapter builds a small lexicon of this kind."
+  },
+  {
+   "chapter": 3,
+   "text": "Dataset Spotlight: Common Voice Arabic for front-end experimentsThe crowd-sourced and validated Common Voice Arabic corpus [17] gives short read-speech clips, subject to the current download, license, and use conditions stated in the Mozilla Common Voice dataset card [18], that are ideal for visualizing waveforms, spectrograms, and features.Because the clips are short and easy to load, they let a newcomer see each stage of this chapter clearly before moving to the noisier broadcast and telephone data of later chapters. The companion notebook uses it for this purpose; report the release version and validated-hour count when you do."
+  },
+  {
+   "chapter": 4,
+   "text": "Dataset Spotlight: SADA, the Saudi Audio DatasetSADA [19] is a large Saudi Arabic broadcast corpus with multiple dialects, speaker and gender labels, and defined splits, released under the license and access conditions specified in its dataset documentation.It is valuable because it adds spontaneous Gulf-dialect material to a landscape long dominated by MSA broadcast data, which makes it well suited to the dialect-balancing and per-dialect reporting practices above. When using it, report the version, the license, the per-dialect hours, the speaker metadata, and the official splits."
+  },
+  {
+   "chapter": 5,
+   "text": "Dataset Spotlight: CasablancaCasablanca [15] is a multidialectal Arabic speech corpus spanning several dialects with transcriptions and annotations for dialect, gender, and code-switching, released under the license and access conditions in its documentation.Because it provides supervised dialectal data across many varieties, it is well suited to training and, especially, to honestly evaluating end-to-end dialect systems. Report the version, the license, the per-dialect hours, and the official splits when you use it."
+  },
+  {
+   "chapter": 6,
+   "text": "Dataset Spotlight: AswatAswat [18] is a curated, manually cleaned corpus of about 732 hours of unlabeled Arabic speech (roughly two-thirds MSA) assembled for self-supervised pretraining.Because it is large and unlabeled, it is well suited to continual pretraining: continue the self-supervised objective on Aswat to move a multilingual encoder toward Arabic before fine-tuning on a small labeled set. Report the version and the hours used."
+  },
+  {
+   "chapter": 7,
+   "text": "Dataset Spotlight: the Open Universal Arabic ASR LeaderboardThe Open Universal Arabic ASR Leaderboard [44] benchmarks open Arabic recognizers across multiple multi-dialect test sets under one framework, reporting robustness, adaptation, and efficiency, not accuracy alone.It is useful precisely because it compares models on dialects rather than a single pooled set, which surfaces the per-dialect gaps that a headline number hides. Treat it as a reference point, and still report your own per-dialect results with the version and splits."
+  },
+  {
+   "chapter": 8,
+   "text": "Dataset Spotlight: the NADI speech shared tasksThe NADI shared tasks are the field's shared yardstick for Arabic dialect processing. After several text editions at the country and province level, the speech subtasks arrived: dialect identification, dialectal recognition, and diacritic restoration, each with held-out test sets and a common scoring protocol. The editions keep coming and the leading scores keep moving, so treat the series as a protocol rather than as a result. Build against the splits of whichever edition is current, name that edition wherever a number is reported, and give per-dialect figures on those splits, which is the clearest way to show real progress."
+  },
+  {
+   "chapter": 9,
+   "text": "Dataset Spotlight: Arabic synthesis corporaArabic TTS rests on a few carefully recorded corpora. SASSC is a standard MSA single-speaker corpus recorded by a professional speaker in studio conditions [32]; ClArTTS provides Classical Arabic suitable for recitation-style synthesis [23]; and ArVoice adds multi-speaker MSA material for more varied synthesis, useful for speaker diversity but not by itself a complete dialectal TTS resource [19]. Balanced-corpus design, choosing text that covers the sounds and contexts of the language efficiently, makes the most of limited recording time [33]. State the corpus, its speaker coverage, and its diacritization quality in any result."
+  },
+  {
+   "chapter": 10,
+   "text": "Dataset Spotlight: Arabic translation and understanding resourcesThree resources anchor Arabic work here. CoVoST 2 provides Arabic-to-English speech-translation data and is the common starting point for end-to-end systems [3]. TEDxTN adds a three-way, code-switched Tunisian Arabic and English corpus, capturing the dialect and code-switching that real speech contains [4]. TARIC-SLU is a Tunisian spoken-language-understanding benchmark with intent and slot annotations [20]. State the corpus, its dialect coverage, and its train and test splits, and keep test speakers and dialogues disjoint from training."
+  },
+  {
+   "chapter": 12,
+   "text": "Dataset Spotlight: L2AraSpeech, and the corpora that do not existL2AraSpeech is the corpus the pronunciation half of this chapter can point at: recordings from 220 non-native speakers of varied national and linguistic backgrounds reading 25 sentences and 61 minimal pairs chosen by linguists who teach Arabic to non-native speakers, with 60 of those speakers annotated for pronunciation errors, released through IEEE Dataport in raw, processed and annotated form under a licence for non-commercial research [12]. The minimal pairs are the part to look at first, because a minimal pair is the experiment this chapter keeps describing: two words that differ in exactly one sound, so a system that scores the pair correctly has scored the contrast rather than the word. The other two populations are still waiting. For disordered Arabic speech there is no substantial corpus at all, which is why the peer-reviewed Arabic work augments healthy speech instead of recording atypical speech, and why the personalization result this chapter relies on comes from English. For children there is a released Arabic set, Levantine classroom recordings that show how far a mainstream recognizer falls on child speech, still a preprint and still small. All three demand strict ethical and privacy governance, with guardian consent for children and speaker control for clinical data, and any report should state the population, the consent basis and the per-group results."
+  },
+  {
+   "chapter": 13,
+   "text": "Dataset Spotlight: ArFake and VoxlectArFake is the first multi-dialect Arabic spoofed-speech dataset, cloned from the Casablanca corpus and released with detector baselines, and Voxlect is a cross-dialect benchmark over more than two million labelled utterances from thirty corpora, which is the kind of resource the fairness auditing in this chapter needs. Together they let Arabic security and fairness work move from anecdote to measurement. Two cautions travel with them. ArFake’s most convincing audio came from a single generator, which its own authors say may limit how far a detector trained on it generalizes, so treat a good score on it as a floor rather than a certificate. And Voxlect classifies dialects; it is not a licence to skip recording the speech your own system will actually meet. Report per dialect, and against the generators or the conditions a deployed system will really face."
+  },
+  {
+   "chapter": 14,
+   "text": "Dataset Spotlight: Common Voice Arabic for a first projectThe crowd-sourced, openly licensed Common Voice Arabic corpus is the fastest way to a first end-to-end run, because anyone can download it and its CC0 public-domain dedication permits broad reuse [1].Its read speech and uneven dialect coverage make it a starting point rather than a final corpus, and any experiment using it should report the exact release version, since the dataset grows with every release."
+  }
+ ]
+}

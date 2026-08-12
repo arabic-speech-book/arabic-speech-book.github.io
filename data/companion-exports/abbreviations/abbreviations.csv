@@ -1,0 +1,269 @@
+abbreviation,expansion,chapter,chapter_title
+AAC,Advanced Audio Coding,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+ADI,Arabic Dialect Identification,1,Speech Technologies and the Arabic Challenge
+ADI,Arabic Dialect Identification,8,Dialect Identification and Spoken Language Processing
+ADI-20,the twenty-dialect successor to ADI17,8,Dialect Identification and Spoken Language Processing
+ADI17,the seventeen-dialect Arabic Dialect Identification set,1,Speech Technologies and the Arabic Challenge
+ADI17,the seventeen-country Arabic Dialect Identification dataset,8,Dialect Identification and Spoken Language Processing
+AIR-Bench,Audio Instruction Benchmark,11,Audio-Language Models (ALM) and Speech Agents
+ALA-LC,American Library Association and Library of Congress,1,Speech Technologies and the Arabic Challenge
+ALM,audio-language model,1,Speech Technologies and the Arabic Challenge
+ALM,audio-language model,11,Audio-Language Models (ALM) and Speech Agents
+ArTST,Arabic Text and Speech Transformer,1,Speech Technologies and the Arabic Challenge
+ArTST,Arabic Text and Speech Transformer,6,Speech Foundation Models and Self-Supervised Learning
+ASCII,American Standard Code for Information Interchange,1,Speech Technologies and the Arabic Challenge
+ASCII,American Standard Code for Information Interchange,2,Arabic Language and Speech Fundamentals
+ASR,Automatic Speech Recognition,1,Speech Technologies and the Arabic Challenge
+ASR,Automatic Speech Recognition,2,Arabic Language and Speech Fundamentals
+ASR,Automatic Speech Recognition,3,Digital Speech Processing
+ASR,Automatic Speech Recognition,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+ASR,Automatic Speech Recognition,5,Arabic ASR II: End-to-End Models
+ASR,Automatic Speech Recognition,6,Speech Foundation Models and Self-Supervised Learning
+ASR,Automatic Speech Recognition,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+ASR,Automatic Speech Recognition,8,Dialect Identification and Spoken Language Processing
+ASR,Automatic Speech Recognition,9,Speech Synthesis (Text-to-Speech)
+ASR,Automatic Speech Recognition,11,Audio-Language Models (ALM) and Speech Agents
+ASR,automatic speech recognition,13,Responsible Arabic Speech Technology
+ASR,Automatic Speech Recognition,14,End-to-End Arabic Speech Projects
+ASVspoof,the Automatic Speaker Verification Spoofing and Countermeasures challenge,8,Dialect Identification and Spoken Language Processing
+ASVspoof,the Automatic Speaker Verification Spoofing and Countermeasures challenge,13,Responsible Arabic Speech Technology
+BAVED,Basic Arabic Vocal Emotions Dataset,8,Dialect Identification and Spoken Language Processing
+BLEU,Bilingual Evaluation Understudy,1,Speech Technologies and the Arabic Challenge
+BLEU,Bilingual Evaluation Understudy,10,Speech Translation and Spoken Language Understanding
+BPE,Byte-Pair Encoding,2,Arabic Language and Speech Fundamentals
+BPE,byte-pair encoding,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+BPE,byte-pair encoding,5,Arabic ASR II: End-to-End Models
+CAPT,computer-assisted pronunciation training,12,Examples of Arabic Speech Applications
+CC0,"Creative Commons Zero, a public-domain dedication",7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+CC0,"Creative Commons Zero, a public-domain dedication",14,End-to-End Arabic Speech Projects
+CER,Character Error Rate,1,Speech Technologies and the Arabic Challenge
+CER,Character Error Rate,3,Digital Speech Processing
+CER,Character Error Rate,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+CER,Character Error Rate,5,Arabic ASR II: End-to-End Models
+CER,Character Error Rate,6,Speech Foundation Models and Self-Supervised Learning
+CER,Character Error Rate,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+CER,Character Error Rate,11,Audio-Language Models (ALM) and Speech Agents
+CER,Character Error Rate,13,Responsible Arabic Speech Technology
+CER,Character Error Rate,14,End-to-End Arabic Speech Projects
+ClArTTS,Classical Arabic Text-to-Speech,1,Speech Technologies and the Arabic Challenge
+ClArTTS,Classical Arabic Text-to-Speech,2,Arabic Language and Speech Fundamentals
+ClArTTS,Classical Arabic Text-to-Speech,3,Digital Speech Processing
+ClArTTS,Classical Arabic Text-to-Speech,9,Speech Synthesis (Text-to-Speech)
+ClArTTS,Classical Arabic Text-to-Speech,14,End-to-End Arabic Speech Projects
+CMVN,cepstral mean and variance normalization,3,Digital Speech Processing
+CMVN,Cepstral Mean and Variance Normalization,14,End-to-End Arabic Speech Projects
+CNN,Convolutional Neural Network,6,Speech Foundation Models and Self-Supervised Learning
+CODA,Conventional Orthography for Dialectal Arabic,2,Arabic Language and Speech Fundamentals
+CODA,Conventional Orthography for Dialectal Arabic,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+CODA,Conventional Orthography for Dialectal Arabic,14,End-to-End Arabic Speech Projects
+COMET,Crosslingual Optimized Metric for Evaluation of Translation,1,Speech Technologies and the Arabic Challenge
+COMET,Crosslingual Optimized Metric for Evaluation of Translation,10,Speech Translation and Spoken Language Understanding
+CPC,Contrastive Predictive Coding,6,Speech Foundation Models and Self-Supervised Learning
+CTC,connectionist temporal classification,1,Speech Technologies and the Arabic Challenge
+CTC,Connectionist Temporal Classification,2,Arabic Language and Speech Fundamentals
+CTC,Connectionist Temporal Classification,5,Arabic ASR II: End-to-End Models
+CTC,Connectionist Temporal Classification,6,Speech Foundation Models and Self-Supervised Learning
+DARPA,Defense Advanced Research Projects Agency,1,Speech Technologies and the Arabic Challenge
+dBFS,decibels relative to full scale,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+DER,Diarization Error Rate,1,Speech Technologies and the Arabic Challenge
+DER,"Diarization Error Rate, reserved in this book for the metric of Section 8.6",2,Arabic Language and Speech Fundamentals
+DER,Diarization Error Rate,8,Dialect Identification and Spoken Language Processing
+DiacER,diacritic error rate,2,Arabic Language and Speech Fundamentals
+DNN,deep neural network,1,Speech Technologies and the Arabic Challenge
+DNN,Deep Neural Network,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+DTW,dynamic time warping,1,Speech Technologies and the Arabic Challenge
+ECAPA-TDNN,"Emphasized Channel Attention, Propagation and Aggregation in a Time-Delay Neural Network",8,Dialect Identification and Spoken Language Processing
+EER,Equal Error Rate,1,Speech Technologies and the Arabic Challenge
+EER,Equal Error Rate,8,Dialect Identification and Spoken Language Processing
+EER,Equal Error Rate,13,Responsible Arabic Speech Technology
+ELAN,"EUDICO Linguistic Annotator, the annotation tool",7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+ELAN,"EUDICO Linguistic Annotator, the annotation tool",14,End-to-End Arabic Speech Projects
+ELRA,European Language Resources Association,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+ELRA,European Language Resources Association,10,Speech Translation and Spoken Language Understanding
+F0,fundamental frequency,2,Arabic Language and Speech Fundamentals
+F1,first formant,2,Arabic Language and Speech Fundamentals
+F1,"F-score, the harmonic mean of precision and recall1",10,Speech Translation and Spoken Language Understanding
+F2,second formant,1,Speech Technologies and the Arabic Challenge
+F2,second formant,2,Arabic Language and Speech Fundamentals
+F3,third formant,2,Arabic Language and Speech Fundamentals
+FLAC,Free Lossless Audio Codec,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+FLEURS,Few-shot Learning Evaluation of Universal Representations of Speech,6,Speech Foundation Models and Self-Supervised Learning
+FLEURS,Few-shot Learning Evaluation of Universal Representations of Speech,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+FN,false negatives,8,Dialect Identification and Spoken Language Processing
+FP,false positives,8,Dialect Identification and Spoken Language Processing
+G2P,Grapheme-to-Phoneme conversion,2,Arabic Language and Speech Fundamentals
+G2P,grapheme-to-phoneme conversion,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+G2P,grapheme-to-phoneme conversion,9,Speech Synthesis (Text-to-Speech)
+G2P,Grapheme-to-Phoneme conversion,14,End-to-End Arabic Speech Projects
+GALE,Global Autonomous Language Exploitation,1,Speech Technologies and the Arabic Challenge
+GAN,Generative Adversarial Network,9,Speech Synthesis (Text-to-Speech)
+GMM,Gaussian mixture model,1,Speech Technologies and the Arabic Challenge
+GMM,Gaussian Mixture Model,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+GoP,Goodness of Pronunciation,12,Examples of Arabic Speech Applications
+GPU,Graphics Processing Unit,6,Speech Foundation Models and Self-Supervised Learning
+GRU,Gated Recurrent Unit,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+HCLG,"the composed HMM topology (H), context (C), lexicon (L), and grammar or language model (G) transducers",4,Arabic ASR I: Statistical and Deep-Learning Foundations
+HMM,hidden Markov model,1,Speech Technologies and the Arabic Challenge
+HMM,Hidden Markov Model,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+HMM,Hidden Markov Model,5,Arabic ASR II: End-to-End Models
+HMM,hidden Markov model,9,Speech Synthesis (Text-to-Speech)
+HTK,Hidden Markov Model Toolkit,3,Digital Speech Processing
+HuBERT,Hidden-Unit BERT,1,Speech Technologies and the Arabic Challenge
+HuBERT,Hidden-Unit BERT,6,Speech Foundation Models and Self-Supervised Learning
+Hz,"hertz, cycles per second",2,Arabic Language and Speech Fundamentals
+ID,"identification, as in dialect ID",11,Audio-Language Models (ALM) and Speech Agents
+IEEE,Institute of Electrical and Electronics Engineers,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+IEEE,Institute of Electrical and Electronics Engineers,12,Examples of Arabic Speech Applications
+IPA,International Phonetic Alphabet,1,Speech Technologies and the Arabic Challenge
+IPA,International Phonetic Alphabet,2,Arabic Language and Speech Fundamentals
+ITU-R,"International Telecommunication Union, Radiocommunication Sector",9,Speech Synthesis (Text-to-Speech)
+ITU-T,"International Telecommunication Union, Telecommunication Standardization Sector",8,Dialect Identification and Spoken Language Processing
+ITU-T,"International Telecommunication Union, Telecommunication Standardization Sector",9,Speech Synthesis (Text-to-Speech)
+IWSLT,International Conference on Spoken Language Translation1,10,Speech Translation and Spoken Language Understanding
+JSON,JavaScript Object Notation1,10,Speech Translation and Spoken Language Understanding
+KACST,King Abdulaziz City for Science and Technology,1,Speech Technologies and the Arabic Challenge
+KACST,King Abdulaziz City for Science and Technology,2,Arabic Language and Speech Fundamentals
+KACST,King Abdulaziz City for Science and Technology,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+KAPD,KACST Arabic Phonetics Database,2,Arabic Language and Speech Fundamentals
+KAPD,KACST Arabic Phonetics Database,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+KFUPM,King Fahd University of Petroleum and Minerals,1,Speech Technologies and the Arabic Challenge
+kHz,kilohertz,3,Digital Speech Processing
+KSU,King Saud University,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+LAS,Listen-Attend-Spell,5,Arabic ASR II: End-to-End Models
+LDC,Linguistic Data Consortium,1,Speech Technologies and the Arabic Challenge
+LDC,Linguistic Data Consortium,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+LLM,large language model,1,Speech Technologies and the Arabic Challenge
+LLM,Large Language Model,6,Speech Foundation Models and Self-Supervised Learning
+LLM,large language model,10,Speech Translation and Spoken Language Understanding
+LLM,large language model,11,Audio-Language Models (ALM) and Speech Agents
+LLM,large language model,12,Examples of Arabic Speech Applications
+LLM,large language model,14,End-to-End Arabic Speech Projects
+LM,language model,5,Arabic ASR II: End-to-End Models
+LoRA,low-rank adaptation,6,Speech Foundation Models and Self-Supervised Learning
+LPC,Linear Predictive Coding,3,Digital Speech Processing
+LSTM,long short-term memory,1,Speech Technologies and the Arabic Challenge
+LSTM,Long Short-Term Memory network,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+LTR,left-to-right,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+macro-F1,macro-averaged F1 score,8,Dialect Identification and Spoken Language Processing
+MASC,Massive Arabic Speech Corpus,1,Speech Technologies and the Arabic Challenge
+MASC,Massive Arabic Speech Corpus,3,Digital Speech Processing
+MASC,Massive Arabic Speech Corpus,6,Speech Foundation Models and Self-Supervised Learning
+MASC,Massive Arabic Speech Corpus,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+MASC,Massive Arabic Speech Corpus,14,End-to-End Arabic Speech Projects
+MDD,mispronunciation detection and diagnosis,12,Examples of Arabic Speech Applications
+MFCC,Mel-Frequency Cepstral Coefficients,3,Digital Speech Processing
+MFCC,mel-frequency cepstral coefficient,13,Responsible Arabic Speech Technology
+MGB,Multi-Genre Broadcast,1,Speech Technologies and the Arabic Challenge
+MGB,Multi-Genre Broadcast,3,Digital Speech Processing
+MGB,Multi-Genre Broadcast,5,Arabic ASR II: End-to-End Models
+MGB,Multi-Genre Broadcast,6,Speech Foundation Models and Self-Supervised Learning
+MGB,Multi-Genre Broadcast,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+MGB,Multi-Genre Broadcast,8,Dialect Identification and Spoken Language Processing
+MGB,Multi-Genre Broadcast,14,End-to-End Arabic Speech Projects
+MMS,Massively Multilingual Speech,1,Speech Technologies and the Arabic Challenge
+MMS,Massively Multilingual Speech,6,Speech Foundation Models and Self-Supervised Learning
+MOS,Mean Opinion Score,1,Speech Technologies and the Arabic Challenge
+MOS,Mean Opinion Score,9,Speech Synthesis (Text-to-Speech)
+MOS,Mean Opinion Score,14,End-to-End Arabic Speech Projects
+MP3,MPEG-1 Audio Layer III,3,Digital Speech Processing
+MP3,MPEG-1 Audio Layer III,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+MSA,Modern Standard Arabic,1,Speech Technologies and the Arabic Challenge
+MSA,Modern Standard Arabic,2,Arabic Language and Speech Fundamentals
+MSA,Modern Standard Arabic,3,Digital Speech Processing
+MSA,Modern Standard Arabic,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+MSA,Modern Standard Arabic,5,Arabic ASR II: End-to-End Models
+MSA,Modern Standard Arabic,6,Speech Foundation Models and Self-Supervised Learning
+MSA,Modern Standard Arabic,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+MSA,Modern Standard Arabic,8,Dialect Identification and Spoken Language Processing
+MSA,Modern Standard Arabic,9,Speech Synthesis (Text-to-Speech)
+MSA,Modern Standard Arabic,10,Speech Translation and Spoken Language Understanding
+MSA,Modern Standard Arabic,11,Audio-Language Models (ALM) and Speech Agents
+MSA,Modern Standard Arabic,12,Examples of Arabic Speech Applications
+MSA,Modern Standard Arabic,13,Responsible Arabic Speech Technology
+MSA,Modern Standard Arabic,14,End-to-End Arabic Speech Projects
+MUSHRA,multi stimulus test with hidden reference and anchor,9,Speech Synthesis (Text-to-Speech)
+NADI,Nuanced Arabic Dialect Identification,1,Speech Technologies and the Arabic Challenge
+NADI,Nuanced Arabic Dialect Identification,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+NADI,Nuanced Arabic Dialect Identification,8,Dialect Identification and Spoken Language Processing
+NADI,Nuanced Arabic Dialect Identification,14,End-to-End Arabic Speech Projects
+NEMLAR,Network for Euro-Mediterranean Language Resources,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+NLP,natural language processing,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+OOV,out of vocabulary,1,Speech Technologies and the Arabic Challenge
+OOV,Out-Of-Vocabulary,2,Arabic Language and Speech Fundamentals
+OOV,Out-Of-Vocabulary,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+OOV,Out-Of-Vocabulary,5,Arabic ASR II: End-to-End Models
+PCEN,per-channel energy normalization,3,Digital Speech Processing
+PCM,pulse-code modulation,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+PDPL,Personal Data Protection Law,13,Responsible Arabic Speech Technology
+PESQ,Perceptual Evaluation of Speech Quality,1,Speech Technologies and the Arabic Challenge
+PESQ,Perceptual Evaluation of Speech Quality,8,Dialect Identification and Spoken Language Processing
+PLP,Perceptual Linear Prediction,3,Digital Speech Processing
+QA,question answering,11,Audio-Language Models (ALM) and Speech Agents
+QASR,QCRI Aljazeera Speech Resource,1,Speech Technologies and the Arabic Challenge
+QASR,QCRI Aljazeera Speech Resource,3,Digital Speech Processing
+QASR,QCRI Aljazeera Speech Resource,5,Arabic ASR II: End-to-End Models
+QASR,QCRI Aljazeera Speech Resource,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+QASR,QCRI Aljazeera Speech Resource,14,End-to-End Arabic Speech Projects
+QCRI,Qatar Computing Research Institute,1,Speech Technologies and the Arabic Challenge
+RNN,Recurrent Neural Network,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+RNN-T,recurrent neural network transducer,1,Speech Technologies and the Arabic Challenge
+RNN-T,Recurrent Neural Network Transducer,5,Arabic ASR II: End-to-End Models
+ROUGE,Recall-Oriented Understudy for Gisting Evaluation,8,Dialect Identification and Spoken Language Processing
+RTL,right-to-left,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+SAAVB,Saudi Accented Arabic Voice Bank,1,Speech Technologies and the Arabic Challenge
+SAAVB,Saudi-Accented Arabic Voice Bank,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+SADA,Saudi Audio Dataset for Arabic,1,Speech Technologies and the Arabic Challenge
+SADA,Saudi Audio Dataset for Arabic,2,Arabic Language and Speech Fundamentals
+SADA,Saudi Audio Dataset for Arabic,3,Digital Speech Processing
+SADA,Saudi Audio Dataset for Arabic,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+SADA,Saudi Audio Dataset for Arabic,6,Speech Foundation Models and Self-Supervised Learning
+SADA,Saudi Audio Dataset for Arabic,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+SADA,Saudi Audio Dataset for Arabic,8,Dialect Identification and Spoken Language Processing
+SADA,Saudi Audio Dataset for Arabic,10,Speech Translation and Spoken Language Understanding
+SADA,Saudi Audio Dataset for Arabic,12,Examples of Arabic Speech Applications
+SASSC,Standard Arabic Single Speaker Corpus,9,Speech Synthesis (Text-to-Speech)
+SDAIA,Saudi Data and Artificial Intelligence Authority,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+SemER,Semantic Error Rate,1,Speech Technologies and the Arabic Challenge
+SI-SDR,Scale-Invariant Signal-to-Distortion Ratio,1,Speech Technologies and the Arabic Challenge
+SI-SDR,Scale-Invariant Signal-to-Distortion Ratio,8,Dialect Identification and Spoken Language Processing
+SIGSLT,Special Interest Group on Spoken Language Translation,10,Speech Translation and Spoken Language Understanding
+SLU,spoken language understanding,1,Speech Technologies and the Arabic Challenge
+SLU,spoken language understanding1,10,Speech Translation and Spoken Language Understanding
+SLURP,Spoken Language Understanding Resource Package,10,Speech Translation and Spoken Language Understanding
+SNR,Signal-to-Noise Ratio,8,Dialect Identification and Spoken Language Processing
+SPARTA,Speaker Profiling for Arabic Talk,1,Speech Technologies and the Arabic Challenge
+SPARTA,Speaker Profiling for Arabic Talk,8,Dialect Identification and Spoken Language Processing
+speech-LLM,speech large language model,11,Audio-Language Models (ALM) and Speech Agents
+SSML,Speech Synthesis Markup Language,9,Speech Synthesis (Text-to-Speech)
+STOI,Short-Time Objective Intelligibility,1,Speech Technologies and the Arabic Challenge
+STOI,Short-Time Objective Intelligibility,8,Dialect Identification and Spoken Language Processing
+STT,speech-to-text,12,Examples of Arabic Speech Applications
+SUPERB,Speech processing Universal PERformance Benchmark,6,Speech Foundation Models and Self-Supervised Learning
+t-SNE,t-distributed stochastic neighbor embedding,8,Dialect Identification and Spoken Language Processing
+TARIC,Tunisian Arabic Railway Interaction Corpus,1,Speech Technologies and the Arabic Challenge
+TARIC,Tunisian Arabic Railway Interaction Corpus,10,Speech Translation and Spoken Language Understanding
+TDT,token-and-duration transducer,6,Speech Foundation Models and Self-Supervised Learning
+TP,true positives,8,Dialect Identification and Spoken Language Processing
+TTS,text-to-speech,1,Speech Technologies and the Arabic Challenge
+TTS,Text-to-Speech,3,Digital Speech Processing
+TTS,text-to-speech,9,Speech Synthesis (Text-to-Speech)
+TTS,text-to-speech,11,Audio-Language Models (ALM) and Speech Agents
+TTS,text-to-speech,13,Responsible Arabic Speech Technology
+TTS,Text-To-Speech,14,End-to-End Arabic Speech Projects
+VITS,Variational Inference with adversarial learning for end-to-end Text-to-Speech,9,Speech Synthesis (Text-to-Speech)
+W3C,World Wide Web Consortium,9,Speech Synthesis (Text-to-Speech)
+WAV,Waveform Audio File Format,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+WER,Word Error Rate,1,Speech Technologies and the Arabic Challenge
+WER,Word Error Rate,3,Digital Speech Processing
+WER,Word Error Rate,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+WER,Word Error Rate,5,Arabic ASR II: End-to-End Models
+WER,Word Error Rate,6,Speech Foundation Models and Self-Supervised Learning
+WER,Word Error Rate,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
+WER,Word Error Rate,8,Dialect Identification and Spoken Language Processing
+WER,Word Error Rate,9,Speech Synthesis (Text-to-Speech)
+WER,Word Error Rate,11,Audio-Language Models (ALM) and Speech Agents
+WER,Word Error Rate,12,Examples of Arabic Speech Applications
+WER,word error rate,13,Responsible Arabic Speech Technology
+WER,Word Error Rate,14,End-to-End Arabic Speech Projects
+WFST,Weighted Finite-State Transducer,4,Arabic ASR I: Statistical and Deep-Learning Foundations
+ZAEBUC,Zayed Arabic-English Bilingual Undergraduate Corpus,7,"Arabic Speech Corpora, Annotation, and Benchmarks"
