@@ -1,10 +1,8 @@
-# Foundations of Arabic Speech Processing
+# Introduction to Arabic Speech Technologies
 
-*A Modern Introduction — companion website*
+*Companion website — by Hend S. Al-Khalifa*
 
-Welcome to the official companion site for the textbook **Foundations of Arabic Speech Processing: A Modern Introduction**. This book bridges traditional speech-processing methods with modern AI approaches to address the unique challenges of Arabic — its rich morphology, dialectal variation, and code-switching.
-
-This website gathers everything you need to learn by doing:
+Welcome to the official companion site for the textbook **Introduction to Arabic Speech Technologies**. The notebooks were taken out of the printed chapters and moved here, so that a notebook can be corrected when a library changes and extended when something new is worth showing. This site also carries the book's reference material — glossary, abbreviations, bibliography, and a living index of Arabic speech resources.
 
 <div class="grid cards" markdown>
 
@@ -12,17 +10,25 @@ This website gathers everything you need to learn by doing:
 
     ---
 
-    Runnable Jupyter notebooks, one per chapter — from your first Arabic ASR system to a full end-to-end project.
+    Twelve runnable notebooks, one per chapter that has one. Every notebook runs end to end with **no downloads and no accounts**.
 
     [:octicons-arrow-right-24: Open the notebooks](notebooks/index.md)
 
--   :material-database-outline: __Datasets__
+-   :material-database-outline: __Resource Index__
 
     ---
 
-    A curated, searchable database of Arabic speech corpora for ASR, TTS, dialect ID, emotion, and more.
+    Every corpus, benchmark, and model named in the book — with size, dialect, licence, and how to obtain access.
 
-    [:octicons-arrow-right-24: Browse datasets](datasets.md)
+    [:octicons-arrow-right-24: Browse resources](resources/resource-index.md)
+
+-   :material-book-alphabet: __Reference__
+
+    ---
+
+    The merged glossary, abbreviation index, and complete bibliography, assembled across all chapters.
+
+    [:octicons-arrow-right-24: Glossary](glossary.md) · [Bibliography](bibliography.md)
 
 -   :material-tools: __Tools__
 
@@ -32,26 +38,14 @@ This website gathers everything you need to learn by doing:
 
     [:octicons-arrow-right-24: Explore tools](tools.md)
 
--   :material-bookshelf: __Resources__
-
-    ---
-
-    Papers, surveys, benchmarks, and further reading curated alongside the book.
-
-    [:octicons-arrow-right-24: Find resources](resources/index.md)
-
 </div>
 
 ## Who this is for
 
 Researchers, graduate students, and industry practitioners working on Arabic speech recognition, synthesis, and understanding.
 
-## How to use this site
-
-1. Read a chapter in the book.
-2. Open the matching **notebook** and run it (locally or in Google Colab).
-3. Pull data from the **datasets** database and models from the **tools** page.
-4. Go deeper with the curated **resources**.
+!!! note "This site is kept current"
+    Every page that lists a model, dataset, licence, or supported language carries the date it was last checked. A dated [changelog](changelog.md) records what was added or corrected and when.
 
 !!! tip "Bilingual"
     This site is available in **English** and **العربية**. Use the language selector in the top bar to switch.

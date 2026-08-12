@@ -1,43 +1,52 @@
 # Notebooks
 
-Every chapter ships with a runnable Jupyter notebook. You can read them right here on the site, run them locally, or open them in Google Colab.
+Twelve notebooks, one per chapter that has one. They are not printed in the book: the book points here, so a notebook can be corrected when a library changes and added to when something new is worth showing.
 
-## Running the notebooks
+!!! success "Every notebook runs end to end with no downloads and no accounts"
+    Where a real corpus or pretrained model is unavailable, a clearly marked **fallback** stands in for it, and the notebook prints which path it took. Cells that need a download are marked `OPTIONAL` and are safe to skip.
+
+## The notebooks
+
+| Ch. | Notebook | What it does |
+|-----|----------|--------------|
+| 1 | [First contact with Arabic ASR](ch01_first_contact_arabic_asr.ipynb) | Score a recognizer on Arabic, then watch text normalization move the number. MSA against dialect. |
+| 2 | [Phonetics & G2P](ch02_arabic_phonetics_g2p.ipynb) | A rule-based grapheme-to-phoneme converter for diacritized MSA, scored by phone error rate, and what emphasis does to the second formant. |
+| 3 | [Speech features](ch03_speech_features.ipynb) | Framing, spectrograms, the mel filterbank, MFCCs, SpecAugment and linear prediction, each written out rather than called. Includes the chapter's exercises as code. |
+| 4 | [Arabic ASR foundations](ch04_arabic_asr_foundations.ipynb) | WER and CER with and without normalization, four tokenizations of one sentence, the forward algorithm, and continuation counts. |
+| 5 | [End-to-end ASR](ch05_end_to_end_arabic_asr.ipynb) | CTC alignments and the forward sum, a transducer walk, beam search with shallow fusion, and the choice of output unit. |
+| 6 | [Foundation models: full vs LoRA](ch06_arabic_foundation_models.ipynb) | Full fine-tuning against low-rank adaptation: a cost model that runs anywhere, and a real run for a GPU. |
+| 7 | [Corpus loader](ch07_corpus_loader.ipynb) | Two corpora into one schema, the audit that decides a corpus choice, speaker overlap, and Fleiss' kappa. |
+| 8 | [Dialect ID](ch08_dialect_id.ipynb) | A dialect classifier on self-supervised embeddings, accuracy against macro-F1, the confusion matrix, and a spoken-document search. |
+| 8 | [Speaker & noise](ch08_speaker_and_noise.ipynb) | Equal Error Rate and what lies beyond it, a Diarization Error Rate in three parts, and enhancement measured two ways. |
+| 9 | [Arabic TTS](ch09_arabic_tts.ipynb) | The Arabic text-to-speech front end: normalization, diacritization, grapheme-to-phoneme, and the round-trip intelligibility check. |
+| 10 | [Translation & SLU](ch10_speech_translation_slu.ipynb) | Cascade against direct translation with BLEU and chrF, error attribution across the stages, and an intent-and-slot parser. |
+| 11 | [Audio-LLM prompting](ch11_audio_llm_prompting.ipynb) | Instruction routing, per-task metrics, the per-dialect table, and an audit for the four shortcuts that inflate Arabic scores. |
+
+Chapters 12, 13, and 14 have no notebook — their work is a project rather than a computation, and Chapter 14 is itself the worked project.
+
+## Running them
 
 === "Locally"
 
     ```bash
-    git clone https://github.com/arabic-speech-book/arabic-speech-book.github.io.git
-    cd arabic-speech-book.github.io
-    pip install -r requirements.txt   # or use the notebooks' own requirements
-    jupyter lab docs/notebooks
+    pip install -r requirements.txt
+    jupyter lab
     ```
+
+    The [pinned requirements file](requirements.txt) is small: the first block is all twelve notebooks need to run end to end. The second block (torch, transformers, datasets, …) is only for the `OPTIONAL` cells and is commented out — uncomment what you need.
 
 === "Google Colab"
 
-    Open any notebook, then replace `github.com` with `githubtocolab.com` in its URL — Colab will load it directly. (Tip: add a "Open in Colab" badge to each notebook once the repo is public.)
+    Open the notebook and run it. The first block of `requirements.txt` is already installed there. For an `OPTIONAL` cell, run the pip line printed at the top of the notebook that needs it.
 
-## Chapter notebooks
+## Two conventions worth keeping
 
-| # | Notebook | Topic |
-|---|----------|-------|
-| 1 | [First contact: Arabic ASR](ch01_first_contact_arabic_asr.ipynb) | Transcribe your first Arabic audio |
-| 2 | [Arabic phonetics & G2P](ch02_arabic_phonetics_g2p.ipynb) | Grapheme-to-phoneme for Arabic |
-| 3 | [Speech features](ch03_speech_features.ipynb) | Spectrograms, MFCCs, filter banks |
-| 4 | [Arabic ASR foundations](ch04_arabic_asr_foundations.ipynb) | Acoustic & language modeling |
-| 5 | [End-to-end Arabic ASR](ch05_end_to_end_arabic_asr.ipynb) | CTC / seq2seq pipelines |
-| 6 | [Arabic foundation models](ch06_arabic_foundation_models.ipynb) | Whisper, wav2vec 2.0, ArTST |
-| 7 | [Corpus loader](ch07_corpus_loader.ipynb) | Loading & preparing Arabic corpora |
-| 8 | [Enhancement front-end](ch08_enhancement_frontend.ipynb) | Denoising & speech enhancement |
-| 9 | [Dialect identification](ch09_dialect_id.ipynb) | Identifying Arabic dialects |
-| 10 | [Speaker identification](ch10_speaker_id.ipynb) | Speaker recognition |
-| 11 | [Arabic TTS](ch11_arabic_tts.ipynb) | Text-to-speech synthesis |
-| 12 | [Speech translation & SLU](ch12_speech_translation_slu.ipynb) | Translation & understanding |
-| 13 | [Pronunciation & MDD](ch13_pronunciation_mdd.ipynb) | Mispronunciation detection |
-| 14 | [Audio-visual emotion](ch14_av_emotion.ipynb) | Multimodal emotion recognition |
-| 15 | [Audio LLM prompting](ch15_audio_llm_prompting.ipynb) | Prompting audio LLMs |
-| 16 | [Capstone project](ch16_end_to_end_arabic_project.ipynb) | End-to-end Arabic system |
-| 17 | [Fairness, security & audit](ch17_fairness_security_audit.ipynb) | Responsible deployment |
+!!! abstract "The provenance cell"
+    Every notebook ends with one. It asks for the corpus and its release version, the licence, the model and its revision, the normalization applied before scoring, and the date. Fill it in before quoting any number the notebook produced — it is the difference between a result and a screenshot.
 
-!!! note
-    Notebooks render read-only on this site. Use the **download** icon at the top of each notebook page to grab the `.ipynb`.
+!!! abstract "Per dialect, always"
+    Several notebooks compute a pooled figure and then break it down. **The breakdown is the point.** A pooled Arabic number is an average over things that are not the same thing, and it can look good while a whole variety fails.
+
+## Rebuilding
+
+The notebooks are *generated*, so the twelve share one structure and one set of conventions. The generator (`nbbuild.py` and one `build_chNN.py` per notebook) lives in the repository's `notebooks-src/build/` folder. Edit the builder rather than the notebook if you want a change to survive the next regeneration.

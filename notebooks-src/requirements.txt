@@ -1,0 +1,24 @@
+# Pinned environment for the companion notebooks of
+# Introduction to Arabic Speech Technologies.
+#
+# The first block is all that twelve of the twelve notebooks need to run end to
+# end. Install it and every cell that is not marked OPTIONAL will execute.
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.9
+scikit-learn==1.8.0
+
+# The second block is for the OPTIONAL cells: real recognizers, real
+# synthesizers, real encoders, real corpora. They need a download and, for the
+# fine-tuning in Notebook 6.1, a GPU. Uncomment what you need.
+#
+# torch==2.6.0
+# transformers==4.49.0
+# datasets==3.3.2
+# soundfile==0.13.1
+# librosa==0.10.2
+# peft==0.14.0
+# speechbrain==1.0.2
+#
+# On Google Colab the first block is already installed. For the second, run
+# the pip line printed at the top of the notebook that needs it.

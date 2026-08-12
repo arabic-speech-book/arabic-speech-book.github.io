@@ -1,11 +1,11 @@
-site_name: Foundations of Arabic Speech Processing
+site_name: Introduction to Arabic Speech Technologies
 site_url: https://arabic-speech-book.github.io/
-site_description: 'Companion website for the book "Foundations of Arabic Speech Processing: A Modern Introduction" — notebooks, datasets, tools, and resources.'
-site_author: Hend Al-Khalifa
+site_description: 'Companion website for the book "Introduction to Arabic Speech Technologies" by Hend S. Al-Khalifa — notebooks, datasets, tools, glossary, bibliography and resources.'
+site_author: Hend S. Al-Khalifa
 repo_url: https://github.com/arabic-speech-book/arabic-speech-book.github.io
 repo_name: arabic-speech-book
 edit_uri: edit/main/docs/
-copyright: Copyright &copy; 2026 — Foundations of Arabic Speech Processing
+copyright: Copyright &copy; 2026 Hend S. Al-Khalifa — Introduction to Arabic Speech Technologies
 
 theme:
   name: material
@@ -74,16 +74,27 @@ plugins:
         - locale: ar
           name: العربية
           build: true
-          site_name: أُسس معالجة الكلام العربي
-          site_description: 'الموقع المرافق لكتاب «أسس معالجة الكلام العربي: مقدمة حديثة» — الدفاتر والبيانات والأدوات والمصادر.'
+          site_name: مقدمة في تقنيات الكلام العربي
+          site_description: 'الموقع المرافق لكتاب «مقدمة في تقنيات الكلام العربي» للدكتورة هند الخليفة — الدفاتر والبيانات والأدوات والمسرد وثبت المراجع والمصادر.'
           nav_translations:
             Home: الرئيسية
             About the Book: عن الكتاب
             Notebooks: الدفاتر البرمجية
+            Resources: المصادر
+            Resource Index: فهرس المصادر
             Datasets: قواعد البيانات
             Tools: الأدوات
-            Resources: المصادر
             Literature: المراجع
+            Reference: المرجعيات
+            Glossary: المسرد
+            Abbreviations: قائمة الاختصارات
+            Bibliography: ثبت المراجع
+            Book Companion: ملحقات الكتاب
+            Figure Sources: مصادر الأشكال
+            Chapter 14 Templates: قوالب الفصل 14
+            New Applications: تطبيقات جديدة
+            Errata: التصويبات
+            Changelog: سجل التغييرات
 
 nav:
   - Home: index.md
@@ -97,21 +108,27 @@ nav:
       - notebooks/ch05_end_to_end_arabic_asr.ipynb
       - notebooks/ch06_arabic_foundation_models.ipynb
       - notebooks/ch07_corpus_loader.ipynb
-      - notebooks/ch08_enhancement_frontend.ipynb
-      - notebooks/ch09_dialect_id.ipynb
-      - notebooks/ch10_speaker_id.ipynb
-      - notebooks/ch11_arabic_tts.ipynb
-      - notebooks/ch12_speech_translation_slu.ipynb
-      - notebooks/ch13_pronunciation_mdd.ipynb
-      - notebooks/ch14_av_emotion.ipynb
-      - notebooks/ch15_audio_llm_prompting.ipynb
-      - notebooks/ch16_end_to_end_arabic_project.ipynb
-      - notebooks/ch17_fairness_security_audit.ipynb
-  - Datasets: datasets.md
-  - Tools: tools.md
+      - notebooks/ch08_dialect_id.ipynb
+      - notebooks/ch08_speaker_and_noise.ipynb
+      - notebooks/ch09_arabic_tts.ipynb
+      - notebooks/ch10_speech_translation_slu.ipynb
+      - notebooks/ch11_audio_llm_prompting.ipynb
   - Resources:
       - resources/index.md
+      - Resource Index: resources/resource-index.md
+      - Datasets: datasets.md
+      - Tools: tools.md
       - Literature: resources/literature.md
+  - Reference:
+      - Glossary: glossary.md
+      - Abbreviations: abbreviations.md
+      - Bibliography: bibliography.md
+  - Book Companion:
+      - Figure Sources: figures.md
+      - Chapter 14 Templates: templates.md
+      - New Applications: applications.md
+      - Errata: errata.md
+      - Changelog: changelog.md
 
 extra:
   alternate:
