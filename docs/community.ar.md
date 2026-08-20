@@ -23,7 +23,7 @@
 | المنصّة | التركيز | المنظِّم | الرابط |
 |---------|---------|---------|--------|
 | **ArabicNLP** | مؤتمر معالجة اللغة العربية والكلام (خلفًا لـ WANLP) | SIGARAB | [arabicnlp2026.sigarab.org](https://arabicnlp2026.sigarab.org/) |
-| **LREC / LREC-COLING** | موارد اللغة وتقييمها | ELRA | [lrec-conf.org](https://lrec-conf.org/) |
+| **LREC / LREC-COLING** | موارد اللغة وتقييمها | ELRA | [elra.info/…/lrec](https://www.elra.info/elra-events/lrec/) |
 | **ACL / EMNLP / NAACL** | معالجة اللغة بمسارات كلام ومتعدّدة الوسائط | ACL | [aclanthology.org](https://aclanthology.org/) |
 
 ## المجلات
@@ -58,8 +58,8 @@
 |---------|-------|----------|--------|
 | **QCRI** | جامعة حمد بن خليفة، قطر | التعرّف والمعالجة العربية، QASR، تحدّيات MGB | [hbku.edu.qa/en/qcri](https://www.hbku.edu.qa/en/qcri) |
 | **MBZUAI — NLP** | جامعة محمد بن زايد، أبوظبي | ArTST ونماذج الكلام العربي الأساسية | [mbzuai.ac.ae](https://mbzuai.ac.ae/) |
-| **CAMeL Lab** | جامعة نيويورك أبوظبي | أدوات العربية (CAMeL Tools) والصرف | [camel-lab.com](https://www.camel-lab.com/) |
-| **KACST** | الرياض، السعودية | موارد اللغة والكلام العربي | [kacst.edu.sa](https://www.kacst.edu.sa/) |
+| **CAMeL Lab** | جامعة نيويورك أبوظبي | أدوات العربية (CAMeL Tools) والصرف | [github.com/CAMeL-Lab](https://github.com/CAMeL-Lab) |
+| **KACST** | الرياض، السعودية | موارد اللغة والكلام العربي | [kacst.gov.sa](https://kacst.gov.sa/en/) |
 | **SDAIA / NCAI** | السعودية | SADA وعلّام والبرامج الوطنية للذكاء الاصطناعي | [sdaia.gov.sa](https://sdaia.gov.sa/) |
 
 ### مجموعات كلام عالمية
@@ -82,7 +82,7 @@
 | **Kanari AI** | تعرّف وتخليق للهجات العربية (19 لهجة) | [kanari.ai](https://kanari.ai/) |
 | **TII** | معهد الابتكار التقني، أبوظبي — Falcon والنماذج العربية | [tii.ae](https://www.tii.ae/) |
 | **Mozilla Common Voice** | بيانات صوت مفتوحة متعدّدة اللغات، تشمل العربية | [commonvoice.mozilla.org](https://commonvoice.mozilla.org/) |
-| **فهرس ELRA (ELDA)** | توزيع المدوّنات العربية | [catalogue.elra.info](https://catalogue.elra.info/) |
+| **فهرس ELRA (ELDA)** | توزيع المدوّنات العربية | [elra.info/catalogues](https://www.elra.info/catalogues/) |
 
 ### واجهات وأدوات كلام عالمية
 

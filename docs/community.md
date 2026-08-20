@@ -23,7 +23,7 @@ Where speech research — Arabic and general — is published, presented, and bu
 | Venue | Focus | Organizer | Link |
 |-------|-------|-----------|------|
 | **ArabicNLP** | The Arabic NLP & speech conference (formerly WANLP) | SIGARAB | [arabicnlp2026.sigarab.org](https://arabicnlp2026.sigarab.org/) |
-| **LREC / LREC-COLING** | Language resources & evaluation | ELRA | [lrec-conf.org](https://lrec-conf.org/) |
+| **LREC / LREC-COLING** | Language resources & evaluation | ELRA | [elra.info/…/lrec](https://www.elra.info/elra-events/lrec/) |
 | **ACL / EMNLP / NAACL** | NLP with speech & multimodal tracks | ACL | [aclanthology.org](https://aclanthology.org/) |
 
 ## Journals
@@ -58,8 +58,8 @@ Where speech research — Arabic and general — is published, presented, and bu
 |-----|-------------|-----------|------|
 | **QCRI** | Hamad Bin Khalifa University, Qatar | Arabic ASR/NLP, QASR, MGB challenges | [hbku.edu.qa/en/qcri](https://www.hbku.edu.qa/en/qcri) |
 | **MBZUAI — NLP** | MBZUAI, Abu Dhabi | ArTST, Arabic speech foundation models | [mbzuai.ac.ae](https://mbzuai.ac.ae/) |
-| **CAMeL Lab** | NYU Abu Dhabi | Arabic NLP tools (CAMeL Tools), morphology | [camel-lab.com](https://www.camel-lab.com/) |
-| **KACST** | Riyadh, Saudi Arabia | Arabic language & speech resources | [kacst.edu.sa](https://www.kacst.edu.sa/) |
+| **CAMeL Lab** | NYU Abu Dhabi | Arabic NLP tools (CAMeL Tools), morphology | [github.com/CAMeL-Lab](https://github.com/CAMeL-Lab) |
+| **KACST** | Riyadh, Saudi Arabia | Arabic language & speech resources | [kacst.gov.sa](https://kacst.gov.sa/en/) |
 | **SDAIA / NCAI** | Saudi Arabia | SADA, ALLAM, national AI programs | [sdaia.gov.sa](https://sdaia.gov.sa/) |
 
 ### Global speech groups
@@ -82,7 +82,7 @@ Where speech research — Arabic and general — is published, presented, and bu
 | **Kanari AI** | Dialectal Arabic ASR/TTS (19 dialects) | [kanari.ai](https://kanari.ai/) |
 | **TII** | Technology Innovation Institute, Abu Dhabi — Falcon & Arabic models | [tii.ae](https://www.tii.ae/) |
 | **Mozilla Common Voice** | Open multilingual voice data, incl. Arabic | [commonvoice.mozilla.org](https://commonvoice.mozilla.org/) |
-| **ELRA Catalogue (ELDA)** | Distribution of Arabic corpora | [catalogue.elra.info](https://catalogue.elra.info/) |
+| **ELRA Catalogue (ELDA)** | Distribution of Arabic corpora | [elra.info/catalogues](https://www.elra.info/catalogues/) |
 
 ### Global speech APIs & tools
 
