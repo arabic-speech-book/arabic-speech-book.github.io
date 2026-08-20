@@ -99,7 +99,7 @@ plugins:
             Annotation Guideline: دليل الوسم
             Tool Reference: مرجع الأدوات
             Reproducibility Checklist: قائمة إعادة الإنتاج
-            New Applications: تطبيقات جديدة
+            Applications & Methods: تطبيقات وطرائق جديدة
             Errata: التصويبات
             Changelog: سجل التغييرات
 
@@ -140,7 +140,7 @@ nav:
           - Annotation Guideline: book-templates/annotation-guideline.md
           - Tool Reference: book-templates/tool-reference.md
           - Reproducibility Checklist: book-templates/evaluation-and-reproducibility-checklist.md
-      - New Applications: applications.md
+      - Applications & Methods: applications.md
       - Errata: errata.md
       - Changelog: changelog.md
 

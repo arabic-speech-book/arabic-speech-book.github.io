@@ -1,9 +1,9 @@
-# New Arabic Speech Applications
+# New Speech Applications & Methods
 
-The book promises, at the end of Chapter 12, to track new Arabic speech applications as they appear. This is the one page meant to be **updated after publication** rather than merely posted — so it is deliberately the easiest page on the site to add an entry to.
+The book promises, at the end of Chapter 12, to track new Arabic speech applications as they appear — and this page keeps that promise while also noting the broader speech methods, models, and tools relevant to Arabic speech work. It is the one page meant to be **updated after publication** rather than merely posted, so it is deliberately the easiest page on the site to add an entry to.
 
 !!! note "Open for entries"
-    New systems, corpora, models, and demos will be listed here as they appear, newest first, each dated so a reader can see how current it is.
+    New systems, corpora, models, methods, and demos will be listed here as they appear, newest first, each dated so a reader can see how current it is.
 
 | Date added | Application | What it is | Link |
 |------------|-------------|------------|------|
