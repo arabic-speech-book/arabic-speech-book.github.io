@@ -37,7 +37,9 @@ Chapters 12, 13, and 14 have no notebook — their work is a project rather than
 
 === "Google Colab"
 
-    Open the notebook and run it. The first block of `requirements.txt` is already installed there. For an `OPTIONAL` cell, run the pip line printed at the top of the notebook that needs it.
+    Every notebook page has an **"Open in Colab"** badge at the top — one click opens it in Colab. Colab can only load notebooks from a **public** GitHub repository, so the badge goes live once this site is published. While the repository is private, use the **download** icon on the notebook page, then in Colab choose **File → Upload notebook**.
+
+    Once it is open, the first block of `requirements.txt` is already installed in Colab. For an `OPTIONAL` cell, run the pip line printed at the top of the notebook that needs it.
 
 ## Two conventions worth keeping
 
