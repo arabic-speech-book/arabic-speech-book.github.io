@@ -1,11 +1,11 @@
 site_name: Introduction to Arabic Speech Technologies
 site_url: https://arabic-speech-book.github.io/
 site_description: 'Companion website for the book "Introduction to Arabic Speech Technologies" by Hend S. Al-Khalifa — notebooks, datasets, tools, glossary, bibliography and resources.'
-site_author: Hend S. Al-Khalifa
+site_author: Prof. Hend S. Al-Khalifa
 repo_url: https://github.com/arabic-speech-book/arabic-speech-book.github.io
 repo_name: arabic-speech-book
 edit_uri: edit/main/docs/
-copyright: Copyright &copy; 2026 Hend S. Al-Khalifa — Introduction to Arabic Speech Technologies
+copyright: Copyright &copy; 2026 <a href="https://faculty.ksu.edu.sa/ar/hendk" target="_blank" rel="noopener">Prof. Hend S. Al-Khalifa</a> — Introduction to Arabic Speech Technologies
 
 theme:
   name: material
