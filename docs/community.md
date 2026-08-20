@@ -56,6 +56,8 @@ Where speech research — Arabic and general — is published, presented, and bu
 
 | Lab | Institution | Known for | Link |
 |-----|-------------|-----------|------|
+| **iWAN Research Group** | King Saud University, Riyadh | Arabic NLP & speech — open models, datasets & tools (this book's group) | [iwan-rg.github.io](https://iwan-rg.github.io/) |
+| **King Saud University (KSU)** | Riyadh, Saudi Arabia | Arabic language & speech research | [ksu.edu.sa](https://www.ksu.edu.sa/en/) |
 | **QCRI** | Hamad Bin Khalifa University, Qatar | Arabic ASR/NLP, QASR, MGB challenges | [hbku.edu.qa/en/qcri](https://www.hbku.edu.qa/en/qcri) |
 | **MBZUAI — NLP** | MBZUAI, Abu Dhabi | ArTST, Arabic speech foundation models | [mbzuai.ac.ae](https://mbzuai.ac.ae/) |
 | **CAMeL Lab** | NYU Abu Dhabi | Arabic NLP tools (CAMeL Tools), morphology | [github.com/CAMeL-Lab](https://github.com/CAMeL-Lab) |
