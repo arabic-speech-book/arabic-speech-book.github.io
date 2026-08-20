@@ -46,6 +46,20 @@ Open-source models, toolkits, and libraries for building Arabic speech systems �
 | **torchaudio** | PyTorch audio I/O, transforms, models | [docs](https://pytorch.org/audio/) |
 | **pydub / FFmpeg** | Format conversion & basic editing | [ffmpeg.org](https://ffmpeg.org/) |
 
+## Annotation, alignment & recording
+
+| Tool | What it does | Link |
+|------|--------------|------|
+| **Praat** | Phonetic analysis and TextGrid labeling — the standard for hand annotation | [fon.hum.uva.nl/praat](https://www.fon.hum.uva.nl/praat/) |
+| **ELAN** | Multi-tier audio/video annotation, built for language documentation | [archive.mpi.nl/tla/elan](https://archive.mpi.nl/tla/elan) |
+| **Label Studio** | Open-source labeling for ASR, classification, and diarization | [labelstud.io](https://labelstud.io/) |
+| **Montreal Forced Aligner** | Forced alignment of audio to text (phone- and word-level timestamps) | [montreal-forced-aligner.readthedocs.io](https://montreal-forced-aligner.readthedocs.io/) |
+| **Audacity** | Free multi-track audio recorder and editor | [audacityteam.org](https://www.audacityteam.org/) |
+| **SoX** | Command-line recording, conversion, and batch processing | [sourceforge.net/projects/sox](https://sourceforge.net/projects/sox/) |
+
+!!! tip "Collecting Arabic speech"
+    For crowd-sourced recording at scale, Mozilla **Common Voice** doubles as a collection platform — see the [Datasets](datasets.md) page. When you record, fill in the datasheet from the [Chapter 14 templates](book-templates/datasheet.md) so the corpus is documented from day one.
+
 ## Evaluation
 
 | Tool | Metric | Link |

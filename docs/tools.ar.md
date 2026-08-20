@@ -46,6 +46,20 @@
 | **torchaudio** | إدخال/إخراج الصوت والتحويلات والنماذج | [docs](https://pytorch.org/audio/) |
 | **pydub / FFmpeg** | تحويل الصيغ والتحرير الأساسي | [ffmpeg.org](https://ffmpeg.org/) |
 
+## الوسم والمحاذاة والتسجيل
+
+| الأداة | ماذا تفعل | الرابط |
+|--------|-----------|--------|
+| **Praat** | التحليل الصوتي ووسم TextGrid — المعيار للوسم اليدوي | [fon.hum.uva.nl/praat](https://www.fon.hum.uva.nl/praat/) |
+| **ELAN** | وسم صوتي/مرئي متعدّد الطبقات، مبني لتوثيق اللغات | [archive.mpi.nl/tla/elan](https://archive.mpi.nl/tla/elan) |
+| **Label Studio** | وسم مفتوح المصدر للتعرّف والتصنيف والتفريق | [labelstud.io](https://labelstud.io/) |
+| **Montreal Forced Aligner** | محاذاة قسرية للصوت مع النص (توقيتات على مستوى الصوت والكلمة) | [montreal-forced-aligner.readthedocs.io](https://montreal-forced-aligner.readthedocs.io/) |
+| **Audacity** | مسجّل ومحرّر صوت متعدّد المسارات ومجاني | [audacityteam.org](https://www.audacityteam.org/) |
+| **SoX** | تسجيل وتحويل ومعالجة دفعية من سطر الأوامر | [sourceforge.net/projects/sox](https://sourceforge.net/projects/sox/) |
+
+!!! tip "جمع الكلام العربي"
+    للتسجيل الجماعي على نطاق واسع، تعمل **Common Voice** من Mozilla منصّةَ جمع أيضًا — انظر صفحة [قواعد البيانات](datasets.md). وعند التسجيل، املأ بطاقة البيانات من [قوالب الفصل 14](book-templates/datasheet.md) ليُوثَّق المتن من أوّل يوم.
+
 ## التقييم
 
 | الأداة | المقياس | الرابط |

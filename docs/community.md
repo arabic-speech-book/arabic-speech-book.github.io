@@ -26,6 +26,30 @@ Where speech research — Arabic and general — is published, presented, and bu
 | **LREC / LREC-COLING** | Language resources & evaluation | ELRA | [elra.info/…/lrec](https://www.elra.info/elra-events/lrec/) |
 | **ACL / EMNLP / NAACL** | NLP with speech & multimodal tracks | ACL | [aclanthology.org](https://aclanthology.org/) |
 
+## Workshops & shared tasks
+
+### Arabic-focused
+
+| Task / Workshop | Focus | Link |
+|-----------------|-------|------|
+| **MGB Challenge** | Multi-Genre Broadcast — Arabic ASR & dialect (ADI-17 came from MGB-5) | [mgb-challenge.org](http://www.mgb-challenge.org/) |
+| **NADI** | Nuanced Arabic Dialect Identification (run with ArabicNLP) | [nadi.dlnlp.ai](https://nadi.dlnlp.ai/) |
+| **OSACT** | Open-Source Arabic Corpora & Processing Tools — shared tasks (e.g. dialect→MSA), at LREC | [osact-lrec.github.io](https://osact-lrec.github.io/) |
+| **ArabicNLP shared tasks** | Annual shared tasks run with the ArabicNLP conference | [arabicnlp2026.sigarab.org](https://arabicnlp2026.sigarab.org/) |
+
+### General speech challenges
+
+| Challenge | Focus | Link |
+|-----------|-------|------|
+| **ASVspoof** | Anti-spoofing & deepfake-speech countermeasures | [asvspoof.org](https://www.asvspoof.org/) |
+| **CHiME** | Robust ASR in noisy, everyday environments | [chimechallenge.org](https://www.chimechallenge.org/) |
+| **DIHARD** | Speaker diarization — "who spoke when" | [dihardchallenge.github.io](https://dihardchallenge.github.io/dihard3/) |
+| **Blizzard Challenge** | Text-to-speech synthesis | [cstr.ed.ac.uk/…/blizzard](https://www.cstr.ed.ac.uk/projects/blizzard/) |
+| **Voice Conversion Challenge** | Voice & singing-voice conversion | [vc-challenge.org](http://www.vc-challenge.org/) |
+| **ZeroSpeech** | Zero-resource speech — learn from raw audio, no labels | [zerospeech.com](https://zerospeech.com/) |
+| **SUPERB** | Benchmark for self-supervised speech models | [superbbenchmark.github.io](https://superbbenchmark.github.io/) |
+| **IWSLT shared tasks** | Spoken language translation (incl. dialectal Arabic) | [iwslt.org](https://iwslt.org/) |
+
 ## Journals
 
 | Journal | Publisher | Scope | Link |

@@ -26,6 +26,30 @@
 | **LREC / LREC-COLING** | موارد اللغة وتقييمها | ELRA | [elra.info/…/lrec](https://www.elra.info/elra-events/lrec/) |
 | **ACL / EMNLP / NAACL** | معالجة اللغة بمسارات كلام ومتعدّدة الوسائط | ACL | [aclanthology.org](https://aclanthology.org/) |
 
+## الورش والمهام المشتركة
+
+### مركّزة على العربية
+
+| المهمة / الورشة | التركيز | الرابط |
+|------------------|---------|--------|
+| **MGB Challenge** | البثّ متعدّد الأنواع — التعرّف العربي واللهجات (ADI-17 من MGB-5) | [mgb-challenge.org](http://www.mgb-challenge.org/) |
+| **NADI** | تمييز اللهجات العربية الدقيق (يُقام مع ArabicNLP) | [nadi.dlnlp.ai](https://nadi.dlnlp.ai/) |
+| **OSACT** | مدوّنات وأدوات العربية مفتوحة المصدر — مهام مشتركة (مثل اللهجة→الفصحى)، في LREC | [osact-lrec.github.io](https://osact-lrec.github.io/) |
+| **مهام ArabicNLP المشتركة** | مهام مشتركة سنوية تُقام مع مؤتمر ArabicNLP | [arabicnlp2026.sigarab.org](https://arabicnlp2026.sigarab.org/) |
+
+### تحدّيات الكلام العامة
+
+| التحدّي | التركيز | الرابط |
+|---------|---------|--------|
+| **ASVspoof** | مقاومة الانتحال والكلام المزيّف | [asvspoof.org](https://www.asvspoof.org/) |
+| **CHiME** | تعرّف متين في البيئات الضوضائية اليومية | [chimechallenge.org](https://www.chimechallenge.org/) |
+| **DIHARD** | تفريق المتحدّثين — «من تكلّم ومتى» | [dihardchallenge.github.io](https://dihardchallenge.github.io/dihard3/) |
+| **Blizzard Challenge** | تخليق النص إلى كلام | [cstr.ed.ac.uk/…/blizzard](https://www.cstr.ed.ac.uk/projects/blizzard/) |
+| **Voice Conversion Challenge** | تحويل الصوت والغناء | [vc-challenge.org](http://www.vc-challenge.org/) |
+| **ZeroSpeech** | كلام بلا موارد — التعلّم من الصوت الخام دون تسميات | [zerospeech.com](https://zerospeech.com/) |
+| **SUPERB** | مقياس لنماذج الكلام ذاتية الإشراف | [superbbenchmark.github.io](https://superbbenchmark.github.io/) |
+| **مهام IWSLT المشتركة** | ترجمة اللغة المنطوقة (تشمل العربية اللهجية) | [iwslt.org](https://iwslt.org/) |
+
 ## المجلات
 
 | المجلة | الناشر | المجال | الرابط |
