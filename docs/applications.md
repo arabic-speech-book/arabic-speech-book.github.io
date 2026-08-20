@@ -7,7 +7,7 @@ The book promises, at the end of Chapter 12, to track new Arabic speech applicat
 
 | Date added | Application | What it is | Link |
 |------------|-------------|------------|------|
-| — | — | — | — |
+| 2026-08-20 | Diffusion Language Models for Speech Recognition | Diffusion-based language models for ASR: masked and uniform-state diffusion LMs rescore hypotheses, plus a joint CTC + diffusion decoding scheme. Naveriani, Zeyer, Schlüter & Ney (2026). | [arxiv.org/abs/2604.14001](https://arxiv.org/abs/2604.14001) |
 
 ## Report something {#report}
 

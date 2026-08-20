@@ -2,6 +2,10 @@
 
 The book says the site is kept current; this dated log is how a reader checks that claim rather than taking it on faith. Newest first.
 
+## 2026-08-20
+
+- Added the first entry to the [New Applications](applications.md) page: *Diffusion Language Models for Speech Recognition* (arXiv 2604.14001).
+
 ## 2026-08-12
 
 - Aligned the site with the July/August manuscript revision: title set to **Introduction to Arabic Speech Technologies**.
