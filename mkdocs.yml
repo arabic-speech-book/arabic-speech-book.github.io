@@ -85,6 +85,7 @@ plugins:
             Resource Index: فهرس المصادر
             Datasets: قواعد البيانات
             Tools: الأدوات
+            Conferences & Community: المؤتمرات والمجتمع
             Literature: المراجع
             Reference: المرجعيات
             Glossary: المسرد
@@ -124,6 +125,7 @@ nav:
       - Resource Index: resources/resource-index.md
       - Datasets: datasets.md
       - Tools: tools.md
+      - Conferences & Community: community.md
       - Literature: resources/literature.md
   - Reference:
       - Glossary: glossary.md
