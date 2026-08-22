@@ -17,6 +17,7 @@ Where speech research — Arabic and general — is published, presented, and bu
 | **Speaker Odyssey** | Speaker & language recognition | ISCA | [isca-speech.org](https://www.isca-speech.org/) |
 | **SSW** | Speech Synthesis Workshop (TTS) | ISCA | [isca-speech.org](https://www.isca-speech.org/) |
 | **IWSLT** | Spoken language translation | ACL SIGSLT | [iwslt.org](https://iwslt.org/) |
+| **ICPhS** | International Congress of Phonetic Sciences — phonetics (every 4 years) | International Phonetic Association | [internationalphoneticassociation.org](https://www.internationalphoneticassociation.org/content/icphs) |
 
 ### Arabic & language resources
 

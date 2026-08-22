@@ -17,6 +17,7 @@
 | **Speaker Odyssey** | التعرّف على المتحدّث واللغة | ISCA | [isca-speech.org](https://www.isca-speech.org/) |
 | **SSW** | ورشة تخليق الكلام (TTS) | ISCA | [isca-speech.org](https://www.isca-speech.org/) |
 | **IWSLT** | ترجمة اللغة المنطوقة | ACL SIGSLT | [iwslt.org](https://iwslt.org/) |
+| **ICPhS** | المؤتمر الدولي لعلوم الأصوات — الصوتيات (كل أربع سنوات) | الجمعية الصوتية الدولية (IPA) | [internationalphoneticassociation.org](https://www.internationalphoneticassociation.org/content/icphs) |
 
 ### العربية وموارد اللغة
 
