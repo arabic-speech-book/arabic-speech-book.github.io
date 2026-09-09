@@ -167,171 +167,178 @@ def build_abbreviations():
 # --------------------------------------------------------------------------- #
 # Bibliography
 # --------------------------------------------------------------------------- #
-def _bib_type(venue):
-    low = (venue or "").lower()
-    if any(k in low for k in ("proceedings", "conference", "workshop", "lrec",
-                              "interspeech", "emnlp", "naacl", "icassp",
-                              "symposium", "acl ")):
-        return "inproceedings"
-    if "arxiv" in low or not low:
-        return "misc"
-    return "article"
+BIB_CHECKED = "2026-09-09"
+
+_ACCENT = re.compile(r"\\['\"^`~=.vHtcdbu]\s*\{?([A-Za-z])\}?")
 
 
-def _bibval(s):
-    return (s or "").replace("{", "").replace("}", "").strip()
+def _debrace(s):
+    if not s:
+        return ""
+    s = _ACCENT.sub(r"\1", str(s))
+    s = (s.replace("{", "").replace("}", "")
+           .replace("\\&", "&").replace("\\_", "_").replace("\\%", "%")
+           .replace("\\$", "$").replace("\\#", "#").replace("~", " ")
+           .replace("\\", ""))
+    return clean(s)
 
 
-def write_bibtex(works, path):
+_RIS_TYPE = {"article": "JOUR", "inproceedings": "CONF", "incollection": "CHAP",
+             "book": "BOOK", "phdthesis": "THES", "mastersthesis": "THES",
+             "techreport": "RPRT", "misc": "GEN"}
+
+
+def _venue(e):
+    for f in ("journal", "booktitle", "publisher", "school", "institution",
+              "series", "howpublished"):
+        if e.get(f):
+            return _debrace(e[f])
+    return ""
+
+
+def _authors(e):
+    a = _debrace(e.get("author") or e.get("editor") or "")
+    return "; ".join(p.strip() for p in re.split(r"\s+and\s+", a) if p.strip())
+
+
+def _doi(e):
+    d = _debrace(e.get("doi", "")).strip()
+    return d.replace("https://doi.org/", "").replace("http://doi.org/", "") if d else ""
+
+
+def _link(e):
+    d = _doi(e)
+    return f"https://doi.org/{d}" if d else (e.get("url") or "").strip()
+
+
+def _last_name(e):
+    a = _debrace(e.get("author") or e.get("editor") or "")
+    if not a:
+        return None
+    first = re.split(r"\s+and\s+", a)[0].strip()
+    return (first.split(",")[0] if "," in first else first.split()[-1]).lower()
+
+
+def _load_bib():
+    import bibtexparser
+    from bibtexparser.bparser import BibTexParser
+    parser = BibTexParser(common_strings=True)
+    parser.ignore_nonstandard_types = False
+    with open(EXP / "bibliography" / "bibliography.bib", encoding="utf-8") as f:
+        return bibtexparser.load(f, parser=parser).entries
+
+
+def _write_ris_bib(entries, path):
     out = []
-    for w in works:
-        key = _bibval(w.get("bibtex_key")) or "ref"
-        et = _bib_type(w.get("venue"))
-        lines = [f"@{et}{{{key},"]
-
-        def fld(name, val):
-            val = _bibval(val)
-            if val:
-                lines.append(f"  {name} = {{{val}}},")
-
-        fld("author", w.get("authors"))
-        fld("title", w.get("title"))
-        fld("year", w.get("year"))
-        venue = _bibval(w.get("venue"))
+    for e in entries:
+        rec = [f"TY  - {_RIS_TYPE.get(e.get('ENTRYTYPE', 'misc'), 'GEN')}"]
+        a = _debrace(e.get("author") or e.get("editor") or "")
+        for au in (p.strip() for p in re.split(r"\s+and\s+", a) if p.strip()):
+            rec.append(f"AU  - {au}")
+        if _debrace(e.get("year", "")):
+            rec.append(f"PY  - {_debrace(e['year'])}")
+        if _debrace(e.get("title", "")):
+            rec.append(f"TI  - {_debrace(e['title'])}")
+        venue = _venue(e)
         if venue:
-            name = ("booktitle" if et == "inproceedings"
-                    else "journal" if et == "article" else "howpublished")
-            lines.append(f"  {name} = {{{venue}}},")
-        fld("pages", w.get("pages"))
-        fld("doi", w.get("doi"))
-        fld("url", w.get("url"))
-        fld("note", w.get("raw"))
-        lines.append("}")
-        out.append("\n".join(lines))
-    path.write_text("\n\n".join(out) + "\n", encoding="utf-8")
-
-
-def write_ris(works, path):
-    ty = {"inproceedings": "CONF", "article": "JOUR", "misc": "GEN"}
-    out = []
-    for w in works:
-        et = _bib_type(w.get("venue"))
-        rec = [f"TY  - {ty[et]}"]
-        if clean(w.get("authors")):
-            rec.append(f"AU  - {clean(w.get('authors'))}")
-        if clean(w.get("year")):
-            rec.append(f"PY  - {clean(w.get('year'))}")
-        if clean(w.get("title")):
-            rec.append(f"TI  - {clean(w.get('title'))}")
-        venue = clean(w.get("venue"))
-        if venue:
-            rec.append(f"{'BT' if et == 'inproceedings' else 'JO'}  - {venue}")
-        pages = clean(w.get("pages"))
+            tag = "BT" if e.get("ENTRYTYPE") in ("inproceedings", "incollection") else "JO"
+            rec.append(f"{tag}  - {venue}")
+        pages = _debrace(e.get("pages", ""))
         if pages:
-            m = re.split(r"[-–]", pages)
+            m = re.split(r"[-\u2013]+", pages)
             rec.append(f"SP  - {m[0].strip()}")
-            if len(m) > 1 and m[1].strip():
-                rec.append(f"EP  - {m[1].strip()}")
-        if clean(w.get("doi")):
-            rec.append(f"DO  - {clean(w.get('doi'))}")
-        if clean(w.get("url")):
-            rec.append(f"UR  - {clean(w.get('url'))}")
-        if clean(w.get("raw")):
-            rec.append(f"N1  - {clean(w.get('raw'))}")
+            if len(m) > 1 and m[-1].strip():
+                rec.append(f"EP  - {m[-1].strip()}")
+        if _doi(e):
+            rec.append(f"DO  - {_doi(e)}")
+        if (e.get("url") or "").strip():
+            rec.append(f"UR  - {e['url'].strip()}")
         rec.append("ER  - ")
         out.append("\n".join(rec))
     path.write_text("\n\n".join(out) + "\n", encoding="utf-8")
 
 
-def build_bibliography():
-    works = load_csv(EXP / "bibliography" / "bibliography.csv")
-    for w in works:
-        chs = (w.get("chapters") or "").strip()
-        w["_chapters"] = [c.strip() for c in re.split(r"[;,]", chs) if c.strip()]
+def _write_csv_bib(entries, path):
+    with open(path, "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["key", "type", "authors", "year", "title", "venue", "doi", "url"])
+        for e in entries:
+            w.writerow([e.get("ID", ""), e.get("ENTRYTYPE", ""), _authors(e),
+                        _debrace(e.get("year", "")), _debrace(e.get("title", "")),
+                        _venue(e), _doi(e), (e.get("url") or "").strip()])
 
-    # regenerate the downloadable BibTeX / RIS / CSV from this same corrected
-    # source, so the page and the downloads never disagree
+
+def build_bibliography():
+    entries = _load_bib()
+
     dl = DOCS / "bibliography-files"
     dl.mkdir(parents=True, exist_ok=True)
-    shutil.copy(EXP / "bibliography" / "bibliography.csv", dl / "bibliography.csv")
-    write_bibtex(works, dl / "bibliography.bib")
-    write_ris(works, dl / "bibliography.ris")
+    # publish the validated .bib verbatim (already cleaned of local file paths)
+    shutil.copy(EXP / "bibliography" / "bibliography.bib", dl / "bibliography.bib")
+    _write_ris_bib(entries, dl / "bibliography.ris")
+    _write_csv_bib(entries, dl / "bibliography.csv")
 
-    def sort_key(w):
-        a = clean(w.get("authors")) or clean(w.get("title")) or clean(w.get("raw"))
-        return (a.lower(), clean(w.get("year")))
+    entries_sorted = sorted(
+        entries,
+        key=lambda e: (_last_name(e) or _debrace(e.get("title", "")).lower(),
+                       _debrace(e.get("year", ""))))
+    n = len(entries_sorted)
+    n_doi = sum(1 for e in entries if _doi(e))
 
-    works_sorted = sorted(works, key=sort_key)
-    n = len(works_sorted)
-    citations = sum(len(w["_chapters"]) for w in works)
-    n_low = sum(1 for w in works if w.get("confidence") in ("low", "medium"))
-
-    def fmt(w):
-        chs = w.get("_chapters") or []
-        chtag = f" *(Ch. {', '.join(chs)})*" if chs else ""
-        conf = w.get("confidence", "")
-        if conf == "high" and clean(w.get("title")):
-            authors = clean(w.get("authors"))
-            year = clean(w.get("year"))
-            title = clean(w.get("title"))
-            venue = clean(w.get("venue"))
-            pages = clean(w.get("pages"))
-            doi = clean(w.get("doi"))
-            url = clean(w.get("url"))
-            parts = []
-            if authors:
-                parts.append(authors + (f" ({year})." if year else "."))
-            elif year:
-                parts.append(f"({year}).")
+    def fmt(e):
+        authors = _authors(e)
+        year = _debrace(e.get("year", ""))
+        title = _debrace(e.get("title", ""))
+        venue = _venue(e)
+        link = _link(e)
+        parts = []
+        if authors:
+            parts.append(authors + (f" ({year})." if year else "."))
+        elif year:
+            parts.append(f"({year}).")
+        if title:
             parts.append(f"*{title}*.")
-            if venue:
-                parts.append(venue + ".")
-            if pages:
-                parts.append(pages + ".")
-            if doi:
-                parts.append(f"[https://doi.org/{doi}](https://doi.org/{doi})")
-            elif url:
-                parts.append(f"[{url}]({url})")
-            return " ".join(parts) + chtag
-        # medium / low confidence: render the raw string exactly as printed
-        raw = clean(w.get("raw"))
-        url = clean(w.get("url"))
-        if url and url not in raw:
-            raw += f" [{url}]({url})"
-        return raw + chtag
+        if venue:
+            parts.append(venue + ".")
+        if link:
+            parts.append(f"<{link}>")
+        return " ".join(parts)
 
     def render(intro):
         out = [intro, ""]
-        for w in works_sorted:
-            out.append(f"1. {fmt(w)}")
+        for e in entries_sorted:
+            out.append(f"1. {fmt(e)}")
         return "\n".join(out) + "\n"
 
-    dto = ("Download: [BibTeX](bibliography-files/bibliography.bib) · "
-           "[RIS](bibliography-files/bibliography.ris) · "
+    dto = ("Download: [BibTeX](bibliography-files/bibliography.bib) \u00b7 "
+           "[RIS](bibliography-files/bibliography.ris) \u00b7 "
            "[CSV](bibliography-files/bibliography.csv)")
     intro_en = (
         f"# Bibliography\n\n"
-        f"The book's complete reference list — **{n} distinct works**, cited "
-        f"{citations} times across the fourteen chapters. Every record was "
-        f"verified against the publisher record. {n_low} entries parsed with "
-        f"less than full confidence (mostly undated web resources) and are shown "
-        f"exactly as the book prints them.\n\n"
+        f"The book's complete, validated reference list \u2014 **{n} works**, "
+        f"{n_doi} with a DOI, each with a live link. Every record was verified "
+        f"against the publisher record.\n\n"
         f"{dto}\n\n"
-        f"Each entry is tagged with the chapter(s) that cite it. "
-        f"*Last checked: {LAST_CHECKED}.*"
+        f"Use the search box at the top of the page to find an entry. "
+        f"*Last checked: {BIB_CHECKED}.*"
     )
     intro_ar = (
-        f"# ثبت المراجع\n\n"
-        f"قائمة مراجع الكتاب الكاملة — **{n} عملًا متمايزًا**، مُستشهَدًا بها "
-        f"{citations} مرّة عبر الفصول الأربعة عشر. تُحقِّق من كل سجل مقابل سجل "
-        f"الناشر. {n_low} مدخلًا "
-        f"حُلِّلت بثقة أقل من الكاملة (غالبها موارد وِب غير مؤرَّخة) وتُعرَض كما "
-        f"يطبعها الكتاب تمامًا.\n\n"
-        f"تنزيل: [BibTeX](bibliography-files/bibliography.bib) · "
-        f"[RIS](bibliography-files/bibliography.ris) · "
+        f"# \u062b\u0628\u062a \u0627\u0644\u0645\u0631\u0627\u062c\u0639\n\n"
+        f"\u0642\u0627\u0626\u0645\u0629 \u0645\u0631\u0627\u062c\u0639 "
+        f"\u0627\u0644\u0643\u062a\u0627\u0628 \u0627\u0644\u0643\u0627\u0645\u0644\u0629 "
+        f"\u0627\u0644\u0645\u064f\u062a\u062d\u0642\u064e\u0651\u0642 \u0645\u0646\u0647\u0627 "
+        f"\u2014 **{n} \u0639\u0645\u0644\u064b\u0627**\u060c \u0645\u0646\u0647\u0627 "
+        f"{n_doi} \u0628\u0645\u0639\u0631\u0651\u0641 DOI\u060c \u0648\u0644\u0643\u0644\u0651 "
+        f"\u0631\u0627\u0628\u0637 \u062d\u064a\u0651. \u062a\u064f\u062d\u0642\u0651\u0642 "
+        f"\u0645\u0646 \u0643\u0644 \u0633\u062c\u0644 \u0645\u0642\u0627\u0628\u0644 "
+        f"\u0633\u062c\u0644 \u0627\u0644\u0646\u0627\u0634\u0631.\n\n"
+        f"\u062a\u0646\u0632\u064a\u0644: [BibTeX](bibliography-files/bibliography.bib) \u00b7 "
+        f"[RIS](bibliography-files/bibliography.ris) \u00b7 "
         f"[CSV](bibliography-files/bibliography.csv)\n\n"
-        f"كل مدخل موسوم بالفصل (الفصول) التي تستشهد به. "
-        f"*آخر تحقّق: {LAST_CHECKED}.*"
+        f"\u0627\u0633\u062a\u062e\u062f\u0645 \u0645\u0631\u0628\u0651\u0639 "
+        f"\u0627\u0644\u0628\u062d\u062b \u0623\u0639\u0644\u0649 \u0627\u0644\u0635\u0641\u062d\u0629 "
+        f"\u0644\u0625\u064a\u062c\u0627\u062f \u0645\u062f\u062e\u0644. "
+        f"*\u0622\u062e\u0631 \u062a\u062d\u0642\u0651\u0642: {BIB_CHECKED}.*"
     )
     write("bibliography.md", render(intro_en))
     write("bibliography.ar.md", render(intro_ar))

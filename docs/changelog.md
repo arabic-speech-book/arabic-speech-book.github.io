@@ -2,6 +2,10 @@
 
 The book says the site is kept current; this dated log is how a reader checks that claim rather than taking it on faith. Newest first.
 
+## 2026-09-09
+
+- **Replaced the bibliography with the author's validated, complete BibTeX library** — now **530 works** (378 with a DOI), each with a live link. The page and the BibTeX / RIS / CSV downloads are all generated from this one `.bib`; the published BibTeX is the validated file with local Zotero file-paths removed.
+
 ## 2026-08-20
 
 - Added the first entry to the [New Applications](applications.md) page: *Diffusion Language Models for Speech Recognition* (arXiv 2604.14001).
