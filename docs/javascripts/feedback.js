@@ -1,12 +1,10 @@
 /* Feedback form handler (shared by the EN and AR feedback pages).
- *
- * To deliver submissions straight to the author's inbox, paste the free
- * Web3Forms access key for hend.alkhalifa@gmail.com below. Get it in ~1 minute
- * at https://web3forms.com — enter the email, confirm it, copy the key. Until a
- * key is set, the form opens the visitor's email app (mailto) instead.
+ * Submissions are delivered to the author's inbox via Web3Forms
+ * (https://web3forms.com). To change the destination, replace the access key
+ * below with a new one generated from Web3Forms for the desired email.
  */
 (function () {
-  var KEY = "YOUR_WEB3FORMS_ACCESS_KEY";
+  var KEY = "0a8856d4-ed4f-45c1-84ca-8c5ace1900a6";
 
   function init() {
     var form = document.getElementById("feedback-form");
@@ -39,33 +37,22 @@
       if (!data.message || !data.message.trim()) { statusEl.textContent = T.need; return; }
       var subject = T.subject + (data.type || "Comment") + (data.page ? " — " + data.page : "");
 
-      if (KEY && KEY !== "YOUR_WEB3FORMS_ACCESS_KEY") {
-        statusEl.textContent = T.sending;
-        try {
-          var res = await fetch("https://api.web3forms.com/submit", {
-            method: "POST",
-            headers: { "Content-Type": "application/json", "Accept": "application/json" },
-            body: JSON.stringify({
-              access_key: KEY, subject: subject,
-              from_name: data.name || "Website visitor", replyto: data.email || "",
-              name: data.name || "", email: data.email || "",
-              page: data.page || "", type: data.type || "", message: data.message
-            })
-          });
-          var j = await res.json();
-          if (j.success) { form.reset(); statusEl.textContent = T.ok; }
-          else { statusEl.textContent = T.err; }
-        } catch (err) { statusEl.textContent = T.net; }
-      } else {
-        // mailto fallback (address assembled to reduce scraping)
-        var to = ["hend.alkhalifa", "gmail.com"].join("@");
-        var body = "Type: " + (data.type || "") + "\nPage: " + (data.page || "") +
-                   "\nFrom: " + (data.name || "") + " " + (data.email || "") +
-                   "\n\n" + data.message;
-        statusEl.textContent = T.opening;
-        window.location.href = "mailto:" + to + "?subject=" +
-          encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
-      }
+      statusEl.textContent = T.sending;
+      try {
+        var res = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: { "Content-Type": "application/json", "Accept": "application/json" },
+          body: JSON.stringify({
+            access_key: KEY, subject: subject,
+            from_name: data.name || "Website visitor", replyto: data.email || "",
+            name: data.name || "", email: data.email || "",
+            page: data.page || "", type: data.type || "", message: data.message
+          })
+        });
+        var j = await res.json();
+        if (j.success) { form.reset(); statusEl.textContent = T.ok; }
+        else { statusEl.textContent = T.err; }
+      } catch (err) { statusEl.textContent = T.net; }
     });
   }
 
