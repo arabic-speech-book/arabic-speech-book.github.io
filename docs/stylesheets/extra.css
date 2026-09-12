@@ -190,3 +190,57 @@ body {
   font-weight: 700;
   opacity: 1;
 }
+
+/* ---- Feedback form ---- */
+.fb-form {
+  max-width: 640px;
+}
+.fb-form label {
+  display: block;
+  font-weight: 600;
+  margin: 0.9rem 0 0.25rem;
+}
+.fb-form .fb-opt {
+  font-weight: 400;
+  color: var(--md-default-fg-color--light);
+}
+.fb-form input[type="text"],
+.fb-form input[type="email"],
+.fb-form select,
+.fb-form textarea {
+  width: 100%;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 8px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  box-sizing: border-box;
+}
+.fb-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+.fb-form .fb-btn {
+  margin-top: 1.1rem;
+  padding: 0.65rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: var(--md-primary-fg-color);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.fb-form .fb-btn:hover {
+  background: var(--md-primary-fg-color--dark);
+}
+.fb-hp {
+  position: absolute !important;
+  left: -9999px;
+}
+#feedback-status {
+  margin-top: 0.9rem;
+  font-weight: 600;
+  color: var(--md-primary-fg-color--dark);
+}

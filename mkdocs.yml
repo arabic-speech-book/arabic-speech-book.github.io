@@ -39,6 +39,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/feedback.js
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -102,6 +105,7 @@ plugins:
             Applications & Methods: تطبيقات وطرائق جديدة
             Errata: التصويبات
             Changelog: سجل التغييرات
+            Feedback: ملاحظات
 
 nav:
   - Home: index.md
@@ -143,6 +147,7 @@ nav:
       - Applications & Methods: applications.md
       - Errata: errata.md
       - Changelog: changelog.md
+  - Feedback: feedback.md
 
 extra:
   alternate:

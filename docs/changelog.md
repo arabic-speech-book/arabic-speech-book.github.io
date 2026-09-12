@@ -2,6 +2,10 @@
 
 The book says the site is kept current; this dated log is how a reader checks that claim rather than taking it on faith. Newest first.
 
+## 2026-09-12
+
+- **Added a Feedback page** with a bilingual form for typos and comments. Submissions reach the author's email — via Web3Forms once the access key is set, with a mailto fallback working meanwhile.
+
 ## 2026-09-09
 
 - **Replaced the bibliography with the author's validated, complete BibTeX library** — now **530 works** (378 with a DOI), each with a live link. The page and the BibTeX / RIS / CSV downloads are all generated from this one `.bib`; the published BibTeX is the validated file with local Zotero file-paths removed.
