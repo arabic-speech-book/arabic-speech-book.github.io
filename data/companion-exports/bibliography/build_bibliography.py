@@ -77,7 +77,7 @@ def cite_key(e):
     return k
 
 
-header = ('% Introduction to Arabic Speech Technologies, by Hend S. Al-Khalifa\n'
+header = ('% Introduction to Arabic Speech Technology, by Hend S. Al-Khalifa\n'
           f'% {len(entries)} distinct works, cited {len(rows)} times across '
           'fourteen chapters.\n'
           '% Every entry was checked against the record of the publisher that\n'

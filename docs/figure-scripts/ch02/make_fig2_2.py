@@ -1,5 +1,5 @@
 """
-Figure 2.2 for Chapter 2 of *Introduction to Arabic Speech Technologies*:
+Figure 2.2 for Chapter 2 of *Introduction to Arabic Speech Technology*:
 the Arabic consonant inventory by place and manner.
 
 Redrawn to fix four faults in the previous artwork:

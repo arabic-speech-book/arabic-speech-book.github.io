@@ -1,6 +1,6 @@
 # Consent form
 
-*Appendix 14.C of* **Introduction to Arabic Speech Technologies** *by Hend S. Al-Khalifa. Copy it, fill it in, and publish it with your data.*
+*Appendix 14.C of* **Introduction to Arabic Speech Technology** *by Hend S. Al-Khalifa. Copy it, fill it in, and publish it with your data.*
 
 ## Consent form (record and adapt to local law)
 

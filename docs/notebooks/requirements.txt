@@ -1,5 +1,5 @@
 # Pinned environment for the companion notebooks of
-# Introduction to Arabic Speech Technologies.
+# Introduction to Arabic Speech Technology.
 #
 # The first block is all that twelve of the twelve notebooks need to run end to
 # end. Install it and every cell that is not marked OPTIONAL will execute.

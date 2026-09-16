@@ -27,7 +27,7 @@ def code(text):
             'outputs': [], 'source': text.rstrip('\n')}
 
 
-HEADER = """*Companion notebook to* **Introduction to Arabic Speech Technologies** *by Hend S. Al-Khalifa.*
+HEADER = """*Companion notebook to* **Introduction to Arabic Speech Technology** *by Hend S. Al-Khalifa.*
 
 **How to run.** Open this notebook in Google Colab or run it locally with the
 pinned environment in `requirements.txt`. Every notebook in this series runs end

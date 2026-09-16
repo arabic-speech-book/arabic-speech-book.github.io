@@ -1,5 +1,5 @@
 """
-Figure 2.7 for Chapter 2 of *Introduction to Arabic Speech Technologies*:
+Figure 2.7 for Chapter 2 of *Introduction to Arabic Speech Technology*:
 the major spoken-Arabic dialect groups.
 
 Drawn deterministically from Natural Earth 1:50m Admin 0 Countries, which is

@@ -1,5 +1,5 @@
 """
-Code-drawn vector figures for Chapter 1 of *Introduction to Arabic Speech Technologies*.
+Code-drawn vector figures for Chapter 1 of *Introduction to Arabic Speech Technology*.
 
 Figure 1.1  Timeline of speech processing with Arabic milestones.
 Figure 1.2  How a spoken request becomes an action.

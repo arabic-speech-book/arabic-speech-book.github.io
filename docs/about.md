@@ -1,6 +1,6 @@
 # About the Book
 
-**Introduction to Arabic Speech Technologies**, by **[Prof. Hend S. Al-Khalifa](https://faculty.ksu.edu.sa/ar/hendk)**, bridges traditional speech-processing methods with modern AI approaches to address the unique challenges of Arabic — its rich morphology, dialectal variation, and frequent code-switching. It serves researchers, graduate students, and industry practitioners with a unified framework for understanding and building Arabic speech technologies, from classical statistical methods to speech foundation models and audio-language models.
+**Introduction to Arabic Speech Technology**, by **[Prof. Hend S. Al-Khalifa](https://faculty.ksu.edu.sa/ar/hendk)**, bridges traditional speech-processing methods with modern AI approaches to address the unique challenges of Arabic — its rich morphology, dialectal variation, and frequent code-switching. It serves researchers, graduate students, and industry practitioners with a unified framework for understanding and building Arabic speech technologies, from classical statistical methods to speech foundation models and audio-language models.
 
 ## What makes it different
 
@@ -30,6 +30,6 @@ The notebooks live on this site rather than in the printed pages. Twelve noteboo
 
 ## Citing the book
 
-> Al-Khalifa, H. S. *Introduction to Arabic Speech Technologies.* (forthcoming).
+> Al-Khalifa, H. S. *Introduction to Arabic Speech Technology.* (forthcoming).
 
 *(Update this entry with the final publisher, year, and DOI once available.)*

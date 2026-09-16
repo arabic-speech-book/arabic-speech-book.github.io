@@ -1,4 +1,4 @@
-# Introduction to Arabic Speech Technologies — Companion Website
+# Introduction to Arabic Speech Technology — Companion Website
 
 Source for the bilingual (English / العربية) companion site at
 **https://arabic-speech-book.github.io/**.

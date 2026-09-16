@@ -1,6 +1,6 @@
 # Figure sources
 
-Every figure in *Introduction to Arabic Speech Technologies* that is drawn by
+Every figure in *Introduction to Arabic Speech Technology* that is drawn by
 code, with the script that draws it. One directory per chapter, plus the shared
 modules every script imports.
 

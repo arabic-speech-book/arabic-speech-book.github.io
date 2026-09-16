@@ -1,6 +1,6 @@
 # Companion website exports
 
-*Introduction to Arabic Speech Technologies*, by Hend S. Al-Khalifa.
+*Introduction to Arabic Speech Technology*, by Hend S. Al-Khalifa.
 Generated 12 August 2026 from the fourteen final chapters.
 
 Everything here is extracted from the manuscript itself rather than retyped, so

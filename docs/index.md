@@ -1,8 +1,8 @@
-# Introduction to Arabic Speech Technologies
+# Introduction to Arabic Speech Technology
 
 *Companion website — by [Prof. Hend S. Al-Khalifa](https://faculty.ksu.edu.sa/ar/hendk)*
 
-Welcome to the official companion site for the textbook **Introduction to Arabic Speech Technologies**. The notebooks were taken out of the printed chapters and moved here, so that a notebook can be corrected when a library changes and extended when something new is worth showing. This site also carries the book's reference material — glossary, abbreviations, bibliography, and a living index of Arabic speech resources.
+Welcome to the official companion site for the textbook **Introduction to Arabic Speech Technology**. The notebooks were taken out of the printed chapters and moved here, so that a notebook can be corrected when a library changes and extended when something new is worth showing. This site also carries the book's reference material — glossary, abbreviations, bibliography, and a living index of Arabic speech resources.
 
 <div class="grid cards" markdown>
 
