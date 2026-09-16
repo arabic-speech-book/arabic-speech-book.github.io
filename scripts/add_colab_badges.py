@@ -13,15 +13,17 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-NB_DIR = ROOT / "docs" / "notebooks"
+DOCS = ROOT / "docs"
+# Every folder under docs/ whose notebooks should carry a badge.
+NB_DIRS = [DOCS / "notebooks", DOCS / "solutions"]
 OWNER_REPO = "arabic-speech-book/arabic-speech-book.github.io"
 BRANCH = "main"
 MARKER = "colab.research.google.com/github"
 
 
-def badge_cell(fname: str) -> dict:
+def badge_cell(rel_path: str) -> dict:
     url = (f"https://colab.research.google.com/github/{OWNER_REPO}/blob/"
-           f"{BRANCH}/docs/notebooks/{fname}")
+           f"{BRANCH}/docs/{rel_path}")
     src = (f'<a href="{url}" target="_blank" rel="noopener">'
            f'<img src="https://colab.research.google.com/assets/colab-badge.svg" '
            f'alt="Open In Colab"></a>')
@@ -31,10 +33,11 @@ def badge_cell(fname: str) -> dict:
 
 def main():
     changed = 0
-    for nb_path in sorted(NB_DIR.glob("*.ipynb")):
+    nb_paths = [p for d in NB_DIRS if d.is_dir() for p in sorted(d.glob("*.ipynb"))]
+    for nb_path in nb_paths:
         nb = json.loads(nb_path.read_text(encoding="utf-8"))
         cells = nb.get("cells", [])
-        cell = badge_cell(nb_path.name)
+        cell = badge_cell(nb_path.relative_to(DOCS).as_posix())
         # replace an existing badge cell if present, else insert after the title
         idx = next((i for i, c in enumerate(cells)
                     if MARKER in "".join(c.get("source", []))), None)

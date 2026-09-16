@@ -2,6 +2,10 @@
 
 The book says the site is kept current; this dated log is how a reader checks that claim rather than taking it on faith. Newest first.
 
+## 2026-09-16
+
+- **Added the Exercise Solutions section** — worked solutions for the end-of-chapter exercises (Chapters 1–11; Ch. 12–14 have none), with **20 runnable notebooks** for the coding exercises, each with an Open-in-Colab badge.
+
 ## 2026-09-12
 
 - **Added a Feedback page** with a bilingual form for typos and comments. Submissions reach the author's email — via Web3Forms once the access key is set, with a mailto fallback working meanwhile.

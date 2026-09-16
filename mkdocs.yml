@@ -84,6 +84,18 @@ plugins:
             Home: الرئيسية
             About the Book: عن الكتاب
             Notebooks: الدفاتر البرمجية
+            Exercise Solutions: حلول التمارين
+            Chapter 1: الفصل 1
+            Chapter 2: الفصل 2
+            Chapter 3: الفصل 3
+            Chapter 4: الفصل 4
+            Chapter 5: الفصل 5
+            Chapter 6: الفصل 6
+            Chapter 7: الفصل 7
+            Chapter 8: الفصل 8
+            Chapter 9: الفصل 9
+            Chapter 10: الفصل 10
+            Chapter 11: الفصل 11
             Resources: المصادر
             Resource Index: فهرس المصادر
             Datasets: قواعد البيانات
@@ -124,6 +136,50 @@ nav:
       - notebooks/ch09_arabic_tts.ipynb
       - notebooks/ch10_speech_translation_slu.ipynb
       - notebooks/ch11_audio_llm_prompting.ipynb
+  - Exercise Solutions:
+      - solutions/index.md
+      - Chapter 1:
+          - solutions/Chapter_01_Solutions.md
+          - solutions/Chapter_01_Exercise_02.ipynb
+          - solutions/Chapter_01_Exercise_04.ipynb
+      - Chapter 2:
+          - solutions/Chapter_02_Solutions.md
+      - Chapter 3:
+          - solutions/Chapter_03_Solutions.md
+          - solutions/Chapter_03_Exercise_01.ipynb
+          - solutions/Chapter_03_Exercise_02.ipynb
+          - solutions/Chapter_03_Exercise_03.ipynb
+      - Chapter 4:
+          - solutions/Chapter_04_Solutions.md
+          - solutions/Chapter_04_Exercise_02.ipynb
+          - solutions/Chapter_04_Exercise_05.ipynb
+      - Chapter 5:
+          - solutions/Chapter_05_Solutions.md
+          - solutions/Chapter_05_Exercise_01.ipynb
+          - solutions/Chapter_05_Exercise_05.ipynb
+      - Chapter 6:
+          - solutions/Chapter_06_Solutions.md
+          - solutions/Chapter_06_Exercise_02.ipynb
+          - solutions/Chapter_06_Exercise_05.ipynb
+      - Chapter 7:
+          - solutions/Chapter_07_Solutions.md
+          - solutions/Chapter_07_Exercise_03.ipynb
+          - solutions/Chapter_07_Exercise_04.ipynb
+      - Chapter 8:
+          - solutions/Chapter_08_Solutions.md
+          - solutions/Chapter_08_Exercise_02.ipynb
+      - Chapter 9:
+          - solutions/Chapter_09_Solutions.md
+          - solutions/Chapter_09_Exercise_02.ipynb
+          - solutions/Chapter_09_Exercise_04.ipynb
+      - Chapter 10:
+          - solutions/Chapter_10_Solutions.md
+          - solutions/Chapter_10_Exercise_02.ipynb
+          - solutions/Chapter_10_Exercise_03.ipynb
+          - solutions/Chapter_10_Exercise_04.ipynb
+      - Chapter 11:
+          - solutions/Chapter_11_Solutions.md
+          - solutions/Chapter_11_Exercise_02.ipynb
   - Resources:
       - resources/index.md
       - Resource Index: resources/resource-index.md
