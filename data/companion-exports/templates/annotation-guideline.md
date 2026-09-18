@@ -1,6 +1,6 @@
 # Annotation guideline
 
-*Appendix 14.B of* **Introduction to Arabic Speech Technology** *by Hend S. Al-Khalifa. Copy it, fill it in, and publish it with your data.*
+*Appendix 14.B of* **Introduction to Arabic Speech Technologies** *by Hend S. Al-Khalifa. Copy it, fill it in, and publish it with your data.*
 
 ## Decisions to fix before annotation
 

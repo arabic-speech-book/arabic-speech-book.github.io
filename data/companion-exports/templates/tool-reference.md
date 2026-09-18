@@ -1,6 +1,6 @@
 # Tool reference
 
-*Appendix 14.D of* **Introduction to Arabic Speech Technology** *by Hend S. Al-Khalifa. Copy it, fill it in, and publish it with your data.*
+*Appendix 14.D of* **Introduction to Arabic Speech Technologies** *by Hend S. Al-Khalifa. Copy it, fill it in, and publish it with your data.*
 
 Praat (praat.org) and ELAN (archive.mpi.nl/tla/elan) for time-aligned phonetic annotation; Label Studio (labelstud.io) for team transcription; the Montreal Forced Aligner (montreal-forced-aligner.readthedocs.io) for alignment; and the Kaldi (kaldi-asr.org), ESPnet (espnet.github.io/espnet), and SpeechBrain (speechbrain.github.io) toolkits for building recognizers and synthesizers.
 

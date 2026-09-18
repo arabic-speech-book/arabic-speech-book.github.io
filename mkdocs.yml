@@ -1,11 +1,11 @@
-site_name: Introduction to Arabic Speech Technology
+site_name: Introduction to Arabic Speech Technologies
 site_url: https://arabic-speech-book.github.io/
-site_description: 'Companion website for the book "Introduction to Arabic Speech Technology" by Hend S. Al-Khalifa — notebooks, datasets, tools, glossary, bibliography and resources.'
+site_description: 'Companion website for the book "Introduction to Arabic Speech Technologies" by Hend S. Al-Khalifa — notebooks, datasets, tools, glossary, bibliography and resources.'
 site_author: Prof. Hend S. Al-Khalifa
 repo_url: https://github.com/arabic-speech-book/arabic-speech-book.github.io
 repo_name: arabic-speech-book
 edit_uri: edit/main/docs/
-copyright: Copyright &copy; 2026 <a href="https://faculty.ksu.edu.sa/ar/hendk" target="_blank" rel="noopener">Prof. Hend S. Al-Khalifa</a> — Introduction to Arabic Speech Technology
+copyright: Copyright &copy; 2026 <a href="https://faculty.ksu.edu.sa/ar/hendk" target="_blank" rel="noopener">Prof. Hend S. Al-Khalifa</a> — Introduction to Arabic Speech Technologies
 
 theme:
   name: material
@@ -78,8 +78,8 @@ plugins:
         - locale: ar
           name: العربية
           build: true
-          site_name: مقدمة في تقنية الكلام العربي
-          site_description: 'الموقع المرافق لكتاب «مقدمة في تقنية الكلام العربي» للدكتورة هند الخليفة — الدفاتر والبيانات والأدوات والمسرد وثبت المراجع والمصادر.'
+          site_name: مقدمة في تقنيات الكلام العربي
+          site_description: 'الموقع المرافق لكتاب «مقدمة في تقنيات الكلام العربي» للدكتورة هند الخليفة — الدفاتر والبيانات والأدوات والمسرد وثبت المراجع والمصادر.'
           nav_translations:
             Home: الرئيسية
             About the Book: عن الكتاب

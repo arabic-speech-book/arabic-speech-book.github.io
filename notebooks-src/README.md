@@ -1,6 +1,6 @@
 # Companion notebooks
 
-*Introduction to Arabic Speech Technology*, by Hend S. Al-Khalifa.
+*Introduction to Arabic Speech Technologies*, by Hend S. Al-Khalifa.
 
 Twelve notebooks, one per chapter that has one. They are not printed in the
 book: the book points here, so that a notebook can be corrected when a library

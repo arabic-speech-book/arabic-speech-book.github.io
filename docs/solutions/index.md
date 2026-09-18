@@ -1,6 +1,6 @@
-# Arabic Speech Technology: Exercise Solutions
+# Arabic Speech Technologies: Exercise Solutions
 
-Companion-website solutions for the end-of-chapter exercises of *Arabic Speech Technology*. Every exercise and subpart in the book's exercise list (Chapters 1 to 11; Chapters 12 to 14 have no exercises) is answered in the chapter's Markdown file, with the original numbering. Every exercise that involves code or computational analysis has one self-contained Google Colab notebook covering all of its coding subparts. Open-ended answers are marked **Suggested solution**; numbers quoted in the solution files were produced by running the notebooks, with the exact models and settings stated.
+Companion-website solutions for the end-of-chapter exercises of *Arabic Speech Technologies*. Every exercise and subpart in the book's exercise list (Chapters 1 to 11; Chapters 12 to 14 have no exercises) is answered in the chapter's Markdown file, with the original numbering. Every exercise that involves code or computational analysis has one self-contained Google Colab notebook covering all of its coding subparts. Open-ended answers are marked **Suggested solution**; numbers quoted in the solution files were produced by running the notebooks, with the exact models and settings stated.
 
 ## How to use the notebooks
 

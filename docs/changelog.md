@@ -8,7 +8,6 @@ The book says the site is kept current; this dated log is how a reader checks th
 
 ## 2026-09-16
 
-- **Renamed the book** across the site — "Introduction to Arabic Speech **Technology**" (was "Technologies"), in both the English and Arabic titles.
 - **Added the Exercise Solutions section** — worked solutions for the end-of-chapter exercises (Chapters 1–11; Ch. 12–14 have none), with **20 runnable notebooks** for the coding exercises, each with an Open-in-Colab badge.
 
 ## 2026-09-12
@@ -25,7 +24,7 @@ The book says the site is kept current; this dated log is how a reader checks th
 
 ## 2026-08-12
 
-- Aligned the site with the July/August manuscript revision: title set to **Introduction to Arabic Speech Technology**.
+- Aligned the site with the July/August manuscript revision: title set to **Introduction to Arabic Speech Technologies**.
 - Published the **twelve companion notebooks** (Chapters 1–11; Chapter 8 has two) with the pinned requirements file. Each runs end to end with no downloads.
 - Added the site structure for the reference and companion pages: **Resource Index, Glossary, Abbreviation Index, Bibliography, Figure Sources, Chapter 14 Templates, New Applications, Errata**.
 - **Added a Conferences, Journals & Community page** — the top speech venues, journals, societies, and the Arabic-focused (incl. iWAN and KSU) and global labs and companies, with links. Now also covers **workshops & shared tasks** (MGB, NADI, OSACT, ASVspoof, CHiME, DIHARD, Blizzard, ZeroSpeech, SUPERB, IWSLT). All links verified.

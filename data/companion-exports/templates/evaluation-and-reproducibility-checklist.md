@@ -1,6 +1,6 @@
 # Evaluation and reproducibility checklist
 
-*The Reproducibility Note from every chapter of* **Introduction to Arabic Speech Technology**, *gathered into one page. Each is what a result of that kind must carry before it can be believed or repeated.*
+*The Reproducibility Note from every chapter of* **Introduction to Arabic Speech Technologies**, *gathered into one page. Each is what a result of that kind must carry before it can be believed or repeated.*
 
 ## Chapter 1: Speech technologies and the Arabic challenge
 
