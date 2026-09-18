@@ -10,7 +10,7 @@ Welcome to the official companion site for the textbook **Introduction to Arabic
 
     ---
 
-    Twelve runnable notebooks, one per chapter that has one. Every notebook runs end to end with **no downloads and no accounts**.
+    Runnable notebooks, one per chapter that has one — they run end to end on `numpy`, `scipy`, and `matplotlib` alone, with **no downloads and no accounts**.
 
     [:octicons-arrow-right-24: Open the notebooks](notebooks/index.md)
 
