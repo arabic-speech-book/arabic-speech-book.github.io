@@ -84,6 +84,7 @@ plugins:
             Home: الرئيسية
             About the Book: عن الكتاب
             Notebooks: الدفاتر البرمجية
+            Earlier drafts: المسودات السابقة
             Exercise Solutions: حلول التمارين
             Chapter 1: الفصل 1
             Chapter 2: الفصل 2
@@ -124,18 +125,26 @@ nav:
   - About the Book: about.md
   - Notebooks:
       - notebooks/index.md
-      - notebooks/ch01_first_contact_arabic_asr.ipynb
-      - notebooks/ch02_arabic_phonetics_g2p.ipynb
-      - notebooks/ch03_speech_features.ipynb
-      - notebooks/ch04_arabic_asr_foundations.ipynb
-      - notebooks/ch05_end_to_end_arabic_asr.ipynb
-      - notebooks/ch06_arabic_foundation_models.ipynb
-      - notebooks/ch07_corpus_loader.ipynb
-      - notebooks/ch08_dialect_id.ipynb
-      - notebooks/ch08_speaker_and_noise.ipynb
-      - notebooks/ch09_arabic_tts.ipynb
-      - notebooks/ch10_speech_translation_slu.ipynb
-      - notebooks/ch11_audio_llm_prompting.ipynb
+      - notebooks/ch01_wer_and_cer.ipynb
+      - notebooks/ch02_pronunciation_lexicon.ipynb
+      - notebooks/ch03_signal_to_features.ipynb
+      - notebooks/ch04_hmm_forward_and_viterbi.ipynb
+      - notebooks/ch06_self_supervised_objectives.ipynb
+      - notebooks/ch09_diacritization_and_g2p.ipynb
+      - Earlier drafts:
+          - notebooks-archive/index.md
+          - notebooks-archive/ch01_first_contact_arabic_asr.ipynb
+          - notebooks-archive/ch02_arabic_phonetics_g2p.ipynb
+          - notebooks-archive/ch03_speech_features.ipynb
+          - notebooks-archive/ch04_arabic_asr_foundations.ipynb
+          - notebooks-archive/ch05_end_to_end_arabic_asr.ipynb
+          - notebooks-archive/ch06_arabic_foundation_models.ipynb
+          - notebooks-archive/ch07_corpus_loader.ipynb
+          - notebooks-archive/ch08_dialect_id.ipynb
+          - notebooks-archive/ch08_speaker_and_noise.ipynb
+          - notebooks-archive/ch09_arabic_tts.ipynb
+          - notebooks-archive/ch10_speech_translation_slu.ipynb
+          - notebooks-archive/ch11_audio_llm_prompting.ipynb
   - Exercise Solutions:
       - solutions/index.md
       - Chapter 1:

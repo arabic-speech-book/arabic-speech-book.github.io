@@ -15,7 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 # Every folder under docs/ whose notebooks should carry a badge.
-NB_DIRS = [DOCS / "notebooks", DOCS / "solutions"]
+NB_DIRS = [DOCS / "notebooks", DOCS / "notebooks-archive", DOCS / "solutions"]
 OWNER_REPO = "arabic-speech-book/arabic-speech-book.github.io"
 BRANCH = "main"
 MARKER = "colab.research.google.com/github"

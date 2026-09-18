@@ -2,6 +2,10 @@
 
 The book says the site is kept current; this dated log is how a reader checks that claim rather than taking it on faith. Newest first.
 
+## 2026-09-18
+
+- **Published the final book's companion notebooks** — the six notebooks the Springer manuscript refers to (Chapters 1, 2, 3, 4, 6, 9), which run on `numpy`/`scipy`/`matplotlib` alone. They replace the interim 12-notebook set, now kept under [Earlier drafts](notebooks-archive/index.md).
+
 ## 2026-09-16
 
 - **Renamed the book** across the site — "Introduction to Arabic Speech **Technology**" (was "Technologies"), in both the English and Arabic titles.

@@ -11,22 +11,16 @@
 
 ## Notebooks by chapter
 
-The notebooks live on this site rather than in the printed pages. Twelve notebooks cover eleven chapters (Chapter 8 has two); Chapters 12, 13, and 14 have none — their work is a project rather than a computation.
+The notebooks live on this site rather than in the printed pages. Six notebooks accompany the chapters whose work is a computation; the others are projects rather than computations. Worked coding exercises live under [Exercise Solutions](solutions/index.md).
 
-| Ch. | Notebook | What it does |
-|-----|----------|--------------|
-| 1 | [First contact with Arabic ASR](notebooks/ch01_first_contact_arabic_asr.ipynb) | Score a recognizer on Arabic, then watch normalization move the number; MSA vs dialect |
-| 2 | [Phonetics & G2P](notebooks/ch02_arabic_phonetics_g2p.ipynb) | Rule-based grapheme-to-phoneme for diacritized MSA, scored by phone error rate; emphasis and the second formant |
-| 3 | [Speech features](notebooks/ch03_speech_features.ipynb) | Framing, spectrograms, mel filterbank, MFCCs, SpecAugment, LPC — written out, not called; exercises as code |
-| 4 | [Arabic ASR foundations](notebooks/ch04_arabic_asr_foundations.ipynb) | WER/CER with and without normalization, four tokenizations, the forward algorithm, continuation counts |
-| 5 | [End-to-end ASR by hand](notebooks/ch05_end_to_end_arabic_asr.ipynb) | CTC alignments and forward sum, a transducer walk, beam search with shallow fusion, output-unit choice |
-| 6 | [Foundation models: full vs LoRA](notebooks/ch06_arabic_foundation_models.ipynb) | Full fine-tuning vs low-rank adaptation: a cost model that runs anywhere, plus a real GPU run |
-| 7 | [Corpus loader & audit](notebooks/ch07_corpus_loader.ipynb) | Two corpora into one schema, the audit behind a corpus choice, speaker overlap, Fleiss' kappa |
-| 8 | [Dialect ID](notebooks/ch08_dialect_id.ipynb) | Dialect classifier on self-supervised embeddings, accuracy vs macro-F1, confusion matrix, spoken-document search |
-| 8 | [Speaker & noise](notebooks/ch08_speaker_and_noise.ipynb) | Equal Error Rate and beyond, a three-part Diarization Error Rate, enhancement measured by WER |
-| 9 | [Arabic TTS front end](notebooks/ch09_arabic_tts.ipynb) | Normalization, diacritization, G2P, and a round-trip intelligibility check |
-| 10 | [Translation & SLU](notebooks/ch10_speech_translation_slu.ipynb) | Cascade vs direct translation with BLEU and chrF, error attribution, an intent-and-slot parser |
-| 11 | [Audio-LLM prompting](notebooks/ch11_audio_llm_prompting.ipynb) | Instruction routing, per-task metrics, the per-dialect table, and an audit for four evaluation shortcuts |
+| Ch. | Notebook | What it implements |
+|-----|----------|--------------------|
+| 1 | [Word & character error rate](notebooks/ch01_wer_and_cer.ipynb) | Edit-distance alignment, WER and CER, Arabic normalization switches, per-dialect breakdown, bootstrap comparison |
+| 2 | [Pronunciation lexicon](notebooks/ch02_pronunciation_lexicon.ipynb) | Letter/diacritic-to-phone mapping, gemination, the definite article, tāʾ marbūṭa, a small lexicon written to file |
+| 3 | [Signal to features](notebooks/ch03_signal_to_features.ipynb) | Sampling, framing, the STFT and spectrograms, the mel filterbank, log-mel, MFCCs with deltas, LPC and formants |
+| 4 | [HMM forward & Viterbi](notebooks/ch04_hmm_forward_and_viterbi.ipynb) | A two-state, three-frame HMM: forward algorithm, Viterbi, every path enumerated, the log domain |
+| 6 | [Self-supervised objectives](notebooks/ch06_self_supervised_objectives.ipynb) | Span masking, InfoNCE, product quantization, masked prediction, layer-wise probing, adapter/LoRA parameter counts |
+| 9 | [Diacritization & G2P](notebooks/ch09_diacritization_and_g2p.ipynb) | Undiacritized forms and their readings, grapheme-to-phoneme, diacritic error rate, a two-diacritizer disagreement report |
 
 ## Citing the book
 

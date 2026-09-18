@@ -68,4 +68,4 @@ Open-source models, toolkits, and libraries for building Arabic speech systems �
 | **🤗 Evaluate** | WER, CER, BLEU, and more | [docs](https://huggingface.co/docs/evaluate) |
 
 !!! tip "Arabic-specific evaluation"
-    For Arabic ASR, report **CER** alongside WER, and consider normalizing diacritics and orthographic variants (أ/إ/آ → ا, ة/ه, ى/ي) before scoring. The book's evaluation chapter and [ch04](notebooks/ch04_arabic_asr_foundations.ipynb) cover this in detail.
+    For Arabic ASR, report **CER** alongside WER, and consider normalizing diacritics and orthographic variants (أ/إ/آ → ا, ة/ه, ى/ي) before scoring. The book's evaluation chapter and the [Ch. 1 WER & CER notebook](notebooks/ch01_wer_and_cer.ipynb) cover this in detail.

@@ -68,7 +68,7 @@ ds = load_dataset("halabi2016/arabic_speech_corpus")
 print(ds)
 ```
 
-See [Notebook ch07 — Corpus loader](notebooks/ch07_corpus_loader.ipynb) for a complete loading & preparation walkthrough.
+See the [corpus-loader notebook](notebooks-archive/ch07_corpus_loader.ipynb) (earlier drafts) for a complete loading & preparation walkthrough.
 
 ## Contributing
 
