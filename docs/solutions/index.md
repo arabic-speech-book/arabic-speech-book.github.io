@@ -31,7 +31,7 @@ The book's companion clips (Chapter 1) and minimal-pair clips (Chapter 3) were n
 
 ## Coverage
 
-57 exercises across Chapters 1 to 11 (5, 7, 5, 5, 5, 5, 5, 5, 5, 5, 5), all solved with their subparts; 20 notebooks, one per exercise that involves coding or computational analysis. A script (`check_coverage.py`, in the build materials) verified that every numbered exercise has a section in its chapter file and that every linked notebook exists.
+57 exercises across Chapters 1 to 11, all solved with their subparts; 20 notebooks, one per exercise that involves coding or computational analysis. A script (`check_coverage.py`, in the build materials) verified that every numbered exercise has a section in its chapter file and that every linked notebook exists.
 
 ## Testing status
 

@@ -1,6 +1,6 @@
 # Figure Sources
 
-The script that draws each code-drawn figure in the book. Four figures (3.1, 3.2, 3.4, 3.7) are the author's own artwork rather than code, so no script exists for them. The shared modules every script imports live in `figure-scripts/shared/` (see the [`README`](figure-scripts/README.txt)).
+The script that draws each code-drawn figure in the book. Figure 3.1 is the author's own artwork rather than code, so no script exists for it; Figures 3.2, 3.4, and 3.7 were redrawn from scripts in the September 2026 revision that are held in the manuscript and not published here. The shared modules every script imports live in `figure-scripts/shared/` (see the [`README`](figure-scripts/README.txt)).
 
 ```bash
 pip install matplotlib numpy scipy pillow arabic_reshaper python-bidi
@@ -32,12 +32,12 @@ cd figure-scripts/ch09 && python make_fig9_1.py   # writes fig9_1.png and fig9_1
 | Figure | Caption | Source |
 |---|---|---|
 | 3.1 | places this chapter inside the larger workflow that turns a raw voice recording into a model-ready dataset: record, save, segment, annotate or transcribe, pr… | author artwork — in the book |
-| 3.2 | zooms in on the feature-extraction part of that workflow, the sound-to-features path that is the main technical focus of this chapter. | author artwork — in the book |
+| 3.2 | zooms in on the feature-extraction part of that workflow, the sound-to-features path that is the main technical focus of this chapter. | redrawn — script in the manuscript |
 | 3.3 | Sampling and quantization. A continuous wave is measured at regular instants (sampling) and each measurement is rounded to the nearest level (quantization),… | [`ch03/make_fig3_3.py`](figure-scripts/ch03/make_fig3_3.py) |
-| 3.4 | Short-time analysis: the waveform is split into overlapping frames, each frame is multiplied by a smooth window, and the Fourier transform of each frame give… | author artwork — in the book |
+| 3.4 | Short-time analysis: the waveform is split into overlapping frames, each frame is multiplied by a smooth window, and the Fourier transform of each frame give… | redrawn — script in the manuscript |
 | 3.5 | Narrowband and wideband spectrograms of the emphatic word طين (ṭīn, ‘mud’) and its plain counterpart تين (tīn, ‘figs’), from the author’s recording used in C… | [`ch03/make_fig3_5.py`](figure-scripts/ch03/make_fig3_5.py) |
 | 3.6 | The mel filterbank. Triangular filters are spaced evenly on the perceptual mel scale, which places many narrow filters at low frequencies and fewer wide filt… | [`ch03/make_fig3_6.py`](figure-scripts/ch03/make_fig3_6.py) |
-| 3.7 | The Mel-Frequency Cepstral Coefficient (MFCC) pipeline, from optional pre-emphasis through the mel filterbank and logarithm to the Discrete Cosine Transform… | author artwork — in the book |
+| 3.7 | The Mel-Frequency Cepstral Coefficient (MFCC) pipeline, from optional pre-emphasis through the mel filterbank and logarithm to the Discrete Cosine Transform… | redrawn — script in the manuscript |
 | 3.8 | The same recording of تين (tīn, ‘figs’) as captured at 16 kHz, and after passing through a telephone channel: band-limited to 300 to 3400 Hz and resampled to… | [`ch03/make_fig3_8.py`](figure-scripts/ch03/make_fig3_8.py) |
 
 ## Chapter 4
@@ -132,8 +132,7 @@ cd figure-scripts/ch09 && python make_fig9_1.py   # writes fig9_1.png and fig9_1
 |---|---|---|
 | 12.1 | The computer-assisted pronunciation training pipeline. The learner reads a text the system already has, which is what makes everything after it possible: wit… | [`ch12/make_fig12_1.py`](figure-scripts/ch12/make_fig12_1.py) |
 | 12.2 | Goodness of Pronunciation read off a forced alignment. Each aligned segment gets one bar for how well the audio matches the phone the learner was supposed to… | [`ch12/make_fig12_2.py`](figure-scripts/ch12/make_fig12_2.py) |
-| 12.3 | The families of Tajwīd rules that matter for assessment, each with what it leaves in the audio. A taxonomy is only useful to a builder if every branch ends i… | [`ch12/make_fig12_3.py`](figure-scripts/ch12/make_fig12_3.py) |
-| 12.4 | A healthcare voice interface, drawn around the part that decides whether it is safe. The pipeline across the middle is short and ordinary, and it is not the… | [`ch12/make_fig12_4.py`](figure-scripts/ch12/make_fig12_4.py) |
+| 12.3 | A healthcare voice interface, drawn around the part that decides whether it is safe. The pipeline across the middle is short and ordinary, and it is not the… | [`ch12/make_fig12_3.py`](figure-scripts/ch12/make_fig12_3.py) |
 
 ## Chapter 13
 

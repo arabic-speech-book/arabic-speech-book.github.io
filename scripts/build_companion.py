@@ -441,9 +441,10 @@ def build_figures():
         ar = lang == "ar"
         if ar:
             out = ["# مصادر الأشكال", "",
-                   "السكربت الذي يرسم كل شكل مرسوم بالكود في الكتاب. أربعة أشكال (3.1 و3.2 و3.4 و3.7) "
-                   "من رسم المؤلّفة لا من الكود، فلا سكربت لها. الوحدات المشتركة التي يستوردها كل سكربت في "
-                   "`figure-scripts/shared/` (انظر [`README`](figure-scripts/README.txt)).\n",
+                   "السكربت الذي يرسم كل شكل مرسوم بالكود في الكتاب. الشكل 3.1 من رسم المؤلّفة لا من "
+                   "الكود، فلا سكربت له؛ أما الأشكال 3.2 و3.4 و3.7 فأُعيد رسمها من سكربتات في مراجعة "
+                   "سبتمبر 2026 محفوظة في المخطوطة وغير منشورة هنا. الوحدات المشتركة التي يستوردها كل "
+                   "سكربت في `figure-scripts/shared/` (انظر [`README`](figure-scripts/README.txt)).\n",
                    "```bash",
                    "pip install matplotlib numpy scipy pillow arabic_reshaper python-bidi",
                    "cd figure-scripts/ch09 && python make_fig9_1.py   # يكتب fig9_1.png و fig9_1.pdf",
@@ -451,10 +452,12 @@ def build_figures():
             hdr = "| الشكل | الوصف | المصدر |"
         else:
             out = ["# Figure Sources", "",
-                   "The script that draws each code-drawn figure in the book. Four figures "
-                   "(3.1, 3.2, 3.4, 3.7) are the author's own artwork rather than code, so no "
-                   "script exists for them. The shared modules every script imports live in "
-                   "`figure-scripts/shared/` (see the [`README`](figure-scripts/README.txt)).\n",
+                   "The script that draws each code-drawn figure in the book. Figure 3.1 is the "
+                   "author's own artwork rather than code, so no script exists for it; Figures "
+                   "3.2, 3.4, and 3.7 were redrawn from scripts in the September 2026 revision "
+                   "that are held in the manuscript and not published here. The shared modules "
+                   "every script imports live in `figure-scripts/shared/` (see the "
+                   "[`README`](figure-scripts/README.txt)).\n",
                    "```bash",
                    "pip install matplotlib numpy scipy pillow arabic_reshaper python-bidi",
                    "cd figure-scripts/ch09 && python make_fig9_1.py   # writes fig9_1.png and fig9_1.pdf",
@@ -471,8 +474,11 @@ def build_figures():
                     cap = cap[:157].rstrip() + "…"
                 if clean(r.get("present")).lower() == "yes":
                     src = f"[`{clean(r['script'])}`](figure-scripts/{clean(r['script'])})"
-                else:
+                elif clean(r["figure"]) == "3.1":
                     src = "author artwork — in the book" if not ar else "رسم المؤلّفة — في الكتاب"
+                else:
+                    src = ("redrawn — script in the manuscript" if not ar
+                           else "مُعاد رسمه — السكربت في المخطوطة")
                 out.append(f"| {clean(r['figure'])} | {cap} | {src} |")
         return "\n".join(out) + "\n"
 

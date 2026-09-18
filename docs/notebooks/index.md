@@ -18,6 +18,8 @@ The runnable companions the book refers to — one per chapter that has one. Eac
 
 Chapters 5, 7, 8, 10, and 11 have worked coding exercises in the [Exercise Solutions](../solutions/index.md) rather than a standalone chapter notebook; Chapters 12–14 have neither.
 
+**▶ Open in Google Colab:** [Ch 1](https://colab.research.google.com/github/arabic-speech-book/arabic-speech-book.github.io/blob/main/docs/notebooks/ch01_wer_and_cer.ipynb) · [Ch 2](https://colab.research.google.com/github/arabic-speech-book/arabic-speech-book.github.io/blob/main/docs/notebooks/ch02_pronunciation_lexicon.ipynb) · [Ch 3](https://colab.research.google.com/github/arabic-speech-book/arabic-speech-book.github.io/blob/main/docs/notebooks/ch03_signal_to_features.ipynb) · [Ch 4](https://colab.research.google.com/github/arabic-speech-book/arabic-speech-book.github.io/blob/main/docs/notebooks/ch04_hmm_forward_and_viterbi.ipynb) · [Ch 6](https://colab.research.google.com/github/arabic-speech-book/arabic-speech-book.github.io/blob/main/docs/notebooks/ch06_self_supervised_objectives.ipynb) · [Ch 9](https://colab.research.google.com/github/arabic-speech-book/arabic-speech-book.github.io/blob/main/docs/notebooks/ch09_diacritization_and_g2p.ipynb)
+
 ## Running them
 
 === "Locally"
@@ -31,7 +33,7 @@ Chapters 5, 7, 8, 10, and 11 have worked coding exercises in the [Exercise Solut
 
 === "Google Colab"
 
-    Each notebook page has an **"Open in Colab"** badge at the top — one click opens it in Colab, once this repository is public. (Colab loads notebooks only from a public GitHub repo; while the site is private, use the **download** icon and, in Colab, **File → Upload notebook**.)
+    Use the **Open in Google Colab** links above to open any notebook directly in Colab (the repository is public, so Colab can load them). Or, from a notebook page, use the **download** icon and, in Colab, choose **File → Upload notebook**.
 
 !!! note "Data"
     No corpus is distributed here. The optional cells point to **Common Voice Arabic** (Chapter 3), downloaded by the reader under its own licence — report the release version and validated-hour count, as Chapter 7 asks.

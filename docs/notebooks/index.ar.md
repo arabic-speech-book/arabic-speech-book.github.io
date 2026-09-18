@@ -18,6 +18,8 @@
 
 أما الفصول 5 و7 و8 و10 و11 فلها تمارين برمجية محلولة في [حلول التمارين](../solutions/index.md) لا دفتر فصل مستقل؛ والفصول 12–14 لا هذه ولا تلك.
 
+**▶ افتح في Google Colab:** [الفصل 1](https://colab.research.google.com/github/arabic-speech-book/arabic-speech-book.github.io/blob/main/docs/notebooks/ch01_wer_and_cer.ipynb) · [الفصل 2](https://colab.research.google.com/github/arabic-speech-book/arabic-speech-book.github.io/blob/main/docs/notebooks/ch02_pronunciation_lexicon.ipynb) · [الفصل 3](https://colab.research.google.com/github/arabic-speech-book/arabic-speech-book.github.io/blob/main/docs/notebooks/ch03_signal_to_features.ipynb) · [الفصل 4](https://colab.research.google.com/github/arabic-speech-book/arabic-speech-book.github.io/blob/main/docs/notebooks/ch04_hmm_forward_and_viterbi.ipynb) · [الفصل 6](https://colab.research.google.com/github/arabic-speech-book/arabic-speech-book.github.io/blob/main/docs/notebooks/ch06_self_supervised_objectives.ipynb) · [الفصل 9](https://colab.research.google.com/github/arabic-speech-book/arabic-speech-book.github.io/blob/main/docs/notebooks/ch09_diacritization_and_g2p.ipynb)
+
 ## تشغيلها
 
 === "محليًّا"
@@ -31,7 +33,7 @@
 
 === "Google Colab"
 
-    تحمل كل صفحة دفتر شارة **«Open in Colab»** في الأعلى — نقرة واحدة تفتحه في Colab بعد جعل المستودع عامًّا. (يُحمّل Colab الدفاتر من مستودع عام فقط؛ وما دام الموقع خاصًّا، استخدم أيقونة **التنزيل** ثم في Colab **File → Upload notebook**.)
+    استخدم روابط **افتح في Google Colab** أعلاه لفتح أي دفتر مباشرةً في Colab (المستودع عامّ، فيستطيع Colab تحميلها). أو من صفحة الدفتر استخدم أيقونة **التنزيل** ثم اختر في Colab **File → Upload notebook**.
 
 !!! note "البيانات"
     لا تُوزَّع أي مدوّنة هنا. تشير الخلايا الاختيارية إلى **Common Voice Arabic** (الفصل 3)، يُنزّلها القارئ برخصتها — وأبلِغ عن إصدارها وعدد ساعاتها المُتحقَّقة كما يطلب الفصل 7.
