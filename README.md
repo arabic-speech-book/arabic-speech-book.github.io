@@ -43,4 +43,7 @@ deployment → Source = GitHub Actions** (one-time).
 
 ## License
 
-Content © 2026 the author. Code samples and notebooks are released for educational use.
+Content © 2026 Hend S. Al-Khalifa. Except where noted, this site's content is
+licensed **[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)**
+(share and adapt for non-commercial use, with attribution). Notebook code may
+also be reused for teaching and research with attribution. See [`LICENSE`](LICENSE).

@@ -5,7 +5,7 @@ site_author: Prof. Hend S. Al-Khalifa
 repo_url: https://github.com/arabic-speech-book/arabic-speech-book.github.io
 repo_name: arabic-speech-book
 edit_uri: edit/main/docs/
-copyright: Copyright &copy; 2026 <a href="https://faculty.ksu.edu.sa/ar/hendk" target="_blank" rel="noopener">Prof. Hend S. Al-Khalifa</a> — Introduction to Arabic Speech Technologies
+copyright: Copyright &copy; 2026 <a href="https://faculty.ksu.edu.sa/ar/hendk" target="_blank" rel="noopener">Prof. Hend S. Al-Khalifa</a> — Introduction to Arabic Speech Technologies · Content licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>
 
 theme:
   name: material
