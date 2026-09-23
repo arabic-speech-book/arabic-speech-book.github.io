@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+<!-- Append a visitor counter (by country) below the standard footer. -->
+{% block footer %}
+  {{ super() }}
+  <div class="fc-counter">
+    <span class="fc-counter__label">Visitors by country</span>
+    <a href="https://info.flagcounter.com/cCTX" target="_blank" rel="noopener" title="Detailed visitor statistics by country">
+      <img
+        src="https://s01.flagcounter.com/count2/cCTX/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
+        alt="Flag Counter — total visitors and a breakdown by country"
+        loading="lazy" referrerpolicy="no-referrer" border="0">
+    </a>
+  </div>
+{% endblock %}

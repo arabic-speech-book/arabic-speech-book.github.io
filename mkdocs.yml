@@ -9,6 +9,7 @@ copyright: Copyright &copy; 2026 <a href="https://faculty.ksu.edu.sa/ar/hendk" t
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   features:
     - navigation.tabs
