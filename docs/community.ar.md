@@ -18,6 +18,7 @@
 | **SSW** | ورشة تخليق الكلام (TTS) | ISCA | [isca-speech.org](https://www.isca-speech.org/) |
 | **IWSLT** | ترجمة اللغة المنطوقة | ACL SIGSLT | [iwslt.org](https://iwslt.org/) |
 | **ICPhS** | المؤتمر الدولي لعلوم الأصوات — الصوتيات (كل أربع سنوات) | الجمعية الصوتية الدولية (IPA) | [internationalphoneticassociation.org](https://www.internationalphoneticassociation.org/content/icphs) |
+| **IEEE ASLI** | الصوت والكلام وذكاء اللغة — مؤتمر جديد لـ IEEE (الأول 2027) | IEEE SPS | [ieeeasli.org](https://2027.ieeeasli.org/) |
 
 ### العربية وموارد اللغة
 
