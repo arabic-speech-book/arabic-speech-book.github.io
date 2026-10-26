@@ -26,7 +26,6 @@
 | **Casablanca** | 8 لهجات | متغيّرة | [الورقة (2024)](https://arxiv.org/abs/2410.04527) | بيانات ونماذج متعدّدة اللهجات |
 | **SADA** | لهجات سعودية | ~668 | [Kaggle: SADA](https://www.kaggle.com/datasets/sdaiancc/sada2022) | مجموعة الصوت السعودية للعربية (سدايا) |
 | **الكلام المصري** | مصري | متغيّرة | [HF: Yahya-Mohamed](https://hf.co/datasets/Yahya-Mohamed/egyptian-arabic-speech-dataset) | مدوّنة لهجية مجتمعية |
-| **MENASpeechBank** | فصحى + مصري وخليجي وشامي ومغاربي (+ إنجليزية) | ~26 | [HF: QCRI](https://huggingface.co/datasets/QCRI/MenaSpeechBank) | بنك أصوات من QCRI (123 متحدّثًا): محادثات متعدّدة الأدوار مشروطة بالشخصية لنماذج الصوت اللغوية، وتخليق كلام مرجعي. رخصة CC BY-NC-SA 4.0 |
 
 ## تمييز اللهجات
 
@@ -42,6 +41,12 @@
 | **مدوّنة الكلام العربي (حلبي)** | شامي (دمشقي) | ~3.7 | [HF: halabi2016](https://hf.co/datasets/halabi2016/arabic_speech_corpus) | متحدّث واحد، موسومة صوتيًّا؛ مدوّنة تخليق كلاسيكية |
 | **ClArTTS** | فصحى تراثية | ~12 | [الورقة (2023)](https://arxiv.org/abs/2303.00069) | تخليق فصحى تراثية بمتحدّث واحد |
 | **ArabicSpeech / sawtarabi** | فصحى | متغيّرة | [HF: ArabicSpeech](https://hf.co/datasets/ArabicSpeech/sawtarabi) | تجميعة كلام مجتمعية |
+
+## المحادثة ونماذج الصوت اللغوية
+
+| المجموعة | النوع | الساعات | الوصول | ملاحظات |
+|----------|------|---------|--------|---------|
+| **MENASpeechBank** | فصحى + مصري وخليجي وشامي ومغاربي (+ إنجليزية) | ~26 | [HF: QCRI](https://huggingface.co/datasets/QCRI/MenaSpeechBank) | بنك أصوات من QCRI (123 متحدّثًا): محادثات متعدّدة الأدوار مشروطة بالشخصية لنماذج الصوت اللغوية، وتخليق كلام مرجعي. رخصة CC BY-NC-SA 4.0 |
 
 ## المشاعر والسمات فوق اللغوية
 

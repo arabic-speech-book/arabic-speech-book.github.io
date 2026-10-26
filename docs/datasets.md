@@ -26,7 +26,6 @@ A curated, categorized database of Arabic speech corpora used throughout the boo
 | **Casablanca** | 8 dialects | varies | See [paper (2024)](https://arxiv.org/abs/2410.04527) | Multidialectal data + models |
 | **SADA** | Saudi dialects | ~668 | [Kaggle: SADA](https://www.kaggle.com/datasets/sdaiancc/sada2022) | Saudi Audio Dataset for Arabic (SDAIA) |
 | **Egyptian Arabic Speech** | Egyptian | varies | [HF: Yahya-Mohamed](https://hf.co/datasets/Yahya-Mohamed/egyptian-arabic-speech-dataset) | Community dialectal corpus |
-| **MENASpeechBank** | MSA + Egyptian, Gulf, Levantine, N. African (+ En) | ~26 | [HF: QCRI](https://huggingface.co/datasets/QCRI/MenaSpeechBank) | QCRI voice bank (123 speakers): persona-conditioned multi-turn conversations for Audio-LLMs, and reference-based TTS. CC BY-NC-SA 4.0 |
 
 ## Dialect identification
 
@@ -42,6 +41,12 @@ A curated, categorized database of Arabic speech corpora used throughout the boo
 | **Arabic Speech Corpus (Halabi)** | Levantine (Damascene) | ~3.7 | [HF: halabi2016](https://hf.co/datasets/halabi2016/arabic_speech_corpus) | Single-speaker, phonetically annotated; classic TTS corpus |
 | **ClArTTS** | Classical Arabic | ~12 | See [paper (2023)](https://arxiv.org/abs/2303.00069) | Single-speaker Classical Arabic TTS |
 | **ArabicSpeech / sawtarabi** | MSA | varies | [HF: ArabicSpeech](https://hf.co/datasets/ArabicSpeech/sawtarabi) | Community speech collection |
+
+## Conversational & Audio-LLM
+
+| Dataset | Variety | Hours | Access | Notes |
+|---------|---------|-------|--------|-------|
+| **MENASpeechBank** | MSA + Egyptian, Gulf, Levantine, N. African (+ En) | ~26 | [HF: QCRI](https://huggingface.co/datasets/QCRI/MenaSpeechBank) | QCRI voice bank (123 speakers): persona-conditioned multi-turn conversations for Audio-LLMs, and reference-based TTS. CC BY-NC-SA 4.0 |
 
 ## Emotion & paralinguistics
 
