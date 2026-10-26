@@ -26,6 +26,7 @@
 | **Casablanca** | 8 لهجات | متغيّرة | [الورقة (2024)](https://arxiv.org/abs/2410.04527) | بيانات ونماذج متعدّدة اللهجات |
 | **SADA** | لهجات سعودية | ~668 | [Kaggle: SADA](https://www.kaggle.com/datasets/sdaiancc/sada2022) | مجموعة الصوت السعودية للعربية (سدايا) |
 | **الكلام المصري** | مصري | متغيّرة | [HF: Yahya-Mohamed](https://hf.co/datasets/Yahya-Mohamed/egyptian-arabic-speech-dataset) | مدوّنة لهجية مجتمعية |
+| **MENASpeechBank** | فصحى + مصري وخليجي وشامي ومغاربي (+ إنجليزية) | ~26 | [HF: QCRI](https://huggingface.co/datasets/QCRI/MenaSpeechBank) | بنك أصوات من QCRI (123 متحدّثًا): محادثات متعدّدة الأدوار مشروطة بالشخصية لنماذج الصوت اللغوية، وتخليق كلام مرجعي. رخصة CC BY-NC-SA 4.0 |
 
 ## تمييز اللهجات
 
