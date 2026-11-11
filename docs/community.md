@@ -19,6 +19,7 @@ Where speech research — Arabic and general — is published, presented, and bu
 | **IWSLT** | Spoken language translation | ACL SIGSLT | [iwslt.org](https://iwslt.org/) |
 | **ICPhS** | International Congress of Phonetic Sciences — phonetics (every 4 years) | International Phonetic Association | [internationalphoneticassociation.org](https://www.internationalphoneticassociation.org/content/icphs) |
 | **IEEE ASLI** | Audio, Speech & Language Intelligence — a new IEEE conference (inaugural 2027) | IEEE SPS | [ieeeasli.org](https://2027.ieeeasli.org/) |
+| **SPELLL** | Speech & language technology for low-resource languages (relevant to Arabic dialects) | Academic consortium | [spelll.org](https://spelll.org/) |
 
 ### Arabic & language resources
 
